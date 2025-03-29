@@ -8,7 +8,6 @@ export default function Home() {
 return(
 
    <>
-
 <SectionsP1/>
 <SectionsP5/>
 <SectionsP2/>

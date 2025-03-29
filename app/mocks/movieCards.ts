@@ -317,7 +317,7 @@ export const mockMovieCardData: ApiFilmCard = {
       id: 7,
       attributes: {
         Title: "Gangster",
-        Year: "2024",
+        Year: "2014",
         genere1: "Crime",
         genere2: "Action",
         summary: "Sasi Kumar, a young, free-spirited writer who decides to stay in a desolate mansion that is rumored to be haunted by the apparition of a young woman named Bhargavi. The movie takes you on a roller-coaster ride of emotions as Sasi Kumar's journey in the mansion unfolds. Get ready to witness a gripping tale of love, betrayal, and the supernatural.",

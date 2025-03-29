@@ -3,6 +3,7 @@ import Navbar from "@/app/components/GlobalELements/Navbar";
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const SectionsC1 = () => {
   const gradientTextStyle = {
@@ -67,7 +68,11 @@ const SectionsC1 = () => {
                 Sharing Stories Of Our Relevant Works
               </h2>
               
-              <button
+             
+              <a 
+                href="https://www.youtube.com/channel/UCM1pr5O0pJ-4uNkuOZoG0WQ"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex justify-center items-center rounded-xl gap-3 px-5 py-2 bg-gradient-to-r from-[#FFDAA9]/20 to-[#FDB478]/20 hover:shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] hover:scale-110 transition-transform duration-500 ease-in-out"
               >
                 <Image
@@ -79,7 +84,8 @@ const SectionsC1 = () => {
                 <span className="text-white text-[19px] font-archivo-regular leading-[26.6px]">
                   Showreel
                 </span>
-              </button>
+              </a>
+  
             </div>
           </div>
         </div>

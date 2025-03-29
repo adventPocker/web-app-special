@@ -14,7 +14,7 @@ const SectionsAQ2 = ({ biography, imgSrc }: SectionsAQ2props) => {
               <div>
                 <Image
                   src={`${imgSrc}`}
-                  alt=""
+                  alt="ashiq abu"
                   loading="lazy"
                   className="md:max-w-[460px] md:w-[460px] h-full md:h-[445px] max-h-[445px] bg-zinc-300 rounded-3xl object-cover"
                   width={445}

@@ -47,7 +47,7 @@ const SectionsP2 = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 md:gap-[46px] gap-[22px] md:mt-[48px] mt-[22px]">
               {movieData?.data
                 .filter((data) => !data.attributes.Co_Productions)
-                .sort((a: any, b: any) => a.attributes.Year - b.attributes.Year)
+                .sort((a: any, b: any) => parseInt(b.attributes.Year, 10) - parseInt(a.attributes.Year, 10))
                 .map((data, index) => (
                   <FilmCards data={data} index={index} />
                 ))}

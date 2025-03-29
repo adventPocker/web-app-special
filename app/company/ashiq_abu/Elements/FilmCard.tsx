@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 interface filmcardProps {
@@ -14,15 +15,18 @@ const FilmCard = ({ data }: filmcardProps) => {
         }}
       >
         <div>
-          <img
+          <Image
+
             src={`${data.Image.data.attributes.url}`}
             alt=""
+            width={206}
+            height={206}
             className="object-cover  md:max-w-[206px] md:w-full w-auto md:min-w-[206px] min-h-[206px] h-[206] max-h-[206px] rounded-e-[24px]"
           />
         </div>
         <div className="py-10 w-full">
           <div
-            className="font-archive text-[30px] leading-[31.5px] font-medium"
+            className="font-archive text-[26px]  leading-[31.5px] font-medium"
             style={{
               background:
                 "var(--L01, linear-gradient(239deg, #FFDAA9 31.09%, #FDB478 83.44%))",
@@ -33,7 +37,7 @@ const FilmCard = ({ data }: filmcardProps) => {
           >
            {data.Tilte}
           </div>
-          <div className="py-5 text-[26px] text-white font-ClashGrotesk-Regular font-normal leading-[27px] ">
+          <div className="py-5 text-[23px] text-white font-ClashGrotesk-Regular font-normal leading-[27px] ">
           {data.Year}
           </div>
           <div className="font-archive text-[#9C9C9C] text-[26px] leading-[23.4px] font-light">

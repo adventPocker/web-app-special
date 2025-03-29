@@ -270,7 +270,7 @@ type DataAttributes = {
   };
   Director: WorkData[];
   Actor: WorkData[];
-  Producer: WorkData[];
+  Cinematographer: WorkData[];
   Awards: Awardss[];
 };
 

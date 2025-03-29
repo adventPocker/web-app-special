@@ -4,10 +4,10 @@ interface sectionsAQ3props {
   Director: WorkData[];
   Actor: WorkData[];
 
-  Producer: WorkData[];
+  Cinematographer: WorkData[];
 }
 
-const SectionsAQ3 = ({ Director, Actor, Producer }: sectionsAQ3props) => {
+const SectionsAQ3 = ({ Director, Actor, Cinematographer }: sectionsAQ3props) => {
   return (
     <>
       <div className="items-center flex flex-col justify-center h-auto px-5 max-md:px-5 ">
@@ -78,10 +78,10 @@ const SectionsAQ3 = ({ Director, Actor, Producer }: sectionsAQ3props) => {
                   WebkitTextFillColor: "transparent",
                 }}
               >
-                As a Producer
+                As a Cinematographer
               </div>
               <div className="grid md:grid-cols-2 grid-cols-1 lg:gap-x-[117px] md:gap-x-[66px] md:gap-y-[66px] gap-y-[18px]  md:mt-[66px] mt-[18px]">
-              {Producer?.map((data: WorkData, index:number)=>(
+              {Cinematographer?.map((data: WorkData, index:number)=>(
                 <FilmCard key={index} data={data}/>
 
                 ))}

@@ -40,7 +40,7 @@ export default function Home() {
         <>
           <SectionsAQ1 data={perosnalData}  />
           <SectionsAQ2 biography={perosnalData.Biography} imgSrc={perosnalData.ProfileImg.data.attributes.url}/>
-          <SectionsAQ3 Director={perosnalData.Director} Actor={perosnalData.Actor} Producer={perosnalData.Producer} />
+          <SectionsAQ3 Director={perosnalData.Director} Actor={perosnalData.Actor} Cinematographer={perosnalData.Cinematographer} />
           <SectionsAQ4  data={perosnalData.Awards} />
           <SectionsF10 />
         </>

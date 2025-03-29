@@ -97,7 +97,7 @@ export const mockPersonalData: PersonalApiResponse = {
               id: 5,
               attributes: {
                 name: "mayaanadhi",
-                url: "/company/aashiq_abu/films/mayaanadhi.jpg"
+                url: "/movies/card-images/film-card-5.png"
               }
             }
           }
@@ -112,7 +112,7 @@ export const mockPersonalData: PersonalApiResponse = {
               id: 6,
               attributes: {
                 name: "rani-padmini",
-                url: "/company/aashiq_abu/films/rani-padmini.jpg"
+                url: "/movies/card-images/film-card-18.png"
               }
             }
           }
@@ -141,7 +141,7 @@ export const mockPersonalData: PersonalApiResponse = {
               id: 8,
               attributes: {
                 name: "idukki-gold",
-                url: "/company/aashiq_abu/films/idukki-gold.jpg"
+                url: "/movies/card-images/film-card-12.png"
               }
             }
           }
@@ -156,7 +156,7 @@ export const mockPersonalData: PersonalApiResponse = {
               id: 9,
               attributes: {
                 name: "anchu-sundharikal",
-                url: "/company/aashiq_abu/films/anchu-sundharikal.jpg"
+                url: "/movies/card-images/film-card-13.png"
               }
             }
           }
@@ -171,7 +171,7 @@ export const mockPersonalData: PersonalApiResponse = {
               id: 10,
               attributes: {
                 name: "da-thadiya",
-                url: "/company/aashiq_abu/films/da-thadiya.jpg"
+                url: "/movies/card-images/film-card-14.png"
               }
             }
           }
@@ -186,7 +186,7 @@ export const mockPersonalData: PersonalApiResponse = {
               id: 11,
               attributes: {
                 name: "22-female-kottayam",
-                url: "/company/aashiq_abu/films/22-female-kottayam.jpg"
+                url: "/movies/card-images/film-card-15.png"
               }
             }
           }
@@ -201,7 +201,7 @@ export const mockPersonalData: PersonalApiResponse = {
               id: 12,
               attributes: {
                 name: "salt-n-pepper",
-                url: "/company/aashiq_abu/films/salt-n-pepper.jpg"
+                url: "/movies/card-images/film-card-16.png"
               }
             }
           }
@@ -216,7 +216,7 @@ export const mockPersonalData: PersonalApiResponse = {
               id: 13,
               attributes: {
                 name: "daddy-cool",
-                url: "/company/aashiq_abu/films/daddy-cool.jpg"
+                url: "/movies/card-images/film-card-17.png"
               }
             }
           }
@@ -233,7 +233,7 @@ export const mockPersonalData: PersonalApiResponse = {
               id: 1,
               attributes: {
                 name: "2018",
-                url: "/company/aashiq_abu/films/2018.jpg"
+                url: "/movies/card-images/film-card-24.png"
               }
             }
           }
@@ -248,7 +248,7 @@ export const mockPersonalData: PersonalApiResponse = {
               id: 2,
               attributes: {
                 name: "co56apo",
-                url: "/company/aashiq_abu/films/co56apo.jpg"
+                url: "/movies/card-images/film-card-19.png"
               }
             }
           }
@@ -263,7 +263,7 @@ export const mockPersonalData: PersonalApiResponse = {
               id: 3,
               attributes: {
                 name: "parava",
-                url: "/company/aashiq_abu/films/parava.jpg"
+                url: "/movies/card-images/film-card-20.png"
               }
             }
           }
@@ -278,7 +278,7 @@ export const mockPersonalData: PersonalApiResponse = {
               id: 4,
               attributes: {
                 name: "iyobinte-pusthakam",
-                url: "/company/aashiq_abu/films/iyobinte-pusthakam.jpg"
+                url: "/movies/card-images/film-card-21.png"
               }
             }
           }
@@ -293,7 +293,7 @@ export const mockPersonalData: PersonalApiResponse = {
               id: 5,
               attributes: {
                 name: "annayum-rasoolum",
-                url: "/company/aashiq_abu/films/annayum-rasoolum.jpg"
+                url: "/movies/card-images/film-card-22.png"
               }
             }
           }
@@ -308,7 +308,7 @@ export const mockPersonalData: PersonalApiResponse = {
               id: 6,
               attributes: {
                 name: "theevram",
-                url: "/company/aashiq_abu/films/theevram.jpg"
+                url: "/movies/card-images/film-card-23.png"
               }
             }
           }
@@ -323,24 +323,39 @@ export const mockPersonalData: PersonalApiResponse = {
               id: 7,
               attributes: {
                 name: "rappakal",
-                url: "/company/aashiq_abu/films/rappakal.jpg"
+                url: "/movies/card-images/film-card-25.png"
               }
             }
           }
         }
       ],
-      Producer: [
+      Cinematographer: [
         {
           id: 1,
-          Tilte: "Mountain Dreams",
-          Year: "2023",
-          Rating: "8.8",
+          Tilte: "Lovely",
+          Year: "2025",
+          Rating: "0",
           Image: {
             data: {
               id: 6,
               attributes: {
                 name: "movie-4",
-                url: "https://images.unsplash.com/photo-1533929736458-ca588d08c8be",
+                url: "/movies/card-images/film-card-26.png",
+              }
+            }
+          }
+        },
+        {
+          id: 2,
+          Tilte: "Rifle Club",
+          Year: "2025",
+          Rating: "8.5",
+          Image: {
+            data: {
+              id: 6,
+              attributes: {
+                name: "movie-4",
+                url: "/movies/card-images/film-card-1.png",
               }
             }
           }
@@ -349,25 +364,69 @@ export const mockPersonalData: PersonalApiResponse = {
       Awards: [
         {
           id: 1,
-          Film_Title: "The Last Journey",
-          Year: "2024",
+          Film_Title: "Virus",
+          Year: "2019",
           Details: [
             {
               id: 1,
-              AwardRecipient: "John Smith",
-              AwardTitle: "Best Director"
+              AwardRecipient: "Ashiq Abu",
+              AwardTitle: "CPC Cine Awards - Best Director"
+            },
+            {
+              id: 2, 
+              AwardRecipient: "Ashiq Abu",
+              AwardTitle: "Critic Choice Film Award - Best Director"
+            },
+            {
+              id: 3,
+              AwardRecipient: "Virus",
+              AwardTitle: "Jagaran Film Festival - Best Indian Feature Film"
             }
           ]
         },
         {
           id: 2,
-          Film_Title: "Ocean's Whisper",
-          Year: "2024",
+          Film_Title: "Maayanadhi",
+          Year: "2017",
           Details: [
             {
-              id: 2,
-              AwardRecipient: "John Smith",
-              AwardTitle: "Best Picture"
+              id: 4,
+              AwardRecipient: "Maayanadhi",
+              AwardTitle: "Padmarajan Awards - Best Film"
+            }
+          ]
+        },
+        {
+          id: 3,
+          Film_Title: "Maheshinte Prathikaram",
+          Year: "2016",
+          Details: [
+            {
+              id: 5,
+              AwardRecipient: "Ashiq Abu",
+              AwardTitle: "CPC Cine Awards - Best Director"
+            },
+            {
+              id: 6,
+              AwardRecipient: "Ashiq Abu", 
+              AwardTitle: "Critic Choice Film Award - Best Director"
+            },
+            {
+              id: 7,
+              AwardRecipient: "Maheshinte Prathikaram",
+              AwardTitle: "Jagaran Film Festival - Best Indian Feature Film"
+            }
+          ]
+        },
+        {
+          id: 4,
+          Film_Title: "22 Female Kottayam",
+          Year: "2012",
+          Details: [
+            {
+              id: 8,
+              AwardRecipient: "Ashiq Abu",
+              AwardTitle: "Mohan Raghavan Awards - Best Director"
             }
           ]
         }
