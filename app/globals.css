@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('../public/WEB/css/clash-grotesk.css');
+@import url('../public/WEB/Archivo_Complete/Fonts/WEB/css/archivo.css');
+
+/* Define the radial gradient background */
+
+.gradient-border {
+  background: radial-gradient(217.86% 1664.66% at 76.13% 98.96%, #FDB478 0%, #222831 100%);
+}
+
+/* Define the border style */
+.border-style {
+  border: 1px solid transparent; /* Set a transparent border initially */
+  border-image-source: radial-gradient(217.86% 1664.66% at 76.13% 98.96%, #FDB478 0%, #222831 100%);
+  border-image-slice: 1; /* Ensure the entire border is covered by the gradient */
+  border-image-repeat: round; /* Use the radial gradient to cover the entire border */
+}
+
+.gradient-button {
+
+
+  background: linear-gradient(117.75deg, rgba(255, 255, 255, 0.02) 32.76%, rgba(255, 223, 180, 0.1) 91.01%);
+  transition: background 0.5s ease-in-out, box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.gradient-button:hover {
+  background: linear-gradient(117.75deg, rgba(255, 223, 180, 0.1) 32.76%, rgba(255, 255, 255, 0.02) 91.01%);
+ 
+}
+
+
+
+
+.sample-slider .swiper-pagination-bullet{
+  background-color: rgba(255, 223, 180, 1);
+}
+
+
+.sample-slider01 .swiper-pagination-bullet{
+  background-color:rgb(255, 255, 255);
+  ;
+}
+
+.swiper-hero-progress {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  width: 0;
+  height: 3px;
+  background: #fff;
+  z-index: 5;
+}
+
+
+
+@keyframes animate-move-it-1 {
+  0%, 90%, 100% {
+    transform: translateY(2%);
+  }
+  45% {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes animate-move-it-2 {
+  0%, 90%, 100% {
+    transform: translateY(-50%);
+  }
+  45% {
+    transform: translateY(5%);
+  }
+}
+
+@keyframes animate-move-it-3 {
+  0%, 90%, 100% {
+    transform: translateY(5%);
+  }
+  45% {
+    transform: translateY(-30%);
+  }
+}
+
+
+
+
+.image_card-3{
+  scale:.1; opacity: 0;
+  animation: fade-in linear forwards;
+  animation-timeline: view();
+  animation-range: entry 500px;
+
+}
+
+@keyframes fade-in {
+ to { scale: 1; opacity: 1;}
+}
+
+
+@media (min-width: 768px) {
+  .card-3{
+    scale:.8; opacity: 0;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range: entry 200px;
+  }
+}
+
+@keyframes fade-in {
+ to { scale: 1; opacity: 1;}
+}
+
+
+.card-73 {
+  transform: scale(0.8);
+  opacity: 0;
+  animation: fade-in 1s ease-in-out forwards;
+  animation-timeline: view();
+  animation-range: entry 20px;
+}
+
+@keyframes fade-in {
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+.black-gradient-button {
+
+  border-radius: 12px;
+  background: linear-gradient(118deg, rgba(255, 255, 255, 0.02) 32.76%, rgba(255, 223, 180, 0.10) 91.01%);
+  backdrop-filter: blur(100px);
+}
+
+.black-gradient-button:hover {
+  background: linear-gradient(120deg,rgba(255, 223, 180, 0.10) 91.01%,rgba(255, 255, 255, 0.02) 32.76%);
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow on hover */
+  transform: scale(1.05); /* Add a slight scale effect on hover */
+  transition-delay: 0.2s; /* Add a delay for a smoother effect */
+}
+
+
+/* button in home page film card */
+.btn_home_fcard {
+  background: linear-gradient(239deg, #FF6572 31.09%, #A7426F 83.44%);
+  transition: background 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55), transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.btn_home_fcard:hover {
+  background: linear-gradient(49deg, #FF6572 31.09%, #A7426F 83.44%);
+  transform: scale(1.05);
+
+}

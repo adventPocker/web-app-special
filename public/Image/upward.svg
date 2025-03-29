@@ -1,0 +1,14 @@
+<svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="teenyicons:arrow-up-outline" clip-path="url(#clip0_2262_594)">
+<path id="Vector" d="M1.15377 10.7727L6.78147 5.14503L12.4092 10.7727" stroke="url(#paint0_linear_2262_594)" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_2262_594" x1="6.78147" y1="10.7727" x2="10.6034" y2="6.12524" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFDAA9"/>
+<stop offset="1" stop-color="#FDB478"/>
+</linearGradient>
+<clipPath id="clip0_2262_594">
+<rect width="13" height="13" fill="white" transform="translate(0 0.5)"/>
+</clipPath>
+</defs>
+</svg>
