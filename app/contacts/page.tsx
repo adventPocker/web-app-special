@@ -1,3 +1,4 @@
+import Footer from "../components/GlobalELements/Footer";
 import SectionsC01 from "./Sections/SectionsC01";
 import SectionsC02 from "./Sections/SectionsC02";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <>
       <SectionsC01 />
       <SectionsC02/>
+      <Footer/>
     </>
   );
 }

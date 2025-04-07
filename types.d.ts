@@ -245,7 +245,7 @@ type WorkData = {
 
 type AwardDetails = {
   id: number;
-  AwardRecipient: string;
+  AwardFor: string;
   AwardTitle: string;
 };
 

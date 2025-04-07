@@ -34,7 +34,7 @@ const AwardsCards = ({awardsData}:AwardsCardprops) => {
         <div className="md:w-1/3  ">
         {awardsData.Details?.map((data:AwardDetails,index:number)=>(
           <div className="text-[24px] font-ClashGrotesk-Medium font-medium leading-[44px] text-white" key={index}>
-          {data.AwardRecipient}
+          {data.AwardFor}
           </div>
           ))}
         </div>

@@ -372,17 +372,17 @@ export const mockPersonalData: PersonalApiResponse = {
           Details: [
             {
               id: 1,
-              AwardRecipient: "Ashiq Abu",
+              AwardFor: "Best Director",
               AwardTitle: "CPC Cine Awards - Best Director"
             },
             {
               id: 2, 
-              AwardRecipient: "Ashiq Abu",
+              AwardFor: "Best Director",
               AwardTitle: "Critic's Choice Film Awards - Best Director"
             },
             {
               id: 3,
-              AwardRecipient: "Virus",
+              AwardFor: "Best Feature Film",
               AwardTitle: "Jagaran Film Festival - Best Indian Feature Film"
             }
           ]
@@ -394,7 +394,7 @@ export const mockPersonalData: PersonalApiResponse = {
           Details: [
             {
               id: 4,
-              AwardRecipient: "Ashiq Abu",
+              AwardFor: "Best Film",
               AwardTitle: "Padmarajan Award - Best Film"
             }
           ]
@@ -406,32 +406,32 @@ export const mockPersonalData: PersonalApiResponse = {
           Details: [
             {
               id: 5,
-              AwardRecipient: "Ashiq Abu",
+              AwardFor: "Best Feature Film",
               AwardTitle: "64th National Film Awards - Best Feature Film in Malayalam"
             },
             {
               id: 6,
-              AwardRecipient: "Ashiq Abu", 
+              AwardFor: "Best Film", 
               AwardTitle: "Kerala State Film Awards - Best Film with Popular Appeal and Aesthetic Value"
             },
             {
               id: 7,
-              AwardRecipient: "Maheshinte Prathikaaram",
+              AwardFor: "Best Film",
               AwardTitle: "Filmfare Award - Best Film – Malayalam"
             },
             {
               id: 8,
-              AwardRecipient: "Maheshinte Prathikaaram",
+              AwardFor: "Best Film",
               AwardTitle: "CPC Cine Awards - Best Film"
             },
             {
               id: 9,
-              AwardRecipient: "Maheshinte Prathikaaram",
+              AwardFor: "Best Film",
               AwardTitle: "Vanitha Film Awards - Best Film"
             },
             {
               id: 10,
-              AwardRecipient: "Maheshinte Prathikaaram",
+              AwardFor: "Critics Award",
               AwardTitle: "Asianet Film Awards - Critics Award for Best Film"
             }
           ]
@@ -443,7 +443,7 @@ export const mockPersonalData: PersonalApiResponse = {
           Details: [
             {
               id: 11,
-              AwardRecipient: "Ashiq Abu",
+              AwardFor: "Best Director",
               AwardTitle: "Mohan Raghavan Award - Best Director"
             }
           ]
