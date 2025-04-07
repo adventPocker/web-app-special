@@ -237,7 +237,7 @@ export const mockMovieCardData: ApiFilmCard = {
             id: 13,
             attributes: {
               name: "movie-poster-5",
-               url: "/company/aashiq_abu/films/mayaanadhi.jpg"
+              url: "/movies/card-images/film-card-5.png",
             }
           }
         },

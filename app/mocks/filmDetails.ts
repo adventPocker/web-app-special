@@ -496,7 +496,8 @@ export const mockFilmData: ApiFilmData = {
                 id: 34,
                 attributes: {
                   name: "actor-1",
-                  url: "/movies/neelavelicham/actors/tovino.png"
+                  url: "/movies/default.png",
+
                 }
               }
             }
@@ -510,7 +511,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 35,
                 attributes: {
                   name: "actor-2",
-                  url: "/movies/neelavelicham/actors/shine.png"
+                  url: "/movies/default.png",
                 }
               }
             }
@@ -524,21 +525,105 @@ export const mockFilmData: ApiFilmData = {
                 id: 36,
                 attributes: {
                   name: "actor-3",
-                  url: "/movies/neelavelicham/actors/roshan.png"
+                  url: "/movies/default.png",
                 }
               }
             }
           },
           {
             id: 4,
-            Name: "Rima Kallingal",
-            Title: "Bhargavi",
+            Name: "Pooja Mohanraj",
+            Title: "Latha",
             Image: {
               data: {
                 id: 37,
                 attributes: {
                   name: "actor-4",
-                  url: "/movies/neelavelicham/actors/rima.png"
+                  url: "/movies/default.png",
+                }
+              }
+            }
+          },
+          {
+            id: 5,
+            Name: "Rima Kallingal",
+            Title: "Bhargavi",
+            Image: {
+              data: {
+                id: 38,
+                attributes: {
+                  name: "actor-5",
+                  url: "/movies/default.png",
+                }
+              }
+            }
+          },
+          {
+            id: 6,
+            Name: "Abhiram Radhakrishnan",
+            Title: "Ramdas",
+            Image: {
+              data: {
+                id: 39,
+                attributes: {
+                  name: "actor-6",
+                  url: "/movies/default.png",
+                }
+              }
+            }
+          },
+          {
+            id: 7,
+            Name: "Nisthar Sait",
+            Title: "Noolan's Uncle",
+            Image: {
+              data: {
+                id: 40,
+                attributes: {
+                  name: "actor-7",
+                  url: "/movies/default.png",
+                }
+              }
+            }
+          },
+          {
+            id: 8,
+            Name: "Rajesh Madhavan",
+            Title: "Kuthiravattom Pappu",
+            Image: {
+              data: {
+                id: 41,
+                attributes: {
+                  name: "actor-8",
+                  url: "/movies/default.png",
+                }
+              }
+            }
+          },
+          {
+            id: 9,
+            Name: "Pramod Velliyanad",
+            Title: "Cheriya Parikkanni",
+            Image: {
+              data: {
+                id: 42,
+                attributes: {
+                  name: "actor-9",
+                  url: "/movies/default.png",
+                }
+              }
+            }
+          },
+          {
+            id: 10,
+            Name: "Renji Kankol",
+            Title: "Noolan Paramu",
+            Image: {
+              data: {
+                id: 43,
+                attributes: {
+                  name: "actor-10",
+                  url: "/movies/default.png",
                 }
               }
             }
@@ -554,35 +639,175 @@ export const mockFilmData: ApiFilmData = {
                 id: 38,
                 attributes: {
                   name: "crew-1",
-                  url: "/movies/neelavelicham/crew/aashiq.png"
+                  url: "/movies/default.png",
                 }
               }
             }
           },
           {
             id: 2,
-            Name: "Hrishikesh Bhaskaran",
-            Title: "Screenplay",
+            Name: "Aashiq Abu",
+            Title: "Producer",
             Image: {
               data: {
                 id: 39,
                 attributes: {
                   name: "crew-2",
-                  url: "/movies/neelavelicham/crew/hrishikesh.png"
+                  url: "/movies/default.png",
                 }
               }
             }
           },
           {
             id: 3,
-            Name: "Girish Gangadharan",
-            Title: "Cinematography",
+            Name: "Rima Kallingal",
+            Title: "Producer",
             Image: {
               data: {
                 id: 40,
                 attributes: {
                   name: "crew-3",
-                  url: "/movies/neelavelicham/crew/girish.png"
+                  url: "/movies/default.png",
+                }
+              }
+            }
+          },
+          {
+            id: 4,
+            Name: "Hrishikesh Bhaskaran",
+            Title: "Screenplay",
+            Image: {
+              data: {
+                id: 41,
+                attributes: {
+                  name: "crew-4",
+                  url: "/movies/default.png",
+                }
+              }
+            }
+          },
+          {
+            id: 5,
+            Name: "Vaikom Muhammad Basheer",
+            Title: "Original Story",
+            Image: {
+              data: {
+                id: 42,
+                attributes: {
+                  name: "crew-5",
+                  url: "/movies/default.png",
+                }
+              }
+            }
+          },
+          {
+            id: 6,
+            Name: "Girish Gangadharan",
+            Title: "Cinematography",
+            Image: {
+              data: {
+                id: 43,
+                attributes: {
+                  name: "crew-6",
+                  url: "/movies/default.png",
+                }
+              }
+            }
+          },
+          {
+            id: 7,
+            Name: "Jimshi Khalid",
+            Title: "Cinematography",
+            Image: {
+              data: {
+                id: 44,
+                attributes: {
+                  name: "crew-7",
+                  url: "/movies/default.png",
+                }
+              }
+            }
+          },
+          {
+            id: 8,
+            Name: "Shyju Khalid",
+            Title: "Cinematography",
+            Image: {
+              data: {
+                id: 45,
+                attributes: {
+                  name: "crew-8",
+                  url: "/movies/default.png",
+                }
+              }
+            }
+          },
+          {
+            id: 9,
+            Name: "V. Sajan",
+            Title: "Editing",
+            Image: {
+              data: {
+                id: 46,
+                attributes: {
+                  name: "crew-9",
+                  url: "/movies/default.png",
+                }
+              }
+            }
+          },
+          {
+            id: 10,
+            Name: "Bijibal",
+            Title: "Music",
+            Image: {
+              data: {
+                id: 47,
+                attributes: {
+                  name: "crew-10",
+                  url: "/movies/default.png",
+                }
+              }
+            }
+          },
+          {
+            id: 11,
+            Name: "Rex Vijayan",
+            Title: "Music",
+            Image: {
+              data: {
+                id: 48,
+                attributes: {
+                  name: "crew-11",
+                  url: "/movies/default.png",
+                }
+              }
+            }
+          },
+          {
+            id: 12,
+            Name: "Jotish Shankar",
+            Title: "Production Design",
+            Image: {
+              data: {
+                id: 49,
+                attributes: {
+                  name: "crew-12",
+                  url: "/movies/default.png",
+                }
+              }
+            }
+          },
+          {
+            id: 13,
+            Name: "Sameera Saneesh",
+            Title: "Costume Design",
+            Image: {
+              data: {
+                id: 50,
+                attributes: {
+                  name: "crew-13",
+                  url: "/movies/default.png",
                 }
               }
             }
@@ -751,7 +976,7 @@ export const mockFilmData: ApiFilmData = {
         summary: "The story unfolds in a neighborhood where twenty families reside along a dilapidated road next to a railway track. Everything takes an interesting turn when Bheeman decides to broaden the pathway, leading to unexpected challenges with landowners unwilling to part with their property.",
         FilmContent: "The story unfolds in a neighborhood where twenty families reside along a dilapidated road next to a railway track. Everything takes an interesting turn when Bheeman decides to broaden the pathway, leading to unexpected challenges with landowners unwilling to part with their property.",
         Rating: "8.8",
-        RunTime: "2h 29m",
+        RunTime: "1h 55m",
         ReleaseDate: "2021-12-03",
         Country: "India",
         Language: "Malayalam",
@@ -770,7 +995,7 @@ export const mockFilmData: ApiFilmData = {
             id: 41,
             attributes: {
               name: "bheemante-vazhi-poster",
-              url: "/movies/bheemante-vazhi/card-image.png"
+              url: "/movies/card-images/film-card-9.png",
             }
           }
         },
@@ -779,7 +1004,7 @@ export const mockFilmData: ApiFilmData = {
             id: 42,
             attributes: {
               name: "bheemante-vazhi-title",
-              url: "/movies/bheemante-vazhi/title-image.png"
+              url: "/movies/bheemante-vazhi/bheemante-vazhi-tilte.png", 
             }
           }
         },
@@ -789,7 +1014,7 @@ export const mockFilmData: ApiFilmData = {
               id: 43,
               attributes: {
                 name: "banner-1",
-                url: "/movies/bheemante-vazhi/banner-1.png"
+                url: "/movies/card-images/film-card-9.png",
               }
             }
           ]
@@ -798,41 +1023,97 @@ export const mockFilmData: ApiFilmData = {
           {
             id: 1,
             Name: "Kunchacko Boban",
-            Title: "Sanjeev Shankar (Sanju)",
+            Title: "Sanjeev Shankar (Sanju) a.k.a. Bheeman",
             Image: {
               data: {
                 id: 44,
                 attributes: {
                   name: "actor-1",
-                  url: "/movies/bheemante-vazhi/actors/kunchacko.png"
+                  url: "/movies/default.png"
                 }
               }
             }
           },
           {
             id: 2,
-            Name: "Chemban Vinod Jose",
-            Title: "Maharshi",
+            Name: "Jinu Joseph",
+            Title: "Oothampilly Kostheppu",
             Image: {
               data: {
                 id: 45,
                 attributes: {
                   name: "actor-2",
-                  url: "/movies/bheemante-vazhi/actors/chemban.png"
+                  url: "/movies/default.png"
                 }
               }
             }
           },
           {
             id: 3,
-            Name: "Divya M Nair",
-            Title: "Councilor Reetha",
+            Name: "Chemban Vinod Jose",
+            Title: "Maharshi",
             Image: {
               data: {
                 id: 46,
                 attributes: {
                   name: "actor-3",
-                  url: "/movies/bheemante-vazhi/actors/divya.png"
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 4,
+            Name: "Divya M Nair",
+            Title: "Councilor Reetha",
+            Image: {
+              data: {
+                id: 47,
+                attributes: {
+                  name: "actor-4",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 5,
+            Name: "Megha Thomas",
+            Title: "Kinnari",
+            Image: {
+              data: {
+                id: 48,
+                attributes: {
+                  name: "actor-5",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 6,
+            Name: "Suraj Venjaramoodu",
+            Title: "Manjali Tarseus",
+            Image: {
+              data: {
+                id: 49,
+                attributes: {
+                  name: "actor-6",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 7,
+            Name: "Vincy Aloshious",
+            Title: "Blessy Paul",
+            Image: {
+              data: {
+                id: 50,
+                attributes: {
+                  name: "actor-7",
+                  url: "/movies/default.png"
                 }
               }
             }
@@ -845,24 +1126,150 @@ export const mockFilmData: ApiFilmData = {
             Title: "Director",
             Image: {
               data: {
-                id: 47,
+                id: 51,
                 attributes: {
                   name: "crew-1",
-                  url: "/movies/bheemante-vazhi/crew/aashiq.png"
+                  url: "/movies/default.png"
                 }
               }
             }
           },
           {
             id: 2,
+            Name: "Aashiq Abu",
+            Title: "Producer",
+            Image: {
+              data: {
+                id: 52,
+                attributes: {
+                  name: "crew-2",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 3,
+            Name: "Chemban Vinod Jose",
+            Title: "Producer",
+            Image: {
+              data: {
+                id: 53,
+                attributes: {
+                  name: "crew-3",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 4,
+            Name: "Rima Kallingal",
+            Title: "Producer",
+            Image: {
+              data: {
+                id: 54,
+                attributes: {
+                  name: "crew-4",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 5,
             Name: "Vishnu Vijay",
             Title: "Music Director",
             Image: {
               data: {
-                id: 48,
+                id: 55,
                 attributes: {
-                  name: "crew-2",
-                  url: "/movies/bheemante-vazhi/crew/vishnu.png"
+                  name: "crew-5",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 6,
+            Name: "Girish Gangadharan",
+            Title: "Cinematography",
+            Image: {
+              data: {
+                id: 56,
+                attributes: {
+                  name: "crew-6",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 7,
+            Name: "Nizam Kadiry",
+            Title: "Editing",
+            Image: {
+              data: {
+                id: 57,
+                attributes: {
+                  name: "crew-7",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 8,
+            Name: "Akhilraj Chirayil",
+            Title: "Art Direction",
+            Image: {
+              data: {
+                id: 58,
+                attributes: {
+                  name: "crew-8",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 9,
+            Name: "Mashar Hamsa",
+            Title: "Costume Design",
+            Image: {
+              data: {
+                id: 59,
+                attributes: {
+                  name: "crew-9",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 10,
+            Name: "R.G. Wayanadan",
+            Title: "Makeup",
+            Image: {
+              data: {
+                id: 60,
+                attributes: {
+                  name: "crew-10",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 11,
+            Name: "E.S. Rahul",
+            Title: "VFX Supervisor",
+            Image: {
+              data: {
+                id: 61,
+                attributes: {
+                  name: "crew-11",
+                  url: "/movies/default.png"
                 }
               }
             }
@@ -885,7 +1292,7 @@ export const mockFilmData: ApiFilmData = {
             ExternalUrl: "https://www.youtube.com/watch?v=bheemante-vazhi-bts",
             ImgThumb: {
               data: {
-                id: 49,
+                id: 62,
                 attributes: {
                   name: "bts-thumb",
                   url: "/movies/bheemante-vazhi/videos/bts-thumb.png"
@@ -903,7 +1310,7 @@ export const mockFilmData: ApiFilmData = {
             ExternalUrl: "https://www.youtube.com/watch?v=bheemante-vazhi-theme",
             ImgThumb: {
               data: {
-                id: 50,
+                id: 63,
                 attributes: {
                   name: "music-thumb",
                   url: "/movies/bheemante-vazhi/music/theme-thumb.png"
@@ -918,10 +1325,10 @@ export const mockFilmData: ApiFilmData = {
             No: "1",
             Image: {
               data: {
-                id: 51,
+                id: 64,
                 attributes: {
                   name: "gallery-1",
-                  url: "/movies/bheemante-vazhi/gallery/image-1.png"
+                  url: "/movies/default.png"
                 }
               }
             }
@@ -931,10 +1338,101 @@ export const mockFilmData: ApiFilmData = {
             No: "2",
             Image: {
               data: {
-                id: 52,
+                id: 65,
                 attributes: {
                   name: "gallery-2",
-                  url: "/movies/bheemante-vazhi/gallery/image-2.png"
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 3,
+            No: "3",
+            Image: {
+              data: {
+                id: 66,
+                attributes: {
+                  name: "gallery-3",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 4,
+            No: "4",
+            Image: {
+              data: {
+                id: 67,
+                attributes: {
+                  name: "gallery-4",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 5,
+            No: "5",
+            Image: {
+              data: {
+                id: 68,
+                attributes: {
+                  name: "gallery-5",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 6,
+            No: "6",
+            Image: {
+              data: {
+                id: 69,
+                attributes: {
+                  name: "gallery-6",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 7,
+            No: "7",
+            Image: {
+              data: {
+                id: 70,
+                attributes: {
+                  name: "gallery-7",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 8,
+            No: "8",
+            Image: {
+              data: {
+                id: 71,
+                attributes: {
+                  name: "gallery-8",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 9,
+            No: "9",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-9",
+                  url: "/movies/default.png"
                 }
               }
             }
@@ -990,18 +1488,642 @@ export const mockFilmData: ApiFilmData = {
               id: 60,
               attributes: {
                 name: "banner-1",
-                url: "/movies/naaradan/banner-1.png"
+                url: "/movies/card-images/film-card-3.png",
               }
             }
           ]
         },
-        LeadCast: [],
-        LeadCrew: [],
+        LeadCast: [
+          {
+            id: 1,
+            Name: "Tovino Thomas",
+            Title: "Chandraprakash",
+            Image: {
+              data: {
+                id: 44,
+                attributes: {
+                  name: "actor-1",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 2,
+            Name: "Anna Ben",
+            Title: "Adv. Shaakira Mohammed",
+            Image: {
+              data: {
+                id: 45,
+                attributes: {
+                  name: "actor-2",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 3,
+            Name: "Sharafudheen",
+            Title: "Pradeep John",
+            Image: {
+              data: {
+                id: 46,
+                attributes: {
+                  name: "actor-3",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 4,
+            Name: "Joy Mathew",
+            Title: "Shivadas Kurup, Chief Editor of News Malayalam",
+            Image: {
+              data: {
+                id: 47,
+                attributes: {
+                  name: "actor-4",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 5,
+            Name: "Vijayaraghavan",
+            Title: "Babuji",
+            Image: {
+              data: {
+                id: 48,
+                attributes: {
+                  name: "actor-5",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 6,
+            Name: "Balachandran Chullikkad",
+            Title: "Vijayan, Pradeep's boss at Vartha 24x7",
+            Image: {
+              data: {
+                id: 49,
+                attributes: {
+                  name: "actor-6",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 7,
+            Name: "Raghunath Paleri",
+            Title: "Mohammed Khan, Shaakira's father",
+            Image: {
+              data: {
+                id: 50,
+                attributes: {
+                  name: "actor-7",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 8,
+            Name: "Jayaraj Warrier",
+            Title: "Bharathan, CP's father",
+            Image: {
+              data: {
+                id: 51,
+                attributes: {
+                  name: "actor-8",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 9,
+            Name: "Rafi",
+            Title: "Pillachettan",
+            Image: {
+              data: {
+                id: 52,
+                attributes: {
+                  name: "actor-9",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 10,
+            Name: "Kunchan",
+            Title: "Gurudasan, Minister of Finance",
+            Image: {
+              data: {
+                id: 53,
+                attributes: {
+                  name: "actor-10",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 11,
+            Name: "Dileesh Nair",
+            Title: "Kuttettan",
+            Image: {
+              data: {
+                id: 54,
+                attributes: {
+                  name: "actor-11",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 12,
+            Name: "Rajesh Madhavan",
+            Title: "Manu",
+            Image: {
+              data: {
+                id: 55,
+                attributes: {
+                  name: "actor-12",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 13,
+            Name: "Indrans",
+            Title: "Judge Chothi",
+            Image: {
+              data: {
+                id: 56,
+                attributes: {
+                  name: "actor-13",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 14,
+            Name: "Jaffer Idukki",
+            Title: "Fr. Clement Purambokkil (Purambokkil Achan)",
+            Image: {
+              data: {
+                id: 57,
+                attributes: {
+                  name: "actor-14",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 15,
+            Name: "Renji Panicker",
+            Title: "Adv. Govinda Menon",
+            Image: {
+              data: {
+                id: 58,
+                attributes: {
+                  name: "actor-15",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 16,
+            Name: "Lukman Avaran",
+            Title: "Adv. Ameer",
+            Image: {
+              data: {
+                id: 59,
+                attributes: {
+                  name: "actor-16",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 17,
+            Name: "Vijaykumar Prabhakaran",
+            Title: "Mukundan",
+            Image: {
+              data: {
+                id: 60,
+                attributes: {
+                  name: "actor-17",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 18,
+            Name: "Koottickal Jayachandran",
+            Title: "MLA Kanjikkaadan",
+            Image: {
+              data: {
+                id: 61,
+                attributes: {
+                  name: "actor-18",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 19,
+            Name: "Navas Vallikkunnu",
+            Title: "Nizar",
+            Image: {
+              data: {
+                id: 62,
+                attributes: {
+                  name: "actor-19",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 20,
+            Name: "Fejo",
+            Title: "Mudiyan",
+            Image: {
+              data: {
+                id: 63,
+                attributes: {
+                  name: "actor-20",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 21,
+            Name: "Nazlin Saleem",
+            Title: "Parvathy",
+            Image: {
+              data: {
+                id: 64,
+                attributes: {
+                  name: "actor-21",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          }
+        ],
+        LeadCrew: [
+          {
+            id: 1,
+            Name: "Aashiq Abu",
+            Title: "Director, Producer",
+            Image: {
+              data: {
+                id: 64,
+                attributes: {
+                  name: "crew-1",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 2, 
+            Name: "Unni R.",
+            Title: "Writer",
+            Image: {
+              data: {
+                id: 65,
+                attributes: {
+                  name: "crew-2",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 3,
+            Name: "Abid Abu",
+            Title: "Producer",
+            Image: {
+              data: {
+                id: 66,
+                attributes: {
+                  name: "crew-3",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 4,
+            Name: "Wazim Hyder",
+            Title: "Executive Producer",
+            Image: {
+              data: {
+                id: 67,
+                attributes: {
+                  name: "crew-4",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 5,
+            Name: "Rima Kallingal",
+            Title: "Executive Producer",
+            Image: {
+              data: {
+                id: 68,
+                attributes: {
+                  name: "crew-5",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 6,
+            Name: "Santhosh T. Kuruvilla",
+            Title: "Producer",
+            Image: {
+              data: {
+                id: 69,
+                attributes: {
+                  name: "crew-6",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 7,
+            Name: "Sekhar Menon",
+            Title: "Composer",
+            Image: {
+              data: {
+                id: 70,
+                attributes: {
+                  name: "crew-7",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 8,
+            Name: "Vishnu R. Dev",
+            Title: "Cinematographer",
+            Image: {
+              data: {
+                id: 71,
+                attributes: {
+                  name: "crew-8",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 9,
+            Name: "Jaffer Zadique",
+            Title: "Associate Cinematographer",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "crew-9",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 10,
+            Name: "Saiju Sreedharan",
+            Title: "Editor",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "crew-10",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 11,
+            Name: "Gokul Das",
+            Title: "Art Director",
+            Image: {
+              data: {
+                id: 74,
+                attributes: {
+                  name: "crew-11",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 12,
+            Name: "Mashar Hamsa",
+            Title: "Costume Designer",
+            Image: {
+              data: {
+                id: 75,
+                attributes: {
+                  name: "crew-12",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 13,
+            Name: "Ronex Xavier",
+            Title: "Makeup Department (Make Up)",
+            Image: {
+              data: {
+                id: 76,
+                attributes: {
+                  name: "crew-13",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 14,
+            Name: "Benny Kattappana",
+            Title: "Production Manager (Production Controller)",
+            Image: {
+              data: {
+                id: 77,
+                attributes: {
+                  name: "crew-14",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 15,
+            Name: "Mirash Khan",
+            Title: "Associate Director",
+            Image: {
+              data: {
+                id: 78,
+                attributes: {
+                  name: "crew-15",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          }
+        ],
         Review: [],
         Awards: [],
         Videos: [],
         Music: [],
-        Gallery: []
+        Gallery: [
+          {
+            id: 1,
+            No: "1",
+            Image: {
+              data: {
+                id: 64,
+                attributes: {
+                  name: "gallery-1",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 2,
+            No: "2",
+            Image: {
+              data: {
+                id: 65,
+                attributes: {
+                  name: "gallery-2",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 3,
+            No: "3",
+            Image: {
+              data: {
+                id: 66,
+                attributes: {
+                  name: "gallery-3",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 4,
+            No: "4",
+            Image: {
+              data: {
+                id: 67,
+                attributes: {
+                  name: "gallery-4",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 5,
+            No: "5",
+            Image: {
+              data: {
+                id: 68,
+                attributes: {
+                  name: "gallery-5",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 6,
+            No: "6",
+            Image: {
+              data: {
+                id: 69,
+                attributes: {
+                  name: "gallery-6",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 7,
+            No: "7",
+            Image: {
+              data: {
+                id: 70,
+                attributes: {
+                  name: "gallery-7",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 8,
+            No: "8",
+            Image: {
+              data: {
+                id: 71,
+                attributes: {
+                  name: "gallery-8",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 9,
+            No: "9",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-9",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          }
+        ]
       }
     },
     {
@@ -1057,7 +2179,288 @@ export const mockFilmData: ApiFilmData = {
             }
           ]
         },
-        LeadCast: [],
+        LeadCast: [
+          {
+            id: 1,
+            Name: "Basil Joseph",
+            Title: "Dr. Mithun",
+            Image: {
+              data: {
+                id: 44,
+                attributes: {
+                  name: "actor-1",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 2,
+            Name: "Kunchacko Boban",
+            Title: "Dr. Suresh Rajan",
+            Image: {
+              data: {
+                id: 45,
+                attributes: {
+                  name: "actor-2",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 3,
+            Name: "Asif Ali",
+            Title: "Vishnu Bhaskaran",
+            Image: {
+              data: {
+                id: 46,
+                attributes: {
+                  name: "actor-3",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 4,
+            Name: "Joju George",
+            Title: "Babu",
+            Image: {
+              data: {
+                id: 47,
+                attributes: {
+                  name: "actor-4",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 5,
+            Name: "Tovino Thomas",
+            Title: "Paul V. Abraham",
+            Image: {
+              data: {
+                id: 48,
+                attributes: {
+                  name: "actor-5",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 6,
+            Name: "Vaisakh Shankar",
+            Title: "Vaisakh Nair",
+            Image: {
+              data: {
+                id: 49,
+                attributes: {
+                  name: "actor-6",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 7,
+            Name: "Parvathy Thiruvothu",
+            Title: "Dr. Annu (as Parvathy)",
+            Image: {
+              data: {
+                id: 50,
+                attributes: {
+                  name: "actor-7",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 8,
+            Name: "Soubin Shahir",
+            Title: "Unnikrishnan",
+            Image: {
+              data: {
+                id: 51,
+                attributes: {
+                  name: "actor-8",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 9,
+            Name: "Revathi",
+            Title: "C.K. Prameela (as Revathy)",
+            Image: {
+              data: {
+                id: 52,
+                attributes: {
+                  name: "actor-9",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 10,
+            Name: "Indrans",
+            Title: "Razzak",
+            Image: {
+              data: {
+                id: 53,
+                attributes: {
+                  name: "actor-10",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 11,
+            Name: "Darshana Rajendran",
+            Title: "Anjali Vasudevan",
+            Image: {
+              data: {
+                id: 54,
+                attributes: {
+                  name: "actor-11",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 12,
+            Name: "Dileesh Pothan",
+            Title: "Prakashan",
+            Image: {
+              data: {
+                id: 55,
+                attributes: {
+                  name: "actor-12",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 13,
+            Name: "Sharafudheen",
+            Title: "Sandeep",
+            Image: {
+              data: {
+                id: 56,
+                attributes: {
+                  name: "actor-13",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 14,
+            Name: "Madonna Sebastian",
+            Title: "Sara Yakoob",
+            Image: {
+              data: {
+                id: 57,
+                attributes: {
+                  name: "actor-14",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 15,
+            Name: "Indrajith Sukumaran",
+            Title: "Dr. Baburaj",
+            Image: {
+              data: {
+                id: 58,
+                attributes: {
+                  name: "actor-15",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 16,
+            Name: "Sreenath Bhasi",
+            Title: "Dr. Abid Rahman",
+            Image: {
+              data: {
+                id: 59,
+                attributes: {
+                  name: "actor-16",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 17,
+            Name: "Rahman",
+            Title: "Dr. Salim",
+            Image: {
+              data: {
+                id: 60,
+                attributes: {
+                  name: "actor-17",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 18,
+            Name: "Srikant Murali",
+            Title: "Professor - Emergency Department",
+            Image: {
+              data: {
+                id: 61,
+                attributes: {
+                  name: "actor-18",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 19,
+            Name: "Ann Jameela Saleem",
+            Title: "Hafia (as Ann Salim)",
+            Image: {
+              data: {
+                id: 62,
+                attributes: {
+                  name: "actor-19",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          },
+          {
+            id: 20,
+            Name: "Sajitha Madathil",
+            Title: "Doctor",
+            Image: {
+              data: {
+                id: 63,
+                attributes: {
+                  name: "actor-20",
+                  url: "/movies/default.png"
+                }
+              }
+            }
+          }
+        ],
         LeadCrew: [],
         Review: [],
         Awards: [],
