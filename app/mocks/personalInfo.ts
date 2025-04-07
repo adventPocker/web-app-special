@@ -112,7 +112,8 @@ export const mockPersonalData: PersonalApiResponse = {
               id: 6,
               attributes: {
                 name: "rani-padmini",
-                url: "/movies/card-images/film-card-18.png"
+                  url: "/movies/card-images/film-card-17.png"
+              
               }
             }
           }
@@ -186,7 +187,7 @@ export const mockPersonalData: PersonalApiResponse = {
               id: 11,
               attributes: {
                 name: "22-female-kottayam",
-                url: "/movies/card-images/film-card-15.png"
+                url: "/movies/card-images/film-card-18.png"
               }
             }
           }
@@ -201,7 +202,8 @@ export const mockPersonalData: PersonalApiResponse = {
               id: 12,
               attributes: {
                 name: "salt-n-pepper",
-                url: "/movies/card-images/film-card-16.png"
+                url: "/movies/card-images/film-card-15.png"
+
               }
             }
           }
@@ -216,7 +218,8 @@ export const mockPersonalData: PersonalApiResponse = {
               id: 13,
               attributes: {
                 name: "daddy-cool",
-                url: "/movies/card-images/film-card-17.png"
+                url: "/movies/card-images/film-card-16.png"
+
               }
             }
           }
@@ -375,7 +378,7 @@ export const mockPersonalData: PersonalApiResponse = {
             {
               id: 2, 
               AwardRecipient: "Ashiq Abu",
-              AwardTitle: "Critic Choice Film Award - Best Director"
+              AwardTitle: "Critic's Choice Film Awards - Best Director"
             },
             {
               id: 3,
@@ -386,35 +389,50 @@ export const mockPersonalData: PersonalApiResponse = {
         },
         {
           id: 2,
-          Film_Title: "Maayanadhi",
+          Film_Title: "Mayanadi",
           Year: "2017",
           Details: [
             {
               id: 4,
-              AwardRecipient: "Maayanadhi",
-              AwardTitle: "Padmarajan Awards - Best Film"
+              AwardRecipient: "Ashiq Abu",
+              AwardTitle: "Padmarajan Award - Best Film"
             }
           ]
         },
         {
           id: 3,
-          Film_Title: "Maheshinte Prathikaram",
+          Film_Title: "Maheshinte Prathikaaram",
           Year: "2016",
           Details: [
             {
               id: 5,
               AwardRecipient: "Ashiq Abu",
-              AwardTitle: "CPC Cine Awards - Best Director"
+              AwardTitle: "64th National Film Awards - Best Feature Film in Malayalam"
             },
             {
               id: 6,
               AwardRecipient: "Ashiq Abu", 
-              AwardTitle: "Critic Choice Film Award - Best Director"
+              AwardTitle: "Kerala State Film Awards - Best Film with Popular Appeal and Aesthetic Value"
             },
             {
               id: 7,
-              AwardRecipient: "Maheshinte Prathikaram",
-              AwardTitle: "Jagaran Film Festival - Best Indian Feature Film"
+              AwardRecipient: "Maheshinte Prathikaaram",
+              AwardTitle: "Filmfare Award - Best Film – Malayalam"
+            },
+            {
+              id: 8,
+              AwardRecipient: "Maheshinte Prathikaaram",
+              AwardTitle: "CPC Cine Awards - Best Film"
+            },
+            {
+              id: 9,
+              AwardRecipient: "Maheshinte Prathikaaram",
+              AwardTitle: "Vanitha Film Awards - Best Film"
+            },
+            {
+              id: 10,
+              AwardRecipient: "Maheshinte Prathikaaram",
+              AwardTitle: "Asianet Film Awards - Critics Award for Best Film"
             }
           ]
         },
@@ -424,9 +442,9 @@ export const mockPersonalData: PersonalApiResponse = {
           Year: "2012",
           Details: [
             {
-              id: 8,
+              id: 11,
               AwardRecipient: "Ashiq Abu",
-              AwardTitle: "Mohan Raghavan Awards - Best Director"
+              AwardTitle: "Mohan Raghavan Award - Best Director"
             }
           ]
         }
