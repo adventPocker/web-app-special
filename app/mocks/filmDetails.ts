@@ -7,8 +7,10 @@ export const mockFilmData: ApiFilmData = {
         Year: "2024",
         genere1: "Action Thriller",
         genere2: "Adventure",
-        summary: "A historic rifle club in the Western Ghats becomes the center of a fight for survival when a dangerous arms dealer and his gang come seeking revenge. The club's members, skilled hunters with a shared passion works together to protect their lives and their legacy.",
-        FilmContent: "A historic rifle club in the Western Ghats becomes the center of a fight for survival when a dangerous arms dealer and his gang come seeking revenge. The club's members, skilled hunters with a shared passion works together to protect their lives and their legacy.",
+        summary:
+          "A historic rifle club in the Western Ghats becomes the center of a fight for survival when a dangerous arms dealer and his gang come seeking revenge. The club's members, skilled hunters with a shared passion works together to protect their lives and their legacy.",
+        FilmContent:
+          "A historic rifle club in the Western Ghats becomes the center of a fight for survival when a dangerous arms dealer and his gang come seeking revenge. The club's members, skilled hunters with a shared passion works together to protect their lives and their legacy.",
         Rating: "8.5",
         RunTime: "1h 53 min",
         ReleaseDate: "19/12/2024",
@@ -30,8 +32,8 @@ export const mockFilmData: ApiFilmData = {
             attributes: {
               name: "movie-poster-1",
               url: "https://images.unsplash.com/photo-1485846234645-a62644f84728",
-            }
-          }
+            },
+          },
         },
         TitleImage: {
           data: {
@@ -39,8 +41,8 @@ export const mockFilmData: ApiFilmData = {
             attributes: {
               name: "movie-title-1",
               url: "/movies/rifle_clube/rifle-club-title.png",
-            }
-          }
+            },
+          },
         },
         BannerImage: {
           data: [
@@ -49,9 +51,9 @@ export const mockFilmData: ApiFilmData = {
               attributes: {
                 name: "banner-1",
                 url: "/movies/rifle_clube/rifleclub-banner.png",
-              }
-            }
-          ]
+              },
+            },
+          ],
         },
         Awards: [],
         LeadCast: [
@@ -65,9 +67,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "crew-1",
                   url: "/movies/rifle_clube/actors-8.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 2,
@@ -79,9 +81,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "crew-1",
                   url: "/movies/rifle_clube/actors-1.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 3,
@@ -93,9 +95,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "crew-1",
                   url: "/movies/rifle_clube/actors-2.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 4,
@@ -107,9 +109,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "crew-1",
                   url: "/movies/rifle_clube/actors-3.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 5,
@@ -121,9 +123,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "crew-1",
                   url: "/movies/rifle_clube/actors-4.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 6,
@@ -135,9 +137,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "crew-1",
                   url: "/movies/rifle_clube/actors-5.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 7,
@@ -149,9 +151,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "crew-1",
                   url: "/movies/rifle_clube/actors-6.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 8,
@@ -163,9 +165,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "crew-1",
                   url: "/movies/rifle_clube/actors-7.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
         ],
         LeadCrew: [
@@ -179,9 +181,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "crew-1",
                   url: "/movies/rifle_clube/crew-5.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 2,
@@ -193,101 +195,102 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "crew-1",
                   url: "/movies/rifle_clube/crew-1.png",
-                }
-              }
-            }         
+                },
+              },
+            },
           },
           {
             id: 3,
             Name: "Dileesh Karunakaran",
             Title: "Screenplay",
             Image: {
-              data: {     
+              data: {
                 id: 7,
                 attributes: {
                   name: "crew-1",
                   url: "/movies/rifle_clube/crew-6.png",
-                }
-              }
-            } 
+                },
+              },
+            },
           },
           {
             id: 4,
             Name: "Suhas",
             Title: "Screenplay",
             Image: {
-              data: {     
+              data: {
                 id: 7,
                 attributes: {
                   name: "crew-1",
                   url: "/movies/rifle_clube/crew-7.png",
-                }
-              }
-            } 
+                },
+              },
+            },
           },
           {
             id: 3,
             Name: "Vincent Vadakkan",
             Title: "Producers",
             Image: {
-              data: {     
+              data: {
                 id: 7,
                 attributes: {
                   name: "crew-2",
                   url: "/movies/rifle_clube/crew-2.png",
-                }
-              }
-            } 
+                },
+              },
+            },
           },
           {
             id: 3,
             Name: "Vincent Vadakkan",
             Title: "Producers",
             Image: {
-              data: {     
+              data: {
                 id: 7,
                 attributes: {
                   name: "crew-2",
                   url: "/movies/default.png",
-                }
-              }
-            } 
+                },
+              },
+            },
           },
           {
             id: 3,
             Name: "Vincent Vadakkan",
             Title: "Producers",
             Image: {
-              data: {     
+              data: {
                 id: 7,
                 attributes: {
                   name: "crew-2",
                   url: "/movies/rifle_clube/crew-3.png",
-                }
-              }
-            } 
+                },
+              },
+            },
           },
           {
             id: 3,
             Name: "Vincent Vadakkan",
             Title: "Producers",
             Image: {
-              data: {     
+              data: {
                 id: 7,
                 attributes: {
                   name: "crew-2",
                   url: "/movies/rifle_clube/crew-4.png",
-                }
-              }
-            } 
+                },
+              },
+            },
           },
         ],
         Review: [
           {
             id: 1,
             Reviewer: "The New York Times",
-            ReviewContent: "A Stylish, action - packed thriller with a vibrant visual palette."
-          }
+            ReviewContent:
+              "A Stylish, action - packed thriller with a vibrant visual palette.",
+          },
         ],
         Videos: [
           {
@@ -302,10 +305,10 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "video-thumb-1",
                   url: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=300",
-                }
-              }
-            }
-          }
+                },
+              },
+            },
+          },
         ],
         Music: [
           {
@@ -320,10 +323,10 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "music-thumb-1",
                   url: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=300",
-                }
-              }
-            }
-          }
+                },
+              },
+            },
+          },
         ],
         Gallery: [
           {
@@ -335,9 +338,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "gallery-1",
                   url: "/movies/rifle_clube/gallery-1.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 2,
@@ -348,9 +351,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "gallery-2",
                   url: "/movies/rifle_clube/gallery-2.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 3,
@@ -361,9 +364,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "gallery-3",
                   url: "/movies/rifle_clube/gallery-3.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 4,
@@ -374,9 +377,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "gallery-4",
                   url: "/movies/rifle_clube/gallery-4.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 5,
@@ -387,9 +390,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "gallery-5",
                   url: "/movies/rifle_clube/gallery-5.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 6,
@@ -400,9 +403,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "gallery-6",
                   url: "/movies/rifle_clube/gallery-6.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 7,
@@ -413,9 +416,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "gallery-7",
                   url: "/movies/rifle_clube/gallery-8.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 8,
@@ -426,12 +429,12 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "gallery-8",
                   url: "/movies/rifle_clube/gallery-9.png",
-                }
-              }
-            }
-          }
-        ]
-      }
+                },
+              },
+            },
+          },
+        ],
+      },
     },
     {
       id: 2,
@@ -440,8 +443,10 @@ export const mockFilmData: ApiFilmData = {
         Year: "2023",
         genere1: "Horror",
         genere2: "Drama",
-        summary: "A young, enthusiastic, and free-spirited writer arrives to stay in a desolate mansion, rumored to be haunted by the apparition of a young woman who committed suicide after being betrayed in love.",
-        FilmContent: "A young, enthusiastic, and free-spirited writer arrives to stay in a desolate mansion, rumored to be haunted by the apparition of a young woman who committed suicide after being betrayed in love.",
+        summary:
+          "A young, enthusiastic, and free-spirited writer arrives to stay in a desolate mansion, rumored to be haunted by the apparition of a young woman who committed suicide after being betrayed in love.",
+        FilmContent:
+          "A young, enthusiastic, and free-spirited writer arrives to stay in a desolate mansion, rumored to be haunted by the apparition of a young woman who committed suicide after being betrayed in love.",
         Rating: "9.0",
         RunTime: "2h 12m",
         ReleaseDate: "2023-04-20",
@@ -462,9 +467,9 @@ export const mockFilmData: ApiFilmData = {
             id: 31,
             attributes: {
               name: "neelavelicham-poster",
-              url: "/movies/neelavelicham/card-image.png"
-            }
-          }
+              url: "/movies/neelavelicham/card-image.png",
+            },
+          },
         },
         TitleImage: {
           data: {
@@ -472,8 +477,8 @@ export const mockFilmData: ApiFilmData = {
             attributes: {
               name: "neelavelicham-title",
               url: "/movies/neeelavelicham/neeelavelicham-title-image.png",
-            }
-          }
+            },
+          },
         },
         BannerImage: {
           data: [
@@ -481,10 +486,10 @@ export const mockFilmData: ApiFilmData = {
               id: 33,
               attributes: {
                 name: "banner-1",
-                url: "/movies/neeelavelicham/banner-1.jpeg"
-              }
-            }
-          ]
+                url: "/movies/neeelavelicham/banner-1.jpeg",
+              },
+            },
+          ],
         },
         LeadCast: [
           {
@@ -497,10 +502,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "actor-1",
                   url: "/movies/default.png",
-
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 2,
@@ -512,9 +516,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "actor-2",
                   url: "/movies/default.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 3,
@@ -526,9 +530,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "actor-3",
                   url: "/movies/default.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 4,
@@ -540,9 +544,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "actor-4",
                   url: "/movies/default.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 5,
@@ -554,9 +558,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "actor-5",
                   url: "/movies/default.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 6,
@@ -568,9 +572,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "actor-6",
                   url: "/movies/default.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 7,
@@ -582,9 +586,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "actor-7",
                   url: "/movies/default.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 8,
@@ -596,9 +600,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "actor-8",
                   url: "/movies/default.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 9,
@@ -610,9 +614,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "actor-9",
                   url: "/movies/default.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 10,
@@ -624,10 +628,10 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "actor-10",
                   url: "/movies/default.png",
-                }
-              }
-            }
-          }
+                },
+              },
+            },
+          },
         ],
         LeadCrew: [
           {
@@ -640,9 +644,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "crew-1",
                   url: "/movies/default.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 2,
@@ -654,9 +658,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "crew-2",
                   url: "/movies/default.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 3,
@@ -668,9 +672,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "crew-3",
                   url: "/movies/default.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 4,
@@ -682,9 +686,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "crew-4",
                   url: "/movies/default.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 5,
@@ -696,9 +700,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "crew-5",
                   url: "/movies/default.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 6,
@@ -710,9 +714,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "crew-6",
                   url: "/movies/default.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 7,
@@ -724,9 +728,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "crew-7",
                   url: "/movies/default.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 8,
@@ -738,9 +742,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "crew-8",
                   url: "/movies/default.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 9,
@@ -752,9 +756,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "crew-9",
                   url: "/movies/default.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 10,
@@ -766,9 +770,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "crew-10",
                   url: "/movies/default.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 11,
@@ -780,9 +784,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "crew-11",
                   url: "/movies/default.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 12,
@@ -794,9 +798,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "crew-12",
                   url: "/movies/default.png",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 13,
@@ -808,17 +812,18 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "crew-13",
                   url: "/movies/default.png",
-                }
-              }
-            }
-          }
+                },
+              },
+            },
+          },
         ],
         Review: [
           {
             id: 1,
             Reviewer: "Film Companion",
-            ReviewContent: "A haunting tale of love and loss with stunning visuals and powerful performances."
-          }
+            ReviewContent:
+              "A haunting tale of love and loss with stunning visuals and powerful performances.",
+          },
         ],
         Awards: [],
         Videos: [
@@ -827,17 +832,18 @@ export const mockFilmData: ApiFilmData = {
             Title: "Making of Neelavelicham",
             FilmName: "Neelavelicham",
             Views: "75K",
-            ExternalUrl: "https://www.youtube.com/watch?v=making-of-neelavelicham",
+            ExternalUrl:
+              "https://www.youtube.com/watch?v=making-of-neelavelicham",
             ImgThumb: {
               data: {
                 id: 41,
                 attributes: {
                   name: "making-thumb",
-                  url: "/movies/neelavelicham/videos/making-thumb.png"
-                }
-              }
-            }
-          }
+                  url: "/movies/neelavelicham/videos/making-thumb.png",
+                },
+              },
+            },
+          },
         ],
         Music: [
           {
@@ -851,11 +857,11 @@ export const mockFilmData: ApiFilmData = {
                 id: 42,
                 attributes: {
                   name: "music-thumb",
-                  url: "/movies/neelavelicham/music/theme-thumb.png"
-                }
-              }
-            }
-          }
+                  url: "/movies/neelavelicham/music/theme-thumb.png",
+                },
+              },
+            },
+          },
         ],
         Gallery: [
           {
@@ -867,22 +873,22 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "gallery-1",
                   url: "/movies/neeelavelicham/gallery/gallery-1.JPG",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 2,
-            No: "2", 
+            No: "2",
             Image: {
               data: {
                 id: 44,
                 attributes: {
                   name: "gallery-2",
                   url: "/movies/neeelavelicham/gallery/gallery-2.JPG",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 3,
@@ -893,9 +899,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "gallery-3",
                   url: "/movies/neeelavelicham/gallery/gallery-3.JPG",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 4,
@@ -906,9 +912,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "gallery-4",
                   url: "/movies/neeelavelicham/gallery/gallery-4.JPG",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 5,
@@ -919,9 +925,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "gallery-5",
                   url: "/movies/neeelavelicham/gallery/gallery-5.JPG",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 6,
@@ -932,9 +938,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "gallery-6",
                   url: "/movies/neeelavelicham/gallery/gallery-6.JPG",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 7,
@@ -945,9 +951,9 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "gallery-7",
                   url: "/movies/neeelavelicham/gallery/gallery-7.JPG",
-                }
-              }
-            }
+                },
+              },
+            },
           },
           {
             id: 8,
@@ -958,13 +964,12 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "gallery-8",
                   url: "/movies/neeelavelicham/gallery/gallery-8.JPG",
-                }
-              }
-            }
+                },
+              },
+            },
           },
-        
-        ]
-      }
+        ],
+      },
     },
     {
       id: 3,
@@ -973,8 +978,10 @@ export const mockFilmData: ApiFilmData = {
         Year: "2021",
         genere1: "Comedy",
         genere2: "Drama",
-        summary: "The story unfolds in a neighborhood where twenty families reside along a dilapidated road next to a railway track. Everything takes an interesting turn when Bheeman decides to broaden the pathway, leading to unexpected challenges with landowners unwilling to part with their property.",
-        FilmContent: "The story unfolds in a neighborhood where twenty families reside along a dilapidated road next to a railway track. Everything takes an interesting turn when Bheeman decides to broaden the pathway, leading to unexpected challenges with landowners unwilling to part with their property.",
+        summary:
+          "The story unfolds in a neighborhood where twenty families reside along a dilapidated road next to a railway track. Everything takes an interesting turn when Bheeman decides to broaden the pathway, leading to unexpected challenges with landowners unwilling to part with their property.",
+        FilmContent:
+          "The story unfolds in a neighborhood where twenty families reside along a dilapidated road next to a railway track. Everything takes an interesting turn when Bheeman decides to broaden the pathway, leading to unexpected challenges with landowners unwilling to part with their property.",
         Rating: "8.8",
         RunTime: "1h 55m",
         ReleaseDate: "2021-12-03",
@@ -996,17 +1003,17 @@ export const mockFilmData: ApiFilmData = {
             attributes: {
               name: "bheemante-vazhi-poster",
               url: "/movies/card-images/film-card-9.png",
-            }
-          }
+            },
+          },
         },
         TitleImage: {
           data: {
             id: 42,
             attributes: {
               name: "bheemante-vazhi-title",
-              url: "/movies/bheemante-vazhi/bheemante-vazhi-tilte.png", 
-            }
-          }
+              url: "/movies/bheemante-vazhi/bheemante-vazhi-tilte.png",
+            },
+          },
         },
         BannerImage: {
           data: [
@@ -1015,9 +1022,9 @@ export const mockFilmData: ApiFilmData = {
               attributes: {
                 name: "banner-1",
                 url: "/movies/card-images/film-card-9.png",
-              }
-            }
-          ]
+              },
+            },
+          ],
         },
         LeadCast: [
           {
@@ -1029,10 +1036,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 44,
                 attributes: {
                   name: "actor-1",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 2,
@@ -1043,10 +1050,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 45,
                 attributes: {
                   name: "actor-2",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 3,
@@ -1057,10 +1064,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 46,
                 attributes: {
                   name: "actor-3",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 4,
@@ -1071,10 +1078,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 47,
                 attributes: {
                   name: "actor-4",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 5,
@@ -1085,10 +1092,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 48,
                 attributes: {
                   name: "actor-5",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 6,
@@ -1099,10 +1106,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 49,
                 attributes: {
                   name: "actor-6",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 7,
@@ -1113,11 +1120,11 @@ export const mockFilmData: ApiFilmData = {
                 id: 50,
                 attributes: {
                   name: "actor-7",
-                  url: "/movies/default.png"
-                }
-              }
-            }
-          }
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
         ],
         LeadCrew: [
           {
@@ -1129,10 +1136,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 51,
                 attributes: {
                   name: "crew-1",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 2,
@@ -1143,10 +1150,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 52,
                 attributes: {
                   name: "crew-2",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 3,
@@ -1157,10 +1164,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 53,
                 attributes: {
                   name: "crew-3",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 4,
@@ -1171,10 +1178,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 54,
                 attributes: {
                   name: "crew-4",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 5,
@@ -1185,10 +1192,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 55,
                 attributes: {
                   name: "crew-5",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 6,
@@ -1199,10 +1206,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 56,
                 attributes: {
                   name: "crew-6",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 7,
@@ -1213,10 +1220,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 57,
                 attributes: {
                   name: "crew-7",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 8,
@@ -1227,10 +1234,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 58,
                 attributes: {
                   name: "crew-8",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 9,
@@ -1241,10 +1248,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 59,
                 attributes: {
                   name: "crew-9",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 10,
@@ -1255,10 +1262,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 60,
                 attributes: {
                   name: "crew-10",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 11,
@@ -1269,18 +1276,19 @@ export const mockFilmData: ApiFilmData = {
                 id: 61,
                 attributes: {
                   name: "crew-11",
-                  url: "/movies/default.png"
-                }
-              }
-            }
-          }
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
         ],
         Review: [
           {
             id: 1,
             Reviewer: "The Hindu",
-            ReviewContent: "A compelling commentary on modern media ethics with powerful performances."
-          }
+            ReviewContent:
+              "A compelling commentary on modern media ethics with powerful performances.",
+          },
         ],
         Awards: [],
         Videos: [
@@ -1295,11 +1303,11 @@ export const mockFilmData: ApiFilmData = {
                 id: 62,
                 attributes: {
                   name: "bts-thumb",
-                  url: "/movies/bheemante-vazhi/videos/bts-thumb.png"
-                }
-              }
-            }
-          }
+                  url: "/movies/bheemante-vazhi/videos/bts-thumb.png",
+                },
+              },
+            },
+          },
         ],
         Music: [
           {
@@ -1307,17 +1315,18 @@ export const mockFilmData: ApiFilmData = {
             Title: "Bheemante Vazhi Theme",
             FilmName: "Bheemante Vazhi",
             Views: "90K",
-            ExternalUrl: "https://www.youtube.com/watch?v=bheemante-vazhi-theme",
+            ExternalUrl:
+              "https://www.youtube.com/watch?v=bheemante-vazhi-theme",
             ImgThumb: {
               data: {
                 id: 63,
                 attributes: {
                   name: "music-thumb",
-                  url: "/movies/bheemante-vazhi/music/theme-thumb.png"
-                }
-              }
-            }
-          }
+                  url: "/movies/bheemante-vazhi/music/theme-thumb.png",
+                },
+              },
+            },
+          },
         ],
         Gallery: [
           {
@@ -1328,10 +1337,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 64,
                 attributes: {
                   name: "gallery-1",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 2,
@@ -1341,10 +1350,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 65,
                 attributes: {
                   name: "gallery-2",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 3,
@@ -1354,10 +1363,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 66,
                 attributes: {
                   name: "gallery-3",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 4,
@@ -1367,10 +1376,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 67,
                 attributes: {
                   name: "gallery-4",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 5,
@@ -1380,10 +1389,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 68,
                 attributes: {
                   name: "gallery-5",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 6,
@@ -1393,10 +1402,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 69,
                 attributes: {
                   name: "gallery-6",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 7,
@@ -1406,10 +1415,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 70,
                 attributes: {
                   name: "gallery-7",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 8,
@@ -1419,10 +1428,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 71,
                 attributes: {
                   name: "gallery-8",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 9,
@@ -1432,13 +1441,13 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-9",
-                  url: "/movies/default.png"
-                }
-              }
-            }
-          }
-        ]
-      }
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+        ],
+      },
     },
     {
       id: 4,
@@ -1447,8 +1456,10 @@ export const mockFilmData: ApiFilmData = {
         Year: "2023",
         genere1: "Thriller",
         genere2: "Drama",
-        summary: "The obsessive desire to be at the top of the pile ends up turning Chandraprakash, a journalist employed with a popular news channel, into an immoral individual.",
-        FilmContent: "The obsessive desire to be at the top of the pile ends up turning Chandraprakash, a journalist employed with a popular news channel, into an immoral individual.",
+        summary:
+          "The obsessive desire to be at the top of the pile ends up turning Chandraprakash, a journalist employed with a popular news channel, into an immoral individual.",
+        FilmContent:
+          "The obsessive desire to be at the top of the pile ends up turning Chandraprakash, a journalist employed with a popular news channel, into an immoral individual.",
         Rating: "8.8",
         RunTime: "2h 29m",
         ReleaseDate: "2024-07-10",
@@ -1470,8 +1481,8 @@ export const mockFilmData: ApiFilmData = {
             attributes: {
               name: "movie-poster-3",
               url: "/movies/card-images/film-card-3.png",
-            }
-          }
+            },
+          },
         },
         TitleImage: {
           data: {
@@ -1479,8 +1490,8 @@ export const mockFilmData: ApiFilmData = {
             attributes: {
               name: "movie-title-3",
               url: "/movies/naradan/naradan-title-image.png",
-            }
-          }
+            },
+          },
         },
         BannerImage: {
           data: [
@@ -1489,9 +1500,9 @@ export const mockFilmData: ApiFilmData = {
               attributes: {
                 name: "banner-1",
                 url: "/movies/card-images/film-card-3.png",
-              }
-            }
-          ]
+              },
+            },
+          ],
         },
         LeadCast: [
           {
@@ -1503,10 +1514,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 44,
                 attributes: {
                   name: "actor-1",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 2,
@@ -1517,10 +1528,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 45,
                 attributes: {
                   name: "actor-2",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 3,
@@ -1531,10 +1542,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 46,
                 attributes: {
                   name: "actor-3",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 4,
@@ -1545,10 +1556,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 47,
                 attributes: {
                   name: "actor-4",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 5,
@@ -1559,10 +1570,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 48,
                 attributes: {
                   name: "actor-5",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 6,
@@ -1573,10 +1584,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 49,
                 attributes: {
                   name: "actor-6",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 7,
@@ -1587,10 +1598,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 50,
                 attributes: {
                   name: "actor-7",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 8,
@@ -1601,10 +1612,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 51,
                 attributes: {
                   name: "actor-8",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 9,
@@ -1615,10 +1626,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 52,
                 attributes: {
                   name: "actor-9",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 10,
@@ -1629,10 +1640,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 53,
                 attributes: {
                   name: "actor-10",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 11,
@@ -1643,10 +1654,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 54,
                 attributes: {
                   name: "actor-11",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 12,
@@ -1657,10 +1668,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 55,
                 attributes: {
                   name: "actor-12",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 13,
@@ -1671,10 +1682,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 56,
                 attributes: {
                   name: "actor-13",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 14,
@@ -1685,10 +1696,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 57,
                 attributes: {
                   name: "actor-14",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 15,
@@ -1699,10 +1710,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 58,
                 attributes: {
                   name: "actor-15",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 16,
@@ -1713,10 +1724,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 59,
                 attributes: {
                   name: "actor-16",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 17,
@@ -1727,10 +1738,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 60,
                 attributes: {
                   name: "actor-17",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 18,
@@ -1741,10 +1752,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 61,
                 attributes: {
                   name: "actor-18",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 19,
@@ -1755,10 +1766,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 62,
                 attributes: {
                   name: "actor-19",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 20,
@@ -1769,10 +1780,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 63,
                 attributes: {
                   name: "actor-20",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 21,
@@ -1783,11 +1794,11 @@ export const mockFilmData: ApiFilmData = {
                 id: 64,
                 attributes: {
                   name: "actor-21",
-                  url: "/movies/default.png"
-                }
-              }
-            }
-          }
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
         ],
         LeadCrew: [
           {
@@ -1799,13 +1810,13 @@ export const mockFilmData: ApiFilmData = {
                 id: 64,
                 attributes: {
                   name: "crew-1",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
-            id: 2, 
+            id: 2,
             Name: "Unni R.",
             Title: "Writer",
             Image: {
@@ -1813,10 +1824,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 65,
                 attributes: {
                   name: "crew-2",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 3,
@@ -1827,10 +1838,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 66,
                 attributes: {
                   name: "crew-3",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 4,
@@ -1841,10 +1852,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 67,
                 attributes: {
                   name: "crew-4",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 5,
@@ -1855,10 +1866,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 68,
                 attributes: {
                   name: "crew-5",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 6,
@@ -1869,10 +1880,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 69,
                 attributes: {
                   name: "crew-6",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 7,
@@ -1883,10 +1894,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 70,
                 attributes: {
                   name: "crew-7",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 8,
@@ -1897,10 +1908,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 71,
                 attributes: {
                   name: "crew-8",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 9,
@@ -1911,10 +1922,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "crew-9",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 10,
@@ -1925,10 +1936,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "crew-10",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 11,
@@ -1939,10 +1950,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 74,
                 attributes: {
                   name: "crew-11",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 12,
@@ -1953,10 +1964,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 75,
                 attributes: {
                   name: "crew-12",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 13,
@@ -1967,10 +1978,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 76,
                 attributes: {
                   name: "crew-13",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 14,
@@ -1981,10 +1992,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 77,
                 attributes: {
                   name: "crew-14",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 15,
@@ -1995,16 +2006,65 @@ export const mockFilmData: ApiFilmData = {
                 id: 78,
                 attributes: {
                   name: "crew-15",
-                  url: "/movies/default.png"
-                }
-              }
-            }
-          }
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
         ],
         Review: [],
         Awards: [],
         Videos: [],
-        Music: [],
+        Music: [
+          {
+            id: 1,
+            Title: "Naaradan Theme",
+            FilmName: "Naaradan",
+            Views: "230K",
+            ExternalUrl: "https://www.youtube.com/watch?v=naaradan-theme",
+            ImgThumb: {
+              data: {
+                id: 80,
+                attributes: {
+                  name: "music-thumb-1",
+                  url: "/movies/naaradan/music-1.png",
+                },
+              },
+            },
+          },
+          {
+            id: 2,
+            Title: "Onakka Munthiri",
+            FilmName: "Naaradan",
+            Views: "185K",
+            ExternalUrl: "https://www.youtube.com/watch?v=onakka-munthiri",
+            ImgThumb: {
+              data: {
+                id: 81,
+                attributes: {
+                  name: "music-thumb-2",
+                  url: "/movies/naaradan/music-2.png",
+                },
+              },
+            },
+          },
+          {
+            id: 3,
+            Title: "Media Song",
+            FilmName: "Naaradan",
+            Views: "120K",
+            ExternalUrl: "https://www.youtube.com/watch?v=media-song",
+            ImgThumb: {
+              data: {
+                id: 82,
+                attributes: {
+                  name: "music-thumb-3",
+                  url: "/movies/naaradan/music-3.png",
+                },
+              },
+            },
+          }
+        ],
         Gallery: [
           {
             id: 1,
@@ -2014,10 +2074,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 64,
                 attributes: {
                   name: "gallery-1",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 2,
@@ -2027,10 +2087,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 65,
                 attributes: {
                   name: "gallery-2",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 3,
@@ -2040,10 +2100,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 66,
                 attributes: {
                   name: "gallery-3",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 4,
@@ -2053,10 +2113,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 67,
                 attributes: {
                   name: "gallery-4",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 5,
@@ -2066,10 +2126,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 68,
                 attributes: {
                   name: "gallery-5",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 6,
@@ -2079,10 +2139,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 69,
                 attributes: {
                   name: "gallery-6",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 7,
@@ -2092,10 +2152,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 70,
                 attributes: {
                   name: "gallery-7",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 8,
@@ -2105,10 +2165,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 71,
                 attributes: {
                   name: "gallery-8",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 9,
@@ -2118,13 +2178,13 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-9",
-                  url: "/movies/default.png"
-                }
-              }
-            }
-          }
-        ]
-      }
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+        ],
+      },
     },
     {
       id: 5,
@@ -2133,8 +2193,10 @@ export const mockFilmData: ApiFilmData = {
         Year: "2019",
         genere1: "Thriller",
         genere2: "Drama",
-        summary: "The state of Kerala faces a tremendous outbreak of the life-threatening Nipah virus. However, a group of courageous individuals risk their lives in an attempt to curb the epidemic.",
-        FilmContent: "The state of Kerala faces a tremendous outbreak of the life-threatening Nipah virus. However, a group of courageous individuals risk their lives in an attempt to curb the epidemic.",
+        summary:
+          "The state of Kerala faces a tremendous outbreak of the life-threatening Nipah virus. However, a group of courageous individuals risk their lives in an attempt to curb the epidemic.",
+        FilmContent:
+          "The state of Kerala faces a tremendous outbreak of the life-threatening Nipah virus. However, a group of courageous individuals risk their lives in an attempt to curb the epidemic.",
         Rating: "8.7",
         RunTime: "2h 32m",
         ReleaseDate: "2024-09-05",
@@ -2156,8 +2218,8 @@ export const mockFilmData: ApiFilmData = {
             attributes: {
               name: "movie-poster-4",
               url: "/movies/card-images/film-card-4.png",
-            }
-          }
+            },
+          },
         },
         TitleImage: {
           data: {
@@ -2165,8 +2227,8 @@ export const mockFilmData: ApiFilmData = {
             attributes: {
               name: "movie-title-4",
               url: "/movies/virus/virsu-title-image.png",
-            }
-          }
+            },
+          },
         },
         BannerImage: {
           data: [
@@ -2174,10 +2236,10 @@ export const mockFilmData: ApiFilmData = {
               id: 61,
               attributes: {
                 name: "banner-1",
-                url: "/movies/virus/banner-1.png"
-              }
-            }
-          ]
+                url: "/movies/virus/banner-1.png",
+              },
+            },
+          ],
         },
         LeadCast: [
           {
@@ -2189,10 +2251,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 44,
                 attributes: {
                   name: "actor-1",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 2,
@@ -2203,10 +2265,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 45,
                 attributes: {
                   name: "actor-2",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 3,
@@ -2217,10 +2279,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 46,
                 attributes: {
                   name: "actor-3",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 4,
@@ -2231,10 +2293,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 47,
                 attributes: {
                   name: "actor-4",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 5,
@@ -2245,10 +2307,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 48,
                 attributes: {
                   name: "actor-5",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 6,
@@ -2259,10 +2321,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 49,
                 attributes: {
                   name: "actor-6",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 7,
@@ -2273,10 +2335,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 50,
                 attributes: {
                   name: "actor-7",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 8,
@@ -2287,10 +2349,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 51,
                 attributes: {
                   name: "actor-8",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 9,
@@ -2301,10 +2363,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 52,
                 attributes: {
                   name: "actor-9",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 10,
@@ -2315,10 +2377,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 53,
                 attributes: {
                   name: "actor-10",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 11,
@@ -2329,10 +2391,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 54,
                 attributes: {
                   name: "actor-11",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 12,
@@ -2343,10 +2405,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 55,
                 attributes: {
                   name: "actor-12",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 13,
@@ -2357,10 +2419,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 56,
                 attributes: {
                   name: "actor-13",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 14,
@@ -2371,10 +2433,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 57,
                 attributes: {
                   name: "actor-14",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 15,
@@ -2385,10 +2447,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 58,
                 attributes: {
                   name: "actor-15",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 16,
@@ -2399,10 +2461,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 59,
                 attributes: {
                   name: "actor-16",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 17,
@@ -2413,10 +2475,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 60,
                 attributes: {
                   name: "actor-17",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 18,
@@ -2427,10 +2489,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 61,
                 attributes: {
                   name: "actor-18",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 19,
@@ -2441,10 +2503,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 62,
                 attributes: {
                   name: "actor-19",
-                  url: "/movies/default.png"
-                }
-              }
-            }
+                  url: "/movies/default.png",
+                },
+              },
+            },
           },
           {
             id: 20,
@@ -2455,19 +2517,344 @@ export const mockFilmData: ApiFilmData = {
                 id: 63,
                 attributes: {
                   name: "actor-20",
-                  url: "/movies/default.png"
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+        ],
+        LeadCrew: [
+          {
+            id: 1,
+            Name: "Aashiq Abu",
+            Title: "Director / Producer",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "crew-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 2,
+            Name: "Muhsin Parari",
+            Title: "Writer",
+            Image: {
+              data: {
+                id: 74,
+                attributes: {
+                  name: "crew-2", 
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 3,
+            Name: "Sharfu",
+            Title: "Writer",
+            Image: {
+              data: {
+                id: 75,
+                attributes: {
+                  name: "crew-3",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 4,
+            Name: "Suhas",
+            Title: "Writer",
+            Image: {
+              data: {
+                id: 76,
+                attributes: {
+                  name: "crew-4",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 5,
+            Name: "Abid Abu",
+            Title: "Executive Producer",
+            Image: {
+              data: {
+                id: 77,
+                attributes: {
+                  name: "crew-5",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 6,
+            Name: "Wazim Hyder",
+            Title: "Executive Producer",
+            Image: {
+              data: {
+                id: 78,
+                attributes: {
+                  name: "crew-6",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 7,
+            Name: "Rima Kallingal",
+            Title: "Producer",
+            Image: {
+              data: {
+                id: 79,
+                attributes: {
+                  name: "crew-7",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 8,
+            Name: "Santhosh T. Kuruvilla",
+            Title: "Co Producer",
+            Image: {
+              data: {
+                id: 80,
+                attributes: {
+                  name: "crew-8",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 9,
+            Name: "Sushin Shyam",
+            Title: "Composer",
+            Image: {
+              data: {
+                id: 81,
+                attributes: {
+                  name: "crew-9",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 10,
+            Name: "Rajeev Ravi",
+            Title: "Cinematographer",
+            Image: {
+              data: {
+                id: 82,
+                attributes: {
+                  name: "crew-10",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          }
+        ],
+        Review: [],
+        Awards: [],
+        Videos: [
+          {
+            id: 1,
+            Title: "Virus Official Trailer",
+            FilmName: "Virus",
+            Views: "7M",
+            ExternalUrl: "38MijVTyP7s",
+            ImgThumb: {
+              data: {
+                id: 90,
+                attributes: {
+                  name: "video-thumb-1",
+                  url: "https://i.ytimg.com/vi/38MijVTyP7s/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBqf36MT9zgBK2-U_PNKmidWSQTHw"
+                }
+              }
+            }
+          },
+          {
+            id: 2,
+            Title: "Spread Love Song",
+            FilmName: "Virus",
+            Views: "1.1M",
+            ExternalUrl: "1w9WTCoaxgs",
+            ImgThumb: {
+              data: {
+                id: 90,
+                attributes: {
+                  name: "video-thumb-1",
+                  url: "https://i.ytimg.com/vi/1w9WTCoaxgs/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB-BEDCwtYFezvE2pQmJVnOkbOmZw"
                 }
               }
             }
           }
         ],
-        LeadCrew: [],
-        Review: [],
-        Awards: [],
-        Videos: [],
-        Music: [],
-        Gallery: []
-      }
+        Music: [
+          {
+            id: 1,
+            Title: "Spread Love",
+            FilmName: "Virus",
+            Views: "1.1M",
+            ExternalUrl: "https://open.spotify.com/track/2vwgZYCkVro14YMufGBhzg?autoplay=true",
+            ImgThumb: {
+              data: {
+                id: 91,
+                attributes: {
+                  name: "music-thumb-1",
+                  url: "https://i.ytimg.com/vi/1w9WTCoaxgs/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 2, 
+            Title: "Aaromal",
+            FilmName: "Virus",
+            Views: "890K",
+            ExternalUrl: "qxCW6-O8d5M",
+            ImgThumb: {
+              data: {
+                id: 92,
+                attributes: {
+                  name: "music-thumb-2", 
+                  url: "https://i.ytimg.com/vi/qxCW6-O8d5M/hq720.jpg"
+                }
+              }
+            }
+          }
+        ],
+        Gallery: [
+          {
+            id: 1,
+            No: "1",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 2,
+            No: "2", 
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-2",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 3,
+            No: "3",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-3",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 4,
+            No: "4",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-4",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 5,
+            No: "5",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-5",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 6,
+            No: "6",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-6",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 7,
+            No: "7",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-7",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 8,
+            No: "8",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-8",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 9,
+            No: "9",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-9",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+        ],
+      },
     },
     {
       id: 6,
@@ -2476,8 +2863,10 @@ export const mockFilmData: ApiFilmData = {
         Year: "2017",
         genere1: "Romance",
         genere2: "Thriller",
-        summary: "Maathen, who works for a gang, is on the run after accidentally killing a police officer. However, his decision to meet his beloved Aparna before moving out of the country puts his life in danger.",
-        FilmContent: "Maathen, who works for a gang, is on the run after accidentally killing a police officer. However, his decision to meet his beloved Aparna before moving out of the country puts his life in danger.",
+        summary:
+          "Maathen, who works for a gang, is on the run after accidentally killing a police officer. However, his decision to meet his beloved Aparna before moving out of the country puts his life in danger.",
+        FilmContent:
+          "Maathen, who works for a gang, is on the run after accidentally killing a police officer. However, his decision to meet his beloved Aparna before moving out of the country puts his life in danger.",
         Rating: "8.9",
         RunTime: "2h 16m",
         ReleaseDate: "2024-10-15",
@@ -2499,8 +2888,8 @@ export const mockFilmData: ApiFilmData = {
             attributes: {
               name: "movie-poster-5",
               url: "/movies/card-images/film-card-5.png",
-            }
-          }
+            },
+          },
         },
         TitleImage: {
           data: {
@@ -2508,8 +2897,8 @@ export const mockFilmData: ApiFilmData = {
             attributes: {
               name: "movie-title-5",
               url: "/movies/mayanadhi/mayanadhi-title-image.png",
-            }
-          }
+            },
+          },
         },
         BannerImage: {
           data: [
@@ -2517,19 +2906,545 @@ export const mockFilmData: ApiFilmData = {
               id: 62,
               attributes: {
                 name: "banner-1",
-                url: "/movies/mayanadhi/banner-1.png"
-              }
-            }
-          ]
+                url: "/movies/mayanadhi/banner-1.png",
+              },
+            },
+          ],
         },
-        LeadCast: [],
-        LeadCrew: [],
+        LeadCast: [
+          {
+            id: 1,
+            Name: "Aishwarya Lekshmi",
+            Title: "Aparna Ravi aka Appu",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "actor-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 2,
+            Name: "Tovino Thomas", 
+            Title: "John Mathew aka Mathan",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "actor-2",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 3,
+            Name: "Leona Lishoy",
+            Title: "Sameera",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "actor-3",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 4,
+            Name: "Ilavarasu",
+            Title: "Ilavarasu",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "actor-4",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 5,
+            Name: "Harish Uthaman",
+            Title: "Harish",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "actor-5",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 6,
+            Name: "Aparna Balamurali",
+            Title: "Self - Actress (Cameo)",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "actor-6",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 7,
+            Name: "Bijibal",
+            Title: "Self (Cameo)",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "actor-7",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 8,
+            Name: "Shine Tom Chacko",
+            Title: "Shan John (Cameo)",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "actor-8",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 9,
+            Name: "Basil Joseph",
+            Title: "Jinu Joseph",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "actor-9",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 10,
+            Name: "Rajesh Madhavan",
+            Title: "Rajesh",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "actor-10",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 11,
+            Name: "Maya Menon",
+            Title: "Vasumathi",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "actor-11",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 12,
+            Name: "Alphy Panjikaran",
+            Title: "Self - Audition Candidate",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "actor-12",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 13,
+            Name: "Lijo Jose Pellissery",
+            Title: "Len Prasad",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "actor-13",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 14,
+            Name: "Unnimaya Prasad",
+            Title: "Self - Assistant Director",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "actor-14",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 15,
+            Name: "Rachana",
+            Title: "Self - Audition Candidate",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "actor-15",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 16,
+            Name: "Khalid Rahman",
+            Title: "Self - Assistant Director",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "actor-16",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 17,
+            Name: "Darshana Rajendran",
+            Title: "Darshana",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "actor-17",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 18,
+            Name: "Nizhalgal Ravi",
+            Title: "Police Officer",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "actor-18",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 19,
+            Name: "Soubin Shahir",
+            Title: "Sameera's Brother (Cameo)",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "actor-19",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          }
+        ],
+        LeadCrew: [
+          {
+            id: 1,
+            Name: "Aashiq Abu",
+            Title: "Director",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "crew-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 2,
+            Name: "Dileesh Nair",
+            Title: "Writer",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "crew-2", 
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 3,
+            Name: "Syam Pushkaran",
+            Title: "Writer",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "crew-3",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 4,
+            Name: "Aashiq Abu",
+            Title: "Producer",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "crew-4",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 5,
+            Name: "Amal Neerad",
+            Title: "Producer",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "crew-5",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 6,
+            Name: "Rex Vijayan",
+            Title: "Music Composer",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "crew-6",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 7,
+            Name: "Jayesh Mohan",
+            Title: "Cinematographer",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "crew-7",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 8,
+            Name: "Saiju Sreedharan",
+            Title: "Editor",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "crew-8",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 9,
+            Name: "Shiji Pattanam",
+            Title: "Art Director",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "crew-9",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 10,
+            Name: "Sameera Saneesh",
+            Title: "Costume Designer",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "crew-10",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          }
+        ],
         Review: [],
         Awards: [],
         Videos: [],
         Music: [],
-        Gallery: []
-      }
+        Gallery: [
+          {
+            id: 1,
+            No: "1",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 2,
+            No: "2", 
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-2",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 3,
+            No: "3",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-3",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 4,
+            No: "4",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-4",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 5,
+            No: "5",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-5",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 6,
+            No: "6",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-6",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 7,
+            No: "7",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-7",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 8,
+            No: "8",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-8",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 9,
+            No: "9",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-9",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+        ],
+      },
     },
     {
       id: 7,
@@ -2538,8 +3453,10 @@ export const mockFilmData: ApiFilmData = {
         Year: "2016",
         genere1: "Thriller",
         genere2: "Comedy",
-        summary: "Mahesh, a photographer, gets beaten up by a stranger when he tries to solve an issue in his village. He sets out to take revenge on the stranger as he feels insulted after the incident.",
-        FilmContent: "Mahesh, a photographer, gets beaten up by a stranger when he tries to solve an issue in his village. He sets out to take revenge on the stranger as he feels insulted after the incident.",
+        summary:
+          "Mahesh, a photographer, gets beaten up by a stranger when he tries to solve an issue in his village. He sets out to take revenge on the stranger as he feels insulted after the incident.",
+        FilmContent:
+          "Mahesh, a photographer, gets beaten up by a stranger when he tries to solve an issue in his village. He sets out to take revenge on the stranger as he feels insulted after the incident.",
         Rating: "8.6",
         RunTime: "2h 25min",
         ReleaseDate: "2024-11-30",
@@ -2561,8 +3478,8 @@ export const mockFilmData: ApiFilmData = {
             attributes: {
               name: "movie-poster-6",
               url: "/movies/card-images/film-card-6.png",
-            }
-          }
+            },
+          },
         },
         TitleImage: {
           data: {
@@ -2570,8 +3487,8 @@ export const mockFilmData: ApiFilmData = {
             attributes: {
               name: "movie-title-6",
               url: "/movies/maheshinte-prathikaram/maheshinte-prathikaram-title-image.png",
-            }
-          }
+            },
+          },
         },
         BannerImage: {
           data: [
@@ -2579,10 +3496,10 @@ export const mockFilmData: ApiFilmData = {
               id: 63,
               attributes: {
                 name: "banner-1",
-                url: "/movies/maheshinte-prathikaram/banner-1.png"
-              }
-            }
-          ]
+                url: "/movies/maheshinte-prathikaram/banner-1.png",
+              },
+            },
+          ],
         },
         LeadCast: [],
         LeadCrew: [],
@@ -2590,8 +3507,8 @@ export const mockFilmData: ApiFilmData = {
         Awards: [],
         Videos: [],
         Music: [],
-        Gallery: []
-      }
+        Gallery: [],
+      },
     },
     {
       id: 8,
@@ -2600,8 +3517,10 @@ export const mockFilmData: ApiFilmData = {
         Year: "2024",
         genere1: "Crime",
         genere2: "Action",
-        summary: "Sasi Kumar, a young, free-spirited writer who decides to stay in a desolate mansion that is rumored to be haunted by the apparition of a young woman named Bhargavi. The movie takes you on a roller-coaster ride of emotions as Sasi Kumar's journey in the mansion unfolds. Get ready to witness a gripping tale of love, betrayal, and the supernatural.",
-        FilmContent: "Sasi Kumar, a young, free-spirited writer who decides to stay in a desolate mansion that is rumored to be haunted by the apparition of a young woman named Bhargavi. The movie takes you on a roller-coaster ride of emotions as Sasi Kumar's journey in the mansion unfolds. Get ready to witness a gripping tale of love, betrayal, and the supernatural.",
+        summary:
+          "Sasi Kumar, a young, free-spirited writer who decides to stay in a desolate mansion that is rumored to be haunted by the apparition of a young woman named Bhargavi. The movie takes you on a roller-coaster ride of emotions as Sasi Kumar's journey in the mansion unfolds. Get ready to witness a gripping tale of love, betrayal, and the supernatural.",
+        FilmContent:
+          "Sasi Kumar, a young, free-spirited writer who decides to stay in a desolate mansion that is rumored to be haunted by the apparition of a young woman named Bhargavi. The movie takes you on a roller-coaster ride of emotions as Sasi Kumar's journey in the mansion unfolds. Get ready to witness a gripping tale of love, betrayal, and the supernatural.",
         Rating: "9.1",
         RunTime: "2h 30 min",
         ReleaseDate: "2024-12-20",
@@ -2623,8 +3542,8 @@ export const mockFilmData: ApiFilmData = {
             attributes: {
               name: "movie-poster-7",
               url: "/movies/card-images/film-card-7.png",
-            }
-          }
+            },
+          },
         },
         TitleImage: {
           data: {
@@ -2632,8 +3551,8 @@ export const mockFilmData: ApiFilmData = {
             attributes: {
               name: "gangster-title-image",
               url: "/movies/gangster/gangster-title-image.png",
-            }
-          }
+            },
+          },
         },
         BannerImage: {
           data: [
@@ -2641,10 +3560,10 @@ export const mockFilmData: ApiFilmData = {
               id: 64,
               attributes: {
                 name: "banner-1",
-                url: "/movies/gangster/banner-1.png"
-              }
-            }
-          ]
+                url: "/movies/gangster/banner-1.png",
+              },
+            },
+          ],
         },
         LeadCast: [],
         LeadCrew: [],
@@ -2652,8 +3571,8 @@ export const mockFilmData: ApiFilmData = {
         Awards: [],
         Videos: [],
         Music: [],
-        Gallery: []
-      }
+        Gallery: [],
+      },
     },
     {
       id: 9,
@@ -2662,8 +3581,10 @@ export const mockFilmData: ApiFilmData = {
         Year: "2018",
         genere1: "Drama",
         genere2: "Comedy",
-        summary: "When Vavachan Mesthiri dies unexpectedly, his son Eeshi promises to give him a grand funeral. However, a series of unfortunate events creates obstacles in fulfilling his promise.",
-        FilmContent: "When Vavachan Mesthiri dies unexpectedly, his son Eeshi promises to give him a grand funeral. However, a series of unfortunate events creates obstacles in fulfilling his promise.",
+        summary:
+          "When Vavachan Mesthiri dies unexpectedly, his son Eeshi promises to give him a grand funeral. However, a series of unfortunate events creates obstacles in fulfilling his promise.",
+        FilmContent:
+          "When Vavachan Mesthiri dies unexpectedly, his son Eeshi promises to give him a grand funeral. However, a series of unfortunate events creates obstacles in fulfilling his promise.",
         Rating: "8.4",
         RunTime: "2h 00min",
         ReleaseDate: "2018-05-04",
@@ -2685,8 +3606,8 @@ export const mockFilmData: ApiFilmData = {
             attributes: {
               name: "movie-poster-8",
               url: "/movies/card-images/film-card-8.png",
-            }
-          }
+            },
+          },
         },
         TitleImage: {
           data: {
@@ -2694,8 +3615,8 @@ export const mockFilmData: ApiFilmData = {
             attributes: {
               name: "movie-title-8",
               url: "/movies/ee-ma-yau/ee-ma-yau-title-image.png",
-            }
-          }
+            },
+          },
         },
         BannerImage: {
           data: [
@@ -2703,10 +3624,10 @@ export const mockFilmData: ApiFilmData = {
               id: 65,
               attributes: {
                 name: "banner-1",
-                url: "/movies/ee-ma-yau/banner-1.png"
-              }
-            }
-          ]
+                url: "/movies/ee-ma-yau/banner-1.png",
+              },
+            },
+          ],
         },
         LeadCast: [],
         LeadCrew: [],
@@ -2714,8 +3635,8 @@ export const mockFilmData: ApiFilmData = {
         Awards: [],
         Videos: [],
         Music: [],
-        Gallery: []
-      }
+        Gallery: [],
+      },
     },
     {
       id: 10,
@@ -2724,8 +3645,10 @@ export const mockFilmData: ApiFilmData = {
         Year: "2020",
         genere1: "Comedy",
         genere2: "Drama",
-        summary: "A committee entrusted with making a 'halal' film according to Islamic law, hires a director and actors to make a film that would fit their requirements. However, the team faces multiple issues on the set.",
-        FilmContent: "A committee entrusted with making a 'halal' film according to Islamic law, hires a director and actors to make a film that would fit their requirements. However, the team faces multiple issues on the set.",
+        summary:
+          "A committee entrusted with making a 'halal' film according to Islamic law, hires a director and actors to make a film that would fit their requirements. However, the team faces multiple issues on the set.",
+        FilmContent:
+          "A committee entrusted with making a 'halal' film according to Islamic law, hires a director and actors to make a film that would fit their requirements. However, the team faces multiple issues on the set.",
         Rating: "7.2",
         RunTime: "1h 50min",
         ReleaseDate: "2020-10-15",
@@ -2747,8 +3670,8 @@ export const mockFilmData: ApiFilmData = {
             attributes: {
               name: "movie-poster-9",
               url: "/movies/card-images/film-card-10.png",
-            }
-          }
+            },
+          },
         },
         TitleImage: {
           data: {
@@ -2756,8 +3679,8 @@ export const mockFilmData: ApiFilmData = {
             attributes: {
               name: "movie-title-9",
               url: "/movies/halal-love-story/halal-love-story-title-image.png",
-            }
-          }
+            },
+          },
         },
         BannerImage: {
           data: [
@@ -2765,10 +3688,10 @@ export const mockFilmData: ApiFilmData = {
               id: 66,
               attributes: {
                 name: "banner-1",
-                url: "/movies/halal-love-story/banner-1.png"
-              }
-            }
-          ]
+                url: "/movies/halal-love-story/banner-1.png",
+              },
+            },
+          ],
         },
         LeadCast: [],
         LeadCrew: [],
@@ -2776,8 +3699,8 @@ export const mockFilmData: ApiFilmData = {
         Awards: [],
         Videos: [],
         Music: [],
-        Gallery: []
-      }
+        Gallery: [],
+      },
     },
     {
       id: 11,
@@ -2786,8 +3709,10 @@ export const mockFilmData: ApiFilmData = {
         Year: "2021",
         genere1: "Drama",
         genere2: "Mystery",
-        summary: "During the COVID-19 lockdown, Roy and Shirley travel to Kerala to stay with Shirley's father, a retired math teacher. As they spend time together, dark secrets from the past begin to surface.",
-        FilmContent: "During the COVID-19 lockdown, Roy and Shirley travel to Kerala to stay with Shirley's father, a retired math teacher. As they spend time together, dark secrets from the past begin to surface.",
+        summary:
+          "During the COVID-19 lockdown, Roy and Shirley travel to Kerala to stay with Shirley's father, a retired math teacher. As they spend time together, dark secrets from the past begin to surface.",
+        FilmContent:
+          "During the COVID-19 lockdown, Roy and Shirley travel to Kerala to stay with Shirley's father, a retired math teacher. As they spend time together, dark secrets from the past begin to surface.",
         Rating: "7.5",
         RunTime: "2h 21min",
         ReleaseDate: "2021-04-15",
@@ -2809,8 +3734,8 @@ export const mockFilmData: ApiFilmData = {
             attributes: {
               name: "movie-poster-10",
               url: "/movies/card-images/film-card-11.png",
-            }
-          }
+            },
+          },
         },
         TitleImage: {
           data: {
@@ -2818,8 +3743,8 @@ export const mockFilmData: ApiFilmData = {
             attributes: {
               name: "movie-title-10",
               url: "/movies/aarkkariyam/aarkkariyam-title-image.png",
-            }
-          }
+            },
+          },
         },
         BannerImage: {
           data: [
@@ -2827,10 +3752,10 @@ export const mockFilmData: ApiFilmData = {
               id: 67,
               attributes: {
                 name: "banner-1",
-                url: "/movies/aarkkariyam/banner-1.png"
-              }
-            }
-          ]
+                url: "/movies/aarkkariyam/banner-1.png",
+              },
+            },
+          ],
         },
         LeadCast: [],
         LeadCrew: [],
@@ -2838,16 +3763,16 @@ export const mockFilmData: ApiFilmData = {
         Awards: [],
         Videos: [],
         Music: [],
-        Gallery: []
-      }
-    }
+        Gallery: [],
+      },
+    },
   ],
   meta: {
     pagination: {
       page: 1,
       pageSize: 25,
       pageCount: 1,
-      total: 11
-    }
-  }
+      total: 11,
+    },
+  },
 };
