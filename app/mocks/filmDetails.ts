@@ -295,38 +295,70 @@ export const mockFilmData: ApiFilmData = {
         Videos: [
           {
             id: 1,
-            Title: "Behind the Scenes",
-            FilmName: "The Last Journey",
-            Views: "50K",
-            ExternalUrl: "https://www.youtube.com/watch?v=example2",
+            Title: "Rifle Club Official Trailer",
+            FilmName: "Rifle Club",
+            Views: "850K",
+            ExternalUrl: "_HacZSM24mA",
             ImgThumb: {
               data: {
-                id: 8,
+                id: 90,
                 attributes: {
                   name: "video-thumb-1",
-                  url: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=300",
-                },
-              },
-            },
-          },
+                  url: "https://i.ytimg.com/vi/_HacZSM24mA/hq720.jpg"
+                }
+              }
+            }
+          }
         ],
         Music: [
           {
             id: 1,
-            Title: "Journey's Theme",
-            FilmName: "The Last Journey",
-            Views: "100K",
-            ExternalUrl: "https://www.youtube.com/watch?v=example3",
+            Title: "Killer On The Loose",
+            FilmName: "Rifle Club",
+            Views: "650K",
+            ExternalUrl: "https://youtu.be/zL4cULLyBJY?si=cqyxo71CLVWRkq2x",
             ImgThumb: {
               data: {
-                id: 9,
+                id: 91,
                 attributes: {
                   name: "music-thumb-1",
-                  url: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=300",
-                },
-              },
-            },
+                  url: "https://i.ytimg.com/vi/zL4cULLyBJY/hq720.jpg"
+                }
+              }
+            }
           },
+          {
+            id: 2,
+            Title: "Nayattu Prarthana ",
+            FilmName: "Rifle Club", 
+            Views: "450K",
+            ExternalUrl: "https://youtu.be/9Cyns6JajLI?si=LTD2R0-4GlBeHBoT",
+            ImgThumb: {
+              data: {
+                id: 92,
+                attributes: {
+                  name: "music-thumb-2",
+                  url: "https://i.ytimg.com/vi/9Cyns6JajLI/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 3,
+            Title: "Gandharva Ganam",
+            FilmName: "Rifle Club",
+            Views: "320K",
+            ExternalUrl: "https://youtu.be/TbCRTGhQ_hI?si=tJCk8AyciJzS1HNH",
+            ImgThumb: {
+              data: {
+                id: 93,
+                attributes: {
+                  name: "music-thumb-3",
+                  url: "https://i.ytimg.com/vi/TbCRTGhQ_hI/hq720.jpg"
+                }
+              }
+            }
+          }
         ],
         Gallery: [
           {
@@ -829,39 +861,87 @@ export const mockFilmData: ApiFilmData = {
         Videos: [
           {
             id: 1,
-            Title: "Making of Neelavelicham",
+            Title: "Neelavelicham Official Trailer",
             FilmName: "Neelavelicham",
-            Views: "75K",
-            ExternalUrl:
-              "https://www.youtube.com/watch?v=making-of-neelavelicham",
+            Views: "1.2M",
+            ExternalUrl: "jOOO00WJRWw",
             ImgThumb: {
               data: {
                 id: 41,
                 attributes: {
-                  name: "making-thumb",
-                  url: "/movies/neelavelicham/videos/making-thumb.png",
-                },
-              },
-            },
-          },
+                  name: "video-thumb-1",
+                  url: "https://i.ytimg.com/vi/jOOO00WJRWw/hq720.jpg"
+                }
+              }
+            }
+          }
         ],
         Music: [
           {
             id: 1,
-            Title: "Neelavelicham Theme",
+            Title: "Pottithakarnna Kinavu",
             FilmName: "Neelavelicham",
-            Views: "120K",
-            ExternalUrl: "https://www.youtube.com/watch?v=neelavelicham-theme",
+            Views: "850K", 
+            ExternalUrl: "https://youtu.be/SkBrZoG9jng",
             ImgThumb: {
               data: {
                 id: 42,
                 attributes: {
-                  name: "music-thumb",
-                  url: "/movies/neelavelicham/music/theme-thumb.png",
-                },
-              },
-            },
+                  name: "music-thumb-1",
+                  url: "https://i.ytimg.com/vi/SkBrZoG9jng/hq720.jpg"
+                }
+              }
+            }
           },
+          {
+            id: 2,
+            Title: "Vasantha Panchami",
+            FilmName: "Neelavelicham",
+            Views: "650K",
+            ExternalUrl: "https://youtu.be/CkqvBJLus3A",
+            ImgThumb: {
+              data: {
+                id: 43,
+                attributes: {
+                  name: "music-thumb-2", 
+                  url: "https://i.ytimg.com/vi/CkqvBJLus3A/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 3,
+            Title: "Anuraga Madhuchashakam",
+            FilmName: "Neelavelicham", 
+            Views: "450K",
+            ExternalUrl: "https://youtu.be/dw8iPOE_R3A",
+            ImgThumb: {
+              data: {
+                id: 44,
+                attributes: {
+                  name: "music-thumb-3",
+                  url: "https://i.ytimg.com/vi/dw8iPOE_R3A/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 4,
+            Title: "Thamasamenthe Varuvan ",
+            FilmName: "Neelavelicham",
+            Views: "320K",
+            ExternalUrl: "https://youtu.be/mIXncepNj2k",
+            ImgThumb: {
+              data: {
+                id: 45,
+                attributes: {
+                  name: "music-thumb-4",
+                  url: "https://i.ytimg.com/vi/mIXncepNj2k/hq720.jpg"
+                }
+              }
+            }
+          },
+         
         ],
         Gallery: [
           {
@@ -1294,39 +1374,70 @@ export const mockFilmData: ApiFilmData = {
         Videos: [
           {
             id: 1,
-            Title: "Behind the Scenes",
+            Title: "Bheemante Vazhi Official Trailer",
             FilmName: "Bheemante Vazhi",
-            Views: "60K",
-            ExternalUrl: "https://www.youtube.com/watch?v=bheemante-vazhi-bts",
+            Views: "850K",
+            ExternalUrl: "6jr0-y7L4IM",
             ImgThumb: {
               data: {
                 id: 62,
                 attributes: {
-                  name: "bts-thumb",
-                  url: "/movies/bheemante-vazhi/videos/bts-thumb.png",
-                },
-              },
-            },
-          },
+                  name: "video-thumb-1",
+                  url: "https://i.ytimg.com/vi/6jr0-y7L4IM/hq720.jpg"
+                }
+              }
+            }
+          }
         ],
         Music: [
           {
             id: 1,
-            Title: "Bheemante Vazhi Theme",
+            Title: "Oruthi - Song",
             FilmName: "Bheemante Vazhi",
-            Views: "90K",
-            ExternalUrl:
-              "https://www.youtube.com/watch?v=bheemante-vazhi-theme",
+            Views: "750K",
+            ExternalUrl: "https://youtu.be/qxvmbw-tNG0?si=AA7XdgTu-ANv3du4",
             ImgThumb: {
               data: {
                 id: 63,
                 attributes: {
-                  name: "music-thumb",
-                  url: "/movies/bheemante-vazhi/music/theme-thumb.png",
-                },
-              },
-            },
+                  name: "music-thumb-1",
+                  url: "https://i.ytimg.com/vi/qxvmbw-tNG0/hq720.jpg"
+                }
+              }
+            }
           },
+          {
+            id: 2,
+            Title: "Bheemante Vazhippaattu",
+            FilmName: "Bheemante Vazhi",
+            Views: "650K", 
+            ExternalUrl: "https://youtu.be/CcYh17Rc5yU?si=3fzaKLy-DaAvX_T7",
+            ImgThumb: {
+              data: {
+                id: 64,
+                attributes: {
+                  name: "music-thumb-2",
+                  url: "https://i.ytimg.com/vi/CcYh17Rc5yU/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 3,
+            Title: "Pale Pole Song ",
+            FilmName: "Bheemante Vazhi",
+            Views: "550K",
+            ExternalUrl: "https://youtu.be/rgnMEuiID8g?si=6x5ck8-2aa9g9hgG",
+            ImgThumb: {
+              data: {
+                id: 65,
+                attributes: {
+                  name: "music-thumb-3",
+                  url: "https://i.ytimg.com/vi/rgnMEuiID8g/hq720.jpg"
+                }
+              }
+            }
+          }
         ],
         Gallery: [
           {
@@ -3323,8 +3434,106 @@ export const mockFilmData: ApiFilmData = {
         ],
         Review: [],
         Awards: [],
-        Videos: [],
-        Music: [],
+        Videos: [
+          {
+            id: 1,
+            Title: "Mayaanadhi Official Trailer",
+            FilmName: "Mayaanadhi",
+            Views: "2.1M",
+            ExternalUrl: "RYYxyNxr_4E",
+            ImgThumb: {
+              data: {
+                id: 90,
+                attributes: {
+                  name: "video-thumb-1",
+                  url: "https://i.ytimg.com/vi/RYYxyNxr_4E/hq720.jpg"
+                }
+              }
+            }
+          }
+        ],
+        Music: [
+          {
+            id: 1,
+            Title: "Mizhiyil Ninnum",
+            FilmName: "Mayaanadhi",
+            Views: "15M",
+            ExternalUrl: "https://youtu.be/4q5o3Tiwcmc",
+            ImgThumb: {
+              data: {
+                id: 91,
+                attributes: {
+                  name: "music-thumb-1",
+                  url: "https://i.ytimg.com/vi/4q5o3Tiwcmc/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 2,
+            Title: "Kaatil",
+            FilmName: "Mayaanadhi", 
+            Views: "3.2M",
+            ExternalUrl: "https://youtu.be/D62rYLhBVVE",
+            ImgThumb: {
+              data: {
+                id: 92,
+                attributes: {
+                  name: "music-thumb-2",
+                  url: "https://i.ytimg.com/vi/D62rYLhBVVE/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 3,
+            Title: "Uyirin Nadhiye",
+            FilmName: "Mayaanadhi",
+            Views: "8.5M", 
+            ExternalUrl: "https://youtu.be/OF_F1_kfalw",
+            ImgThumb: {
+              data: {
+                id: 93,
+                attributes: {
+                  name: "music-thumb-3",
+                  url: "https://i.ytimg.com/vi/OF_F1_kfalw/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 4,
+            Title: "Thaarum Poovilum",
+            FilmName: "Mayaanadhi",
+            Views: "1.8M",
+            ExternalUrl: "https://youtu.be/vq5jfc2-1s4",
+            ImgThumb: {
+              data: {
+                id: 94,
+                attributes: {
+                  name: "music-thumb-4",
+                  url: "https://i.ytimg.com/vi/vq5jfc2-1s4/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 5,
+            Title: "Ee Kaattu",
+            FilmName: "Mayaanadhi",
+            Views: "950K",
+            ExternalUrl: "https://youtu.be/t5AVSpUiQI8",
+            ImgThumb: {
+              data: {
+                id: 95,
+                attributes: {
+                  name: "music-thumb-5",
+                  url: "https://i.ytimg.com/vi/t5AVSpUiQI8/hq720.jpg"
+                }
+              }
+            }
+          }
+        ],
         Gallery: [
           {
             id: 1,
@@ -3496,7 +3705,28 @@ export const mockFilmData: ApiFilmData = {
               id: 63,
               attributes: {
                 name: "banner-1",
-                url: "/movies/maheshinte-prathikaram/banner-1.png",
+                url: "/movies/maheshinte-prathikaram/banner-01.png",
+              },
+            },
+            {
+              id: 64,
+              attributes: {
+                name: "banner-2",
+                url: "/movies/maheshinte-prathikaram/banner-02.png",
+              },
+            },
+            {
+              id: 65,
+              attributes: {
+                name: "banner-3",
+                url: "/movies/maheshinte-prathikaram/banner-03.png",
+              },
+            },
+            {
+              id: 66,
+              attributes: {
+                name: "banner-4",
+                url: "/movies/maheshinte-prathikaram/banner-04.png",
               },
             },
           ],
@@ -3958,8 +4188,8 @@ export const mockFilmData: ApiFilmData = {
         Videos: [
           {
             id: 1,
-            Title: "Gangster Official Trailer",
-            FilmName: "Gangster",
+            Title: "Maheshinte Prathikaram Official Trailer",
+            FilmName: "Maheshinte Prathikaram",
             Views: "2.1M",
             ExternalUrl: "_KY8Du4WWew",
             ImgThumb: {
@@ -3974,8 +4204,8 @@ export const mockFilmData: ApiFilmData = {
           },
           {
             id: 2,
-            Title: "Nee Himamazhayayi",
-            FilmName: "Gangster",
+            Title: "Idukki",
+            FilmName: "Maheshinte Prathikaram",
             Views: "1.5M", 
             ExternalUrl: "NL5bYMXCSJ0",
             ImgThumb: {
@@ -3990,8 +4220,8 @@ export const mockFilmData: ApiFilmData = {
           },
           {
             id: 3,
-            Title: "Ee Raathri",
-            FilmName: "Gangster",
+            Title: "Cherupunjiri",
+            FilmName: "Maheshinte Prathikaram",
             Views: "980K",
             ExternalUrl: "O9768O9ezRA",
             ImgThumb: {
@@ -4006,8 +4236,8 @@ export const mockFilmData: ApiFilmData = {
           },
           {
             id: 4,
-            Title: "Gangster Jukebox",
-            FilmName: "Gangster",
+            Title: "Maheshinte Prathikaram Jukebox",
+            FilmName: "Maheshinte Prathikaram",
             Views: "500K",
             ExternalUrl: "sJLsgEWGYNA",
             ImgThumb: {
@@ -4024,8 +4254,8 @@ export const mockFilmData: ApiFilmData = {
         Music: [
           {
             id: 1,
-            Title: "Nee Himamazhayayi",
-            FilmName: "Gangster",
+            Title: "Idukki",
+            FilmName: "Maheshinte Prathikaram",
             Views: "1.5M",
             ExternalUrl: "NL5bYMXCSJ0",
             ImgThumb: {
@@ -4040,8 +4270,8 @@ export const mockFilmData: ApiFilmData = {
           },
           {
             id: 2,
-            Title: "Ee Raathri",
-            FilmName: "Gangster", 
+            Title: "Cherupunjiri",
+            FilmName: "Maheshinte Prathikaram", 
             Views: "980K",
             ExternalUrl: "O9768O9ezRA",
             ImgThumb: {
@@ -4056,8 +4286,8 @@ export const mockFilmData: ApiFilmData = {
           },
           {
             id: 3,
-            Title: "Gangster Theme",
-            FilmName: "Gangster",
+            Title: "Maheshinte Prathikaram Theme",
+            FilmName: "Maheshinte Prathikaram",
             Views: "750K", 
             ExternalUrl: "n9nMI4cf_F4",
             ImgThumb: {
@@ -4072,8 +4302,8 @@ export const mockFilmData: ApiFilmData = {
           },
           {
             id: 4,
-            Title: "Gangster Theme BGM",
-            FilmName: "Gangster",
+            Title: "Maheshinte Prathikaram BGM",
+            FilmName: "Maheshinte Prathikaram",
             Views: "600K",
             ExternalUrl: "BMoCF_utpoU",
             ImgThumb: {
@@ -4087,7 +4317,125 @@ export const mockFilmData: ApiFilmData = {
             }
           }
         ],
-        Gallery: [],
+        Gallery: [
+          {
+            id: 1,
+            No: "1",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 2,
+            No: "2", 
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-2",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 3,
+            No: "3",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-3",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 4,
+            No: "4",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-4",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 5,
+            No: "5",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-5",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 6,
+            No: "6",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-6",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 7,
+            No: "7",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-7",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 8,
+            No: "8",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-8",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 9,
+            No: "9",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-9",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+        ],
       },
     },
     {
@@ -4145,8 +4493,346 @@ export const mockFilmData: ApiFilmData = {
             },
           ],
         },
-        LeadCast: [],
-        LeadCrew: [],
+        LeadCast: [
+          {
+            id: 1,
+            Name: "Mammootty",
+            Title: "Akbar Ali",
+            Image: {
+              data: {
+                id: 74,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 2,
+            Name: "Ashwath Bhatt",
+            Title: "Raghvendra Rathore",
+            Image: {
+              data: {
+                id: 75,
+                attributes: {
+                  name: "cast-2",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 3,
+            Name: "Favour Francis",
+            Title: "Owner of Hotel Rahath",
+            Image: {
+              data: {
+                id: 76,
+                attributes: {
+                  name: "cast-3",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 4,
+            Name: "Aparna Gopinath",
+            Title: "Lilly",
+            Image: {
+              data: {
+                id: 77,
+                attributes: {
+                  name: "cast-4",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 5,
+            Name: "Kunchan",
+            Title: "Mani Menon",
+            Image: {
+              data: {
+                id: 78,
+                attributes: {
+                  name: "cast-5",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 6,
+            Name: "Parvathy Menon",
+            Title: "Sekhar Menon",
+            Image: {
+              data: {
+                id: 79,
+                attributes: {
+                  name: "cast-6",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 7,
+            Name: "Anto",
+            Title: "Sandeep Narayan",
+            Image: {
+              data: {
+                id: 80,
+                attributes: {
+                  name: "cast-7",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 8,
+            Name: "Alexx O'Nell",
+            Title: "Tom",
+            Image: {
+              data: {
+                id: 81,
+                attributes: {
+                  name: "cast-8",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 9,
+            Name: "Hareesh Peradi",
+            Title: "Hareesh Peradi",
+            Image: {
+              data: {
+                id: 82,
+                attributes: {
+                  name: "cast-9",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 10,
+            Name: "Dileesh Pothan",
+            Title: "Vidhura",
+            Image: {
+              data: {
+                id: 83,
+                attributes: {
+                  name: "cast-10",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 11,
+            Name: "T.G. Ravi",
+            Title: "Hajikka",
+            Image: {
+              data: {
+                id: 84,
+                attributes: {
+                  name: "cast-11",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 12,
+            Name: "Ahmed Sidhique",
+            Title: "Cameo",
+            Image: {
+              data: {
+                id: 85,
+                attributes: {
+                  name: "cast-12",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 13,
+            Name: "Subeesh Sudhi",
+            Title: "Subeesh Sudhi",
+            Image: {
+              data: {
+                id: 86,
+                attributes: {
+                  name: "cast-13",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 14,
+            Name: "Nyla Usha",
+            Title: "Sana Ibrahim",
+            Image: {
+              data: {
+                id: 87,
+                attributes: {
+                  name: "cast-14",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+        ],
+        LeadCrew: [
+          {
+            id: 1,
+            Name: "Aashiq Abu",
+            Title: "Director",
+            Image: {
+              data: {
+                id: 67,
+                attributes: {
+                  name: "crew-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 2,
+            Name: "Abhilash Kumar",
+            Title: "Story, Screenplay, Dialogue Writer",
+            Image: {
+              data: {
+                id: 68,
+                attributes: {
+                  name: "crew-2", 
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 3,
+            Name: "Ahmed Sidhique",
+            Title: "Writer",
+            Image: {
+              data: {
+                id: 69,
+                attributes: {
+                  name: "crew-3",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 4,
+            Name: "Deepak Dev",
+            Title: "Music Composer",
+            Image: {
+              data: {
+                id: 70,
+                attributes: {
+                  name: "crew-4",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 5,
+            Name: "Alby Antony",
+            Title: "Director of Photography",
+            Image: {
+              data: {
+                id: 71,
+                attributes: {
+                  name: "crew-5",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 6,
+            Name: "Saiju Sreedharan",
+            Title: "Editor",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "crew-6",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 7,
+            Name: "Madhu C. Narayanan",
+            Title: "Associate Director",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "crew-7",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 8,
+            Name: "Dileesh Pothan",
+            Title: "Associate Director",
+            Image: {
+              data: {
+                id: 74,
+                attributes: {
+                  name: "crew-8",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 9,
+            Name: "Preejith Balan",
+            Title: "Visual Effects Supervisor",
+            Image: {
+              data: {
+                id: 75,
+                attributes: {
+                  name: "crew-9",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 10,
+            Name: "Monti Dolo",
+            Title: "Line Producer",
+            Image: {
+              data: {
+                id: 76,
+                attributes: {
+                  name: "crew-10",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          }
+        ],
         Review: [],
         Awards: [],
         Videos: [
@@ -4217,7 +4903,125 @@ export const mockFilmData: ApiFilmData = {
             }
           }
         ],
-        Gallery: [],
+        Gallery: [
+          {
+            id: 1,
+            No: "1",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 2,
+            No: "2", 
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-2",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 3,
+            No: "3",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-3",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 4,
+            No: "4",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-4",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 5,
+            No: "5",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-5",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 6,
+            No: "6",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-6",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 7,
+            No: "7",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-7",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 8,
+            No: "8",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-8",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 9,
+            No: "9",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-9",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+        ],
       },
     },
     {
@@ -4275,13 +5079,424 @@ export const mockFilmData: ApiFilmData = {
             },
           ],
         },
-        LeadCast: [],
-        LeadCrew: [],
+        LeadCast: [
+          {
+            id: 1,
+            Name: "Kainakary Thankaraj",
+            Title: "Valiyathuparambil Vavachan Mesthiri",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 2,
+            Name: "Chemban Vinod Jose",
+            Title: "Eeshi, Vavachan's son",
+            Image: {
+              data: {
+                id: 102,
+                attributes: {
+                  name: "cast-2",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 3,
+            Name: "Vinayakan",
+            Title: "Ayyappan, Eeshi's friend",
+            Image: {
+              data: {
+                id: 103,
+                attributes: {
+                  name: "cast-3",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 4,
+            Name: "Pauly Valsan",
+            Title: "Pennamma (Mariam Thressia), Vavachan's wife",
+            Image: {
+              data: {
+                id: 104,
+                attributes: {
+                  name: "cast-4",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 5,
+            Name: "Dileesh Pothan",
+            Title: "Fr. Zacharia Parappurathu (Vicar)",
+            Image: {
+              data: {
+                id: 105,
+                attributes: {
+                  name: "cast-5",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 6,
+            Name: "Arya Salim",
+            Title: "Elisabeth (Sabeth), Eeshi's wife",
+            Image: {
+              data: {
+                id: 106,
+                attributes: {
+                  name: "cast-6",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 7,
+            Name: "Bitto Davis",
+            Title: "Paanji",
+            Image: {
+              data: {
+                id: 107,
+                attributes: {
+                  name: "cast-7",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 8,
+            Name: "Krishna P.",
+            Title: "Nissa (Agnissa)",
+            Image: {
+              data: {
+                id: 108,
+                attributes: {
+                  name: "cast-8",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 9,
+            Name: "Kunjunju",
+            Title: "Chowro",
+            Image: {
+              data: {
+                id: 109,
+                attributes: {
+                  name: "cast-9",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 10,
+            Name: "Sudarshanan",
+            Title: "Manikan",
+            Image: {
+              data: {
+                id: 110,
+                attributes: {
+                  name: "cast-10",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 11,
+            Name: "Anson",
+            Title: "C.I. Mathen",
+            Image: {
+              data: {
+                id: 111,
+                attributes: {
+                  name: "cast-11",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 12,
+            Name: "Liji",
+            Title: "Karuthamolly",
+            Image: {
+              data: {
+                id: 112,
+                attributes: {
+                  name: "cast-12",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+        ],
+        LeadCrew: [
+          {
+            id: 1,
+            Name: "Lijo Jose Pellissery",
+            Title: "Director",
+            Image: {
+              data: {
+                id: 120,
+                attributes: {
+                  name: "crew-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 2,
+            Name: "Aashiq Abu",
+            Title: "Producer",
+            Image: {
+              data: {
+                id: 121,
+                attributes: {
+                  name: "crew-2",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 3,
+            Name: "Rajesh George Kulangara",
+            Title: "Producer",
+            Image: {
+              data: {
+                id: 122,
+                attributes: {
+                  name: "crew-3",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+        ],
         Review: [],
         Awards: [],
-        Videos: [],
+        Videos: [
+          {
+            id: 1,
+            Title: "Ee.Ma.Yau Official Trailer",
+            FilmName: "Ee.Ma.Yau",
+            Views: "1.2M",
+            ExternalUrl: "b8WZa0GvNYs",
+            ImgThumb: {
+              data: {
+                id: 90,
+                attributes: {
+                  name: "video-thumb-1",
+                  url: "https://i.ytimg.com/vi/b8WZa0GvNYs/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 2,
+            Title: "Ee.Ma.Yau Trailer 2",
+            FilmName: "Ee.Ma.Yau",
+            Views: "890K",
+            ExternalUrl: "SweKJ8VVXCU",
+            ImgThumb: {
+              data: {
+                id: 91,
+                attributes: {
+                  name: "video-thumb-2",
+                  url: "https://i.ytimg.com/vi/SweKJ8VVXCU/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 3,
+            Title: "Ee.Ma.Yau Teaser",
+            FilmName: "Ee.Ma.Yau",
+            Views: "650K",
+            ExternalUrl: "eCHffAm0704",
+            ImgThumb: {
+              data: {
+                id: 92,
+                attributes: {
+                  name: "video-thumb-3",
+                  url: "https://i.ytimg.com/vi/eCHffAm0704/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 4,
+            Title: "Ee.Ma.Yau Teaser 2",
+            FilmName: "Ee.Ma.Yau",
+            Views: "450K",
+            ExternalUrl: "dXh_w18uO64",
+            ImgThumb: {
+              data: {
+                id: 93,
+                attributes: {
+                  name: "video-thumb-4",
+                  url: "https://i.ytimg.com/vi/dXh_w18uO64/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 5,
+            Title: "Ee.Ma.Yau Teaser 3",
+            FilmName: "Ee.Ma.Yau",
+            Views: "320K",
+            ExternalUrl: "kfrqCh5xWFY",
+            ImgThumb: {
+              data: {
+                id: 94,
+                attributes: {
+                  name: "video-thumb-5",
+                  url: "https://i.ytimg.com/vi/kfrqCh5xWFY/hq720.jpg"
+                }
+              }
+            }
+          }
+        ],
         Music: [],
-        Gallery: [],
+        Gallery: [
+          {
+            id: 1,
+            No: "1",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 2,
+            No: "2", 
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-2",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 3,
+            No: "3",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-3",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 4,
+            No: "4",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-4",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 5,
+            No: "5",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-5",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 6,
+            No: "6",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-6",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 7,
+            No: "7",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-7",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 8,
+            No: "8",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-8",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 9,
+            No: "9",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-9",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+        ],
       },
     },
     {
@@ -4306,8 +5521,8 @@ export const mockFilmData: ApiFilmData = {
         Aspect_Ratio: "2.35:1",
         createdAt: "2024-09-01T00:00:00.000Z",
         updatedAt: "2024-09-01T00:00:00.000Z",
-        Trailer_url: "https://www.youtube.com/watch?v=halal-love-story-trailer",
-        MovieUrl: "https://www.example.com/watch/halal-love-story",
+        Trailer_url: "https://www.youtube.com/watch?v=m2dBHSeYGEc",
+        MovieUrl: "https://www.primevideo.com/region/eu/detail/Halal-Love-Story/0LPLOCC37IW8TVCT4M2G4L81D4",
         publishedAt: "2024-09-01T00:00:00.000Z",
         slug: "halal-love-story",
         CardImage: {
@@ -4334,18 +5549,801 @@ export const mockFilmData: ApiFilmData = {
               id: 66,
               attributes: {
                 name: "banner-1",
-                url: "/movies/halal-love-story/banner-1.png",
+                url: "/movies/halal-love-story/banner-01.png",
+              },
+            },
+            {
+              id: 67,
+              attributes: {
+                name: "banner-2", 
+                url: "/movies/halal-love-story/banner-02.png",
+              },
+            },
+            {
+              id: 68,
+              attributes: {
+                name: "banner-3",
+                url: "/movies/halal-love-story/banner-03.png",
+              },
+            },
+            {
+              id: 69,
+              attributes: {
+                name: "banner-4",
+                url: "/movies/halal-love-story/banner-04.png",
+              },
+            },
+            {
+              id: 70,
+              attributes: {
+                name: "banner-5",
+                url: "/movies/halal-love-story/banner-05.png",
+              },
+            },
+            {
+              id: 71,
+              attributes: {
+                name: "banner-6",
+                url: "/movies/halal-love-story/banner-06.png",
               },
             },
           ],
         },
-        LeadCast: [],
-        LeadCrew: [],
+        LeadCast: [
+          {
+            id: 1,
+            Name: "Joju George",
+            Title: "Siraj",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 2,
+            Name: "Soubin Shahir", 
+            Title: "Azad (Sound Recordist in Tele Cinema)",
+            Image: {
+              data: {
+                id: 102,
+                attributes: {
+                  name: "cast-2",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 3,
+            Name: "Parvathy Thiruvothu",
+            Title: "Haseena",
+            Image: {
+              data: {
+                id: 103,
+                attributes: {
+                  name: "cast-3",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 4,
+            Name: "Ann Jameela",
+            Title: "Angry Housewife",
+            Image: {
+              data: {
+                id: 104,
+                attributes: {
+                  name: "cast-4",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 5,
+            Name: "Indrajith Sukumaran",
+            Title: "Shereef",
+            Image: {
+              data: {
+                id: 105,
+                attributes: {
+                  name: "cast-5",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 6,
+            Name: "Sharafudheen",
+            Title: "Thoufeeq",
+            Image: {
+              data: {
+                id: 106,
+                attributes: {
+                  name: "cast-6",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 7,
+            Name: "Unnimaya Prasad",
+            Title: "Siraj's Wife",
+            Image: {
+              data: {
+                id: 107,
+                attributes: {
+                  name: "cast-7",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 8,
+            Name: "Grace Antony",
+            Title: "Suhra",
+            Image: {
+              data: {
+                id: 108,
+                attributes: {
+                  name: "cast-8",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 9,
+            Name: "Binu Pappu",
+            Title: "Abukka's Friend at Tile Factory",
+            Image: {
+              data: {
+                id: 109,
+                attributes: {
+                  name: "cast-9",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 10,
+            Name: "Abhiram Radhakrishnan",
+            Title: "Abhi",
+            Image: {
+              data: {
+                id: 110,
+                attributes: {
+                  name: "cast-10",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 11,
+            Name: "Shiny Sarah",
+            Title: "Washing Lady",
+            Image: {
+              data: {
+                id: 111,
+                attributes: {
+                  name: "cast-11",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 12,
+            Name: "Nisa Np",
+            Title: "Suhra's Sister #1",
+            Image: {
+              data: {
+                id: 112,
+                attributes: {
+                  name: "cast-12",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 13,
+            Name: "Mammukoya",
+            Title: "Abukka (Tile Factory Owner)",
+            Image: {
+              data: {
+                id: 113,
+                attributes: {
+                  name: "cast-13",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 14,
+            Name: "Neeraja Rajendran",
+            Title: "Thoufeeq's Mother",
+            Image: {
+              data: {
+                id: 114,
+                attributes: {
+                  name: "cast-14",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 15,
+            Name: "Irshad Parari",
+            Title: "Bilal",
+            Image: {
+              data: {
+                id: 115,
+                attributes: {
+                  name: "cast-15",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 16,
+            Name: "Siddiq Kodiyathur",
+            Title: "",
+            Image: {
+              data: {
+                id: 116,
+                attributes: {
+                  name: "cast-16",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 17,
+            Name: "Zeenath",
+            Title: "Raheem Sahib's Wife",
+            Image: {
+              data: {
+                id: 117,
+                attributes: {
+                  name: "cast-17",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 18,
+            Name: "Mashar Hamsa",
+            Title: "Makeup Man in Tele Cinema",
+            Image: {
+              data: {
+                id: 118,
+                attributes: {
+                  name: "cast-18",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 19,
+            Name: "Nilambur Ayisha",
+            Title: "",
+            Image: {
+              data: {
+                id: 119,
+                attributes: {
+                  name: "cast-19",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          }
+        ],
+        LeadCrew: [
+          {
+            id: 1,
+            Name: "Zakariya Mohammed",
+            Title: "Director & Writer & Co-Producer",
+            Image: {
+              data: {
+                id: 111,
+                attributes: {
+                  name: "crew-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 2,
+            Name: "Ashif Kakkodi",
+            Title: "Co-Writer",
+            Image: {
+              data: {
+                id: 112,
+                attributes: {
+                  name: "crew-2",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 3,
+            Name: "Muhsin Parari",
+            Title: "Writer & Co-Producer & Lyricist",
+            Image: {
+              data: {
+                id: 113,
+                attributes: {
+                  name: "crew-3",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 4,
+            Name: "Aashiq Abu",
+            Title: "Producer",
+            Image: {
+              data: {
+                id: 114,
+                attributes: {
+                  name: "crew-4",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 5,
+            Name: "Abid Abu",
+            Title: "Executive Producer",
+            Image: {
+              data: {
+                id: 115,
+                attributes: {
+                  name: "crew-5",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 6,
+            Name: "Harshad Ali",
+            Title: "Producer",
+            Image: {
+              data: {
+                id: 116,
+                attributes: {
+                  name: "crew-6",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 7,
+            Name: "Jesna Ashim",
+            Title: "Producer",
+            Image: {
+              data: {
+                id: 117,
+                attributes: {
+                  name: "crew-7",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 8,
+            Name: "Wazim Hyder",
+            Title: "Executive Producer",
+            Image: {
+              data: {
+                id: 118,
+                attributes: {
+                  name: "crew-8",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 9,
+            Name: "Ajay Menon",
+            Title: "Cinematographer & Co-Producer",
+            Image: {
+              data: {
+                id: 119,
+                attributes: {
+                  name: "crew-9",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 10,
+            Name: "Saiju Sreedharan",
+            Title: "Editor & Co-Producer & Digital Intermediate Producer",
+            Image: {
+              data: {
+                id: 120,
+                attributes: {
+                  name: "crew-10",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 11,
+            Name: "Shahbaz Aman",
+            Title: "Music Composer & Playback Singer",
+            Image: {
+              data: {
+                id: 121,
+                attributes: {
+                  name: "crew-11",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 12,
+            Name: "Bijibal",
+            Title: "Music Composer",
+            Image: {
+              data: {
+                id: 122,
+                attributes: {
+                  name: "crew-12",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 13,
+            Name: "Anees Nadodi",
+            Title: "Art Director",
+            Image: {
+              data: {
+                id: 123,
+                attributes: {
+                  name: "crew-13",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 14,
+            Name: "Mashar Hamsa",
+            Title: "Costume Designer",
+            Image: {
+              data: {
+                id: 124,
+                attributes: {
+                  name: "crew-14",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 15,
+            Name: "Benny Kattappana",
+            Title: "Production Controller",
+            Image: {
+              data: {
+                id: 125,
+                attributes: {
+                  name: "crew-15",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 16,
+            Name: "Mandeep Singh",
+            Title: "Head of Production",
+            Image: {
+              data: {
+                id: 126,
+                attributes: {
+                  name: "crew-16",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 17,
+            Name: "Dhinil Babu",
+            Title: "Chief Associate Director",
+            Image: {
+              data: {
+                id: 127,
+                attributes: {
+                  name: "crew-17",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 18,
+            Name: "Coconut Bunch",
+            Title: "Visual Effects Studio",
+            Image: {
+              data: {
+                id: 128,
+                attributes: {
+                  name: "crew-18",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 19,
+            Name: "Anvar Ali",
+            Title: "Lyricist",
+            Image: {
+              data: {
+                id: 129,
+                attributes: {
+                  name: "crew-19",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 20,
+            Name: "Soumya Ramakrishnan",
+            Title: "Playback Singer",
+            Image: {
+              data: {
+                id: 130,
+                attributes: {
+                  name: "crew-20",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+        ],
         Review: [],
         Awards: [],
-        Videos: [],
-        Music: [],
-        Gallery: [],
+        Videos: [
+          {
+            id: 1,
+            Title: "Halal Love Story Official Trailer",
+            FilmName: "Halal Love Story",
+            Views: "1.5M",
+            ExternalUrl: "m2dBHSeYGEc",
+            ImgThumb: {
+              data: {
+                id: 90,
+                attributes: {
+                  name: "video-thumb-1",
+                  url: "https://i.ytimg.com/vi/m2dBHSeYGEc/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 2,
+            Title: "Halal Love Story Teaser",
+            FilmName: "Halal Love Story",
+            Views: "980K", 
+            ExternalUrl: "zugaixFgqQg",
+            ImgThumb: {
+              data: {
+                id: 91,
+                attributes: {
+                  name: "video-thumb-2",
+                  url: "https://i.ytimg.com/vi/zugaixFgqQg/hq720.jpg"
+                }
+              }
+            }
+          }
+        ],
+        Music: [
+          {
+            id: 1,
+            Title: "Sundaranayavane Song",
+            FilmName: "Halal Love Story",
+            Views: "1.2M",
+            ExternalUrl: "https://youtu.be/eDOODIDoXH4?si=VvVlDl9FdCcHS8se",
+            ImgThumb: {
+              data: {
+                id: 92,
+                attributes: {
+                  name: "music-thumb-1",
+                  url: "https://i.ytimg.com/vi/eDOODIDoXH4/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 2,
+            Title: "Bismillah Video Song ",
+            FilmName: "Halal Love Story",
+            Views: "890K",
+            ExternalUrl: "https://youtu.be/rEEeXo-Td_w?si=jr95NREf9Q-zqvtp",
+            ImgThumb: {
+              data: {
+                id: 93,
+                attributes: {
+                  name: "music-thumb-2",
+                  url: "https://i.ytimg.com/vi/rEEeXo-Td_w/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 3,
+            Title: "Muttath Video Song",
+            FilmName: "Halal Love Story",
+            Views: "750K",
+            ExternalUrl: "https://youtu.be/oEqtkLcnr4g?si=WbzMSV6HC6mPCWQs",
+            ImgThumb: {
+              data: {
+                id: 94,
+                attributes: {
+                  name: "music-thumb-3",
+                  url: "https://i.ytimg.com/vi/oEqtkLcnr4g/hq720.jpg"
+                }
+              }
+            }
+          }
+        ],
+        Gallery: [
+          {
+            id: 1,
+            No: "1",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-1",
+                  url: "/movies/halal-love-story/banner-01.png",
+                },
+              },
+            },
+          },
+          {
+            id: 2,
+            No: "2", 
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-2",
+                  url: "/movies/halal-love-story/banner-02.png",
+                },
+              },
+            },
+          },
+          {
+            id: 3,
+            No: "3",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-3",
+                  url: "/movies/halal-love-story/banner-03.png",
+                },
+              },
+            },
+          },
+          {
+            id: 4,
+            No: "4",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-4",
+                  url: "/movies/halal-love-story/banner-04.png",
+                },
+              },
+            },
+          },
+          {
+            id: 5,
+            No: "5",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-5",
+                  url: "/movies/halal-love-story/banner-05.png",
+                },
+              },
+            },
+          },
+          {
+            id: 6,
+            No: "6",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-6",
+                  url: "/movies/halal-love-story/banner-06.png",
+                },
+              },
+            },
+          },
+          {
+            id: 7,
+            No: "7",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-7",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 8,
+            No: "8",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-8",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 9,
+            No: "9",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-9",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+        ],
       },
     },
     {
@@ -4407,9 +6405,241 @@ export const mockFilmData: ApiFilmData = {
         LeadCrew: [],
         Review: [],
         Awards: [],
-        Videos: [],
-        Music: [],
-        Gallery: [],
+        Videos: [
+          {
+            id: 1,
+            Title: "Aarkkariyam Official Trailer",
+            FilmName: "Aarkkariyam",
+            Views: "850K",
+            ExternalUrl: "EkeS429PUvM",
+            ImgThumb: {
+              data: {
+                id: 90,
+                attributes: {
+                  name: "video-thumb-1",
+                  url: "https://i.ytimg.com/vi/EkeS429PUvM/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 2,
+            Title: "Aarkkariyam Official Teaser",
+            FilmName: "Aarkkariyam", 
+            Views: "450K",
+            ExternalUrl: "hqoMRddz7tY",
+            ImgThumb: {
+              data: {
+                id: 91,
+                attributes: {
+                  name: "video-thumb-2",
+                  url: "https://i.ytimg.com/vi/hqoMRddz7tY/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 3,
+            Title: "Aarkkariyam Teaser 2",
+            FilmName: "Aarkkariyam",
+            Views: "320K",
+            ExternalUrl: "024wiEIE9Zw",
+            ImgThumb: {
+              data: {
+                id: 92,
+                attributes: {
+                  name: "video-thumb-3",
+                  url: "https://i.ytimg.com/vi/024wiEIE9Zw/hq720.jpg"
+                }
+              }
+            }
+          }
+        ],
+        Music: [
+          {
+            id: 1,
+            Title: "Chiramabhayamee Song ",
+            FilmName: "Aarkkariyam",
+            Views: "1.2M",
+            ExternalUrl: "https://youtu.be/27JtbWsnazY",
+            ImgThumb: {
+              data: {
+                id: 93,
+                attributes: {
+                  name: "music-thumb-1",
+                  url: "https://i.ytimg.com/vi/27JtbWsnazY/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 2,
+            Title: "Kinarile Song",
+            FilmName: "Aarkkariyam",
+            Views: "890K",
+            ExternalUrl: "https://youtu.be/Mtzyvyt2NRc",
+            ImgThumb: {
+              data: {
+                id: 94,
+                attributes: {
+                  name: "music-thumb-2",
+                  url: "https://i.ytimg.com/vi/Mtzyvyt2NRc/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 3,
+            Title: "Doore Maari",
+            FilmName: "Aarkkariyam",
+            Views: "750K",
+            ExternalUrl: "https://youtu.be/x-DI1RbpSnE",
+            ImgThumb: {
+              data: {
+                id: 95,
+                attributes: {
+                  name: "music-thumb-3",
+                  url: "https://i.ytimg.com/vi/x-DI1RbpSnE/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 4,
+            Title: "Aarkkariyam Jukebox",
+            FilmName: "Aarkkariyam",
+            Views: "450K",
+            ExternalUrl: "https://youtu.be/bXNY9ewSlDU",
+            ImgThumb: {
+              data: {
+                id: 96,
+                attributes: {
+                  name: "music-thumb-4",
+                  url: "https://i.ytimg.com/vi/bXNY9ewSlDU/hq720.jpg"
+                }
+              }
+            }
+          }
+        ],
+        Gallery: [
+          {
+            id: 1,
+            No: "1",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 2,
+            No: "2", 
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-2",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 3,
+            No: "3",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-3",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 4,
+            No: "4",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-4",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 5,
+            No: "5",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-5",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 6,
+            No: "6",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-6",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 7,
+            No: "7",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-7",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 8,
+            No: "8",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-8",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 9,
+            No: "9",
+            Image: {
+              data: {
+                id: 72,
+                attributes: {
+                  name: "gallery-9",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+        ],
       },
     },
   ],
