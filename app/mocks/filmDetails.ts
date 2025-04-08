@@ -3501,12 +3501,592 @@ export const mockFilmData: ApiFilmData = {
             },
           ],
         },
-        LeadCast: [],
-        LeadCrew: [],
+        LeadCast: [
+          {
+            id: 1,
+            Name: "Fahadh Faasil",
+            Title: "Mahesh",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 2,
+            Name: "Aparna Balamurali",
+            Title: "Jimsy",
+            Image: {
+              data: {
+                id: 102,
+                attributes: {
+                  name: "cast-2",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 3,
+            Name: "Soubin Shahir",
+            Title: "Crispin",
+            Image: {
+              data: {
+                id: 103,
+                attributes: {
+                  name: "cast-3",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 4,
+            Name: "Alencier Ley Lopez",
+            Title: "Artist Baby",
+            Image: {
+              data: {
+                id: 104,
+                attributes: {
+                  name: "cast-4",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 5,
+            Name: "Anusree",
+            Title: "Soumya",
+            Image: {
+              data: {
+                id: 105,
+                attributes: {
+                  name: "cast-5",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 6,
+            Name: "Antony Kochi",
+            Title: "Vincent Bhavana",
+            Image: {
+              data: {
+                id: 106,
+                attributes: {
+                  name: "cast-6",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 7,
+            Name: "Dileesh Pothan",
+            Title: "Eldho",
+            Image: {
+              data: {
+                id: 107,
+                attributes: {
+                  name: "cast-7",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 8,
+            Name: "Achuthanandan",
+            Title: "Thahir",
+            Image: {
+              data: {
+                id: 108,
+                attributes: {
+                  name: "cast-8",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 9,
+            Name: "Leena Antony",
+            Title: "Jimsy's mother",
+            Image: {
+              data: {
+                id: 109,
+                attributes: {
+                  name: "cast-9",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 10,
+            Name: "Rahul CB",
+            Title: "Jaleel",
+            Image: {
+              data: {
+                id: 110,
+                attributes: {
+                  name: "cast-10",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 11,
+            Name: "Jaffer Idukki",
+            Title: "Kunjumon",
+            Image: {
+              data: {
+                id: 111,
+                attributes: {
+                  name: "cast-11",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 12,
+            Name: "Jayashankar",
+            Title: "Baby's Bro-in-law",
+            Image: {
+              data: {
+                id: 112,
+                attributes: {
+                  name: "cast-12",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 13,
+            Name: "Lijo Mol Jose",
+            Title: "Soniya",
+            Image: {
+              data: {
+                id: 113,
+                attributes: {
+                  name: "cast-13",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 14,
+            Name: "Vijilesh Karayad",
+            Title: "Martial Arts Guy",
+            Image: {
+              data: {
+                id: 114,
+                attributes: {
+                  name: "cast-14",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 15,
+            Name: "Rajesh Madhavan",
+            Title: "Cycle Boy",
+            Image: {
+              data: {
+                id: 115,
+                attributes: {
+                  name: "cast-15",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 16,
+            Name: "S.K. Mini",
+            Title: "",
+            Image: {
+              data: {
+                id: 116,
+                attributes: {
+                  name: "cast-16",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 17,
+            Name: "Manju Pathrose",
+            Title: "Baby's Sister",
+            Image: {
+              data: {
+                id: 117,
+                attributes: {
+                  name: "cast-17",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 18,
+            Name: "Harish Pengan",
+            Title: "Tomy",
+            Image: {
+              data: {
+                id: 118,
+                attributes: {
+                  name: "cast-18",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 19,
+            Name: "Unnimaya Prasad",
+            Title: "Sara",
+            Image: {
+              data: {
+                id: 119,
+                attributes: {
+                  name: "cast-19",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 20,
+            Name: "Shiny T. Rajan",
+            Title: "Soumya's Mother",
+            Image: {
+              data: {
+                id: 120,
+                attributes: {
+                  name: "cast-20",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 21,
+            Name: "Sujith Shanker",
+            Title: "Jimson",
+            Image: {
+              data: {
+                id: 121,
+                attributes: {
+                  name: "cast-21",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 22,
+            Name: "Baiju V.K.",
+            Title: "Police Officer (Cameo)",
+            Image: {
+              data: {
+                id: 122,
+                attributes: {
+                  name: "cast-22",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          }
+        ],
+        LeadCrew: [
+          {
+            id: 1,
+            Name: "Dileesh Pothan",
+            Title: "Director",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "crew-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 2, 
+            Name: "Syam Pushkaran",
+            Title: "Writer",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "crew-2",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 3,
+            Name: "Aashiq Abu",
+            Title: "Producer",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "crew-3", 
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 4,
+            Name: "Bijibal",
+            Title: "Music Director",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "crew-4",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 5,
+            Name: "Shyju Khalid",
+            Title: "Cinematographer",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "crew-5",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 6,
+            Name: "Saiju Sreedharan",
+            Title: "Editor",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "crew-6",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 7,
+            Name: "Ajayan Chalissery",
+            Title: "Art Director",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "crew-7",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 8,
+            Name: "Sameera Saneesh",
+            Title: "Costume Designer",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "crew-8",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 9,
+            Name: "Ronex Xavier",
+            Title: "Makeup Artist",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "crew-9",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 10,
+            Name: "Nixon George",
+            Title: "Sound Designer",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "crew-10",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          }
+        ],
         Review: [],
         Awards: [],
-        Videos: [],
-        Music: [],
+        Videos: [
+          {
+            id: 1,
+            Title: "Gangster Official Trailer",
+            FilmName: "Gangster",
+            Views: "2.1M",
+            ExternalUrl: "_KY8Du4WWew",
+            ImgThumb: {
+              data: {
+                id: 90,
+                attributes: {
+                  name: "video-thumb-1",
+                  url: "https://i.ytimg.com/vi/_KY8Du4WWew/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 2,
+            Title: "Nee Himamazhayayi",
+            FilmName: "Gangster",
+            Views: "1.5M", 
+            ExternalUrl: "NL5bYMXCSJ0",
+            ImgThumb: {
+              data: {
+                id: 91,
+                attributes: {
+                  name: "video-thumb-2",
+                  url: "https://i.ytimg.com/vi/NL5bYMXCSJ0/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 3,
+            Title: "Ee Raathri",
+            FilmName: "Gangster",
+            Views: "980K",
+            ExternalUrl: "O9768O9ezRA",
+            ImgThumb: {
+              data: {
+                id: 92,
+                attributes: {
+                  name: "video-thumb-3",
+                  url: "https://i.ytimg.com/vi/O9768O9ezRA/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 4,
+            Title: "Gangster Jukebox",
+            FilmName: "Gangster",
+            Views: "500K",
+            ExternalUrl: "sJLsgEWGYNA",
+            ImgThumb: {
+              data: {
+                id: 93,
+                attributes: {
+                  name: "video-thumb-4",
+                  url: "https://i.ytimg.com/vi/sJLsgEWGYNA/hq720.jpg"
+                }
+              }
+            }
+          }
+        ],
+        Music: [
+          {
+            id: 1,
+            Title: "Nee Himamazhayayi",
+            FilmName: "Gangster",
+            Views: "1.5M",
+            ExternalUrl: "NL5bYMXCSJ0",
+            ImgThumb: {
+              data: {
+                id: 94,
+                attributes: {
+                  name: "music-thumb-1",
+                  url: "https://i.ytimg.com/vi/NL5bYMXCSJ0/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 2,
+            Title: "Ee Raathri",
+            FilmName: "Gangster", 
+            Views: "980K",
+            ExternalUrl: "O9768O9ezRA",
+            ImgThumb: {
+              data: {
+                id: 95,
+                attributes: {
+                  name: "music-thumb-2",
+                  url: "https://i.ytimg.com/vi/O9768O9ezRA/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 3,
+            Title: "Gangster Theme",
+            FilmName: "Gangster",
+            Views: "750K", 
+            ExternalUrl: "n9nMI4cf_F4",
+            ImgThumb: {
+              data: {
+                id: 96,
+                attributes: {
+                  name: "music-thumb-3",
+                  url: "https://i.ytimg.com/vi/n9nMI4cf_F4/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 4,
+            Title: "Gangster Theme BGM",
+            FilmName: "Gangster",
+            Views: "600K",
+            ExternalUrl: "BMoCF_utpoU",
+            ImgThumb: {
+              data: {
+                id: 97,
+                attributes: {
+                  name: "music-thumb-4",
+                  url: "https://i.ytimg.com/vi/BMoCF_utpoU/hq720.jpg"
+                }
+              }
+            }
+          }
+        ],
         Gallery: [],
       },
     },
@@ -3569,8 +4149,74 @@ export const mockFilmData: ApiFilmData = {
         LeadCrew: [],
         Review: [],
         Awards: [],
-        Videos: [],
-        Music: [],
+        Videos: [
+          {
+            id: 1,
+            Title: "Gangster Official Trailer",
+            FilmName: "Gangster",
+            Views: "1.2M",
+            ExternalUrl: "wt980_YsW_8",
+            ImgThumb: {
+              data: {
+                id: 90,
+                attributes: {
+                  name: "video-thumb-1",
+                  url: "https://i.ytimg.com/vi/wt980_YsW_8/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 2,
+            Title: "Gangster Trailer 2",
+            FilmName: "Gangster", 
+            Views: "890K",
+            ExternalUrl: "b5Oi3jG885w",
+            ImgThumb: {
+              data: {
+                id: 91,
+                attributes: {
+                  name: "video-thumb-2",
+                  url: "https://i.ytimg.com/vi/b5Oi3jG885w/hq720.jpg"
+                }
+              }
+            }
+          }
+        ],
+        Music: [
+          {
+            id: 1,
+            Title: "Gangster Song",
+            FilmName: "Gangster",
+            Views: "1.5M",
+            ExternalUrl: "Adfkh3ygnc4",
+            ImgThumb: {
+              data: {
+                id: 92,
+                attributes: {
+                  name: "music-thumb-1",
+                  url: "https://i.ytimg.com/vi/Adfkh3ygnc4/hq720.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 2,
+            Title: "Gangster Jukebox",
+            FilmName: "Gangster",
+            Views: "980K",
+            ExternalUrl: "pR9g5pCFM8E",
+            ImgThumb: {
+              data: {
+                id: 93,
+                attributes: {
+                  name: "music-thumb-2",
+                  url: "https://i.ytimg.com/vi/pR9g5pCFM8E/hq720.jpg"
+                }
+              }
+            }
+          }
+        ],
         Gallery: [],
       },
     },
