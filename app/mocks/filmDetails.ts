@@ -1564,7 +1564,7 @@ export const mockFilmData: ApiFilmData = {
       id: 4,
       attributes: {
         Title: "Naaradan",
-        Year: "2023",
+        Year: "2022",
         genere1: "Thriller",
         genere2: "Drama",
         summary:
@@ -1573,12 +1573,12 @@ export const mockFilmData: ApiFilmData = {
           "The obsessive desire to be at the top of the pile ends up turning Chandraprakash, a journalist employed with a popular news channel, into an immoral individual.",
         Rating: "8.8",
         RunTime: "2h 29m",
-        ReleaseDate: "2024-07-10",
-        Country: "India",
+        ReleaseDate: "2022-03-03",
+        Country: "India", 
         Language: "Malayalam",
-        Distribution: "Rhythm Films",
+        Distribution: "OPM Cinemas",
         ProductionsCompany: "OPM Cinemas",
-        Sound_MIx: "Dolby Atmos",
+        Sound_MIx: "Yakzan Gary Pereira, Neha Nair",
         Aspect_Ratio: "2.39:1",
         createdAt: "2024-03-01T00:00:00.000Z",
         updatedAt: "2024-03-01T00:00:00.000Z",
@@ -2125,55 +2125,88 @@ export const mockFilmData: ApiFilmData = {
         ],
         Review: [],
         Awards: [],
-        Videos: [],
-        Music: [
+        Videos: [
           {
             id: 1,
-            Title: "Naaradan Theme",
+            Title: "Official Trailer",
             FilmName: "Naaradan",
-            Views: "230K",
-            ExternalUrl: "https://www.youtube.com/watch?v=naaradan-theme",
+            Views: "2.3M",
+            ExternalUrl: "Neo6E4sbZvQ",
             ImgThumb: {
               data: {
                 id: 80,
                 attributes: {
-                  name: "music-thumb-1",
-                  url: "/movies/naaradan/music-1.png",
-                },
-              },
-            },
+                  name: "video-thumb-1", 
+                  url: "https://img.youtube.com/vi/Neo6E4sbZvQ/maxresdefault.jpg"
+                }
+              }
+            }
           },
           {
             id: 2,
-            Title: "Onakka Munthiri",
-            FilmName: "Naaradan",
-            Views: "185K",
-            ExternalUrl: "https://www.youtube.com/watch?v=onakka-munthiri",
+            Title: "Official Trailer 2",
+            FilmName: "Naaradan", 
+            Views: "170K",
+            ExternalUrl: "Ni5__PfII6U",
             ImgThumb: {
               data: {
                 id: 81,
                 attributes: {
-                  name: "music-thumb-2",
-                  url: "/movies/naaradan/music-2.png",
-                },
-              },
-            },
-          },
+                  name: "video-thumb-2",
+                  url: "https://img.youtube.com/vi/Ni5__PfII6U/maxresdefault.jpg"
+                }
+              }
+            }
+          }
+        ],
+        Music: [
           {
-            id: 3,
-            Title: "Media Song",
+            id: 1,
+            Title: "Neeyethaa Song",
             FilmName: "Naaradan",
-            Views: "120K",
-            ExternalUrl: "https://www.youtube.com/watch?v=media-song",
+            Views: "120K", 
+            ExternalUrl: "https://youtu.be/CRGtNrpM3DM?si=kDS1xtofg0EnH4A8",
             ImgThumb: {
               data: {
                 id: 82,
                 attributes: {
+                  name: "music-thumb-1",
+                  url: "https://img.youtube.com/vi/CRGtNrpM3DM/maxresdefault.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 2,
+            Title: "Naradan OST Jukebox ",
+            FilmName: "Naaradan",
+            Views: "12k",
+            ExternalUrl: "https://youtu.be/wt3Y0F9IiYo?si=7yZXJ3oIYTQaEMdh",
+            ImgThumb: {
+              data: {
+                id: 83,
+                attributes: {
+                  name: "music-thumb-2",
+                  url: "https://img.youtube.com/vi/wt3Y0F9IiYo/maxresdefault.jpg"
+                }
+              }
+            }
+          },
+          {
+            id: 3,
+            Title: "Background Score",
+            FilmName: "Naaradan",
+            Views: "320K",
+            ExternalUrl: "https://youtu.be/YsTaHCzdeh4?si=5cJHAbJlwPdKWx3a",
+            ImgThumb: {
+              data: {
+                id: 84,
+                attributes: {
                   name: "music-thumb-3",
-                  url: "/movies/naaradan/music-3.png",
-                },
-              },
-            },
+                  url: "https://img.youtube.com/vi/YsTaHCzdeh4/maxresdefault.jpg"
+                }
+              }
+            }
           }
         ],
         Gallery: [
@@ -2302,7 +2335,7 @@ export const mockFilmData: ApiFilmData = {
       attributes: {
         Title: "Virus",
         Year: "2019",
-        genere1: "Thriller",
+        genere1: "Medical Thriller",
         genere2: "Drama",
         summary:
           "The state of Kerala faces a tremendous outbreak of the life-threatening Nipah virus. However, a group of courageous individuals risk their lives in an attempt to curb the epidemic.",
@@ -2310,12 +2343,12 @@ export const mockFilmData: ApiFilmData = {
           "The state of Kerala faces a tremendous outbreak of the life-threatening Nipah virus. However, a group of courageous individuals risk their lives in an attempt to curb the epidemic.",
         Rating: "8.7",
         RunTime: "2h 32m",
-        ReleaseDate: "2024-09-05",
+        ReleaseDate: "2019-06-07",
         Country: "India",
         Language: "Malayalam",
-        Distribution: "War Pictures",
+        Distribution: "OPM Cinemas",
         ProductionsCompany: "OPM Cinemas",
-        Sound_MIx: "IMAX 6.0",
+        Sound_MIx: "Sushin Shyam",
         Aspect_Ratio: "2.39:1",
         createdAt: "2024-04-01T00:00:00.000Z",
         updatedAt: "2024-04-01T00:00:00.000Z",
@@ -3455,9 +3488,9 @@ export const mockFilmData: ApiFilmData = {
         Music: [
           {
             id: 1,
-            Title: "Mizhiyil Ninnum",
+            Title: "Uyirin Nadhiye",
             FilmName: "Mayaanadhi",
-            Views: "15M",
+            Views: "24M",
             ExternalUrl: "https://youtu.be/4q5o3Tiwcmc",
             ImgThumb: {
               data: {
@@ -3471,9 +3504,9 @@ export const mockFilmData: ApiFilmData = {
           },
           {
             id: 2,
-            Title: "Kaatil",
+            Title: "Mizhiyil Ninnum",
             FilmName: "Mayaanadhi", 
-            Views: "3.2M",
+            Views: "23M",
             ExternalUrl: "https://youtu.be/D62rYLhBVVE",
             ImgThumb: {
               data: {
@@ -3487,9 +3520,9 @@ export const mockFilmData: ApiFilmData = {
           },
           {
             id: 3,
-            Title: "Uyirin Nadhiye",
+            Title: "Kaatil",
             FilmName: "Mayaanadhi",
-            Views: "8.5M", 
+            Views: "7.4M", 
             ExternalUrl: "https://youtu.be/OF_F1_kfalw",
             ImgThumb: {
               data: {
@@ -3503,9 +3536,9 @@ export const mockFilmData: ApiFilmData = {
           },
           {
             id: 4,
-            Title: "Thaarum Poovilum",
+            Title: "Kiliye Lyric",
             FilmName: "Mayaanadhi",
-            Views: "1.8M",
+            Views: "600K",
             ExternalUrl: "https://youtu.be/vq5jfc2-1s4",
             ImgThumb: {
               data: {
@@ -3519,9 +3552,9 @@ export const mockFilmData: ApiFilmData = {
           },
           {
             id: 5,
-            Title: "Ee Kaattu",
+            Title: "Mayaanadhi Back to Back Songs",
             FilmName: "Mayaanadhi",
-            Views: "950K",
+            Views: "250K",
             ExternalUrl: "https://youtu.be/t5AVSpUiQI8",
             ImgThumb: {
               data: {
@@ -3660,18 +3693,18 @@ export const mockFilmData: ApiFilmData = {
       attributes: {
         Title: "Maheshinte Prathikaram",
         Year: "2016",
-        genere1: "Thriller",
+        genere1: "Drama",
         genere2: "Comedy",
         summary:
           "Mahesh, a photographer, gets beaten up by a stranger when he tries to solve an issue in his village. He sets out to take revenge on the stranger as he feels insulted after the incident.",
         FilmContent:
           "Mahesh, a photographer, gets beaten up by a stranger when he tries to solve an issue in his village. He sets out to take revenge on the stranger as he feels insulted after the incident.",
         Rating: "8.6",
-        RunTime: "2h 25min",
-        ReleaseDate: "2024-11-30",
+        RunTime: "2h 0m",
+        ReleaseDate: "2016-02-05",
         Country: "India",
         Language: "Malayalam",
-        Distribution: "Tech Pictures",
+        Distribution: "OPM Cinemas",
         ProductionsCompany: "OPM Cinemas",
         Sound_MIx: "Dolby Atmos",
         Aspect_Ratio: "2.39:1",
@@ -4488,7 +4521,21 @@ export const mockFilmData: ApiFilmData = {
               id: 64,
               attributes: {
                 name: "banner-1",
-                url: "/movies/gangster/banner-1.png",
+                url: "/movies/gangster/banner-1.jpg",
+              },
+            },
+            {
+              id: 65,
+              attributes: {
+                name: "banner-2",
+                url: "/movies/gangster/banner-2.jpg",
+              },
+            },
+            {
+              id: 66,
+              attributes: {
+                name: "banner-3",
+                url: "/movies/gangster/banner-3.jpg",
               },
             },
           ],
@@ -4912,7 +4959,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-1",
-                  url: "/movies/default.png",
+                  url: "/movies/gangster/gallery/gallery-1.jpg",
                 },
               },
             },
@@ -4925,7 +4972,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-2",
-                  url: "/movies/default.png",
+                  url: "/movies/gangster/gallery/gallery-2.jpg",
                 },
               },
             },
@@ -4938,7 +4985,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-3",
-                  url: "/movies/default.png",
+                  url: "/movies/gangster/gallery/gallery-3.jpg",
                 },
               },
             },
@@ -4951,7 +4998,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-4",
-                  url: "/movies/default.png",
+                  url: "/movies/gangster/gallery/gallery-4.jpg",
                 },
               },
             },
@@ -4964,7 +5011,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-5",
-                  url: "/movies/default.png",
+                  url: "/movies/gangster/gallery/gallery-5.jpg",
                 },
               },
             },
@@ -4977,7 +5024,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-6",
-                  url: "/movies/default.png",
+                  url: "/movies/gangster/gallery/gallery-6.jpg",
                 },
               },
             },
@@ -4990,7 +5037,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-7",
-                  url: "/movies/default.png",
+                  url: "/movies/gangster/gallery/gallery-7.jpg",
                 },
               },
             },
@@ -5003,7 +5050,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-8",
-                  url: "/movies/default.png",
+                  url: "/movies/gangster/gallery/gallery-8.jpg",
                 },
               },
             },
@@ -5016,7 +5063,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-9",
-                  url: "/movies/default.png",
+                  url: "/movies/gangster/gallery/gallery-9.jpg",
                 },
               },
             },

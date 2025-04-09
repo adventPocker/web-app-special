@@ -74,7 +74,7 @@ const MusicLayout = ({isMusic,MusicData}) => {
           </div>
 
          
-          <div
+          {/* <div
            style={{ border: "0.50px #FFDAA9 solid" }}
             className="w-auto h-auto rounded-2xl  gradient-button py-2 px-5 hidden gradient-button md:flex justify-center items-center gap-[10px] "
            
@@ -87,7 +87,7 @@ const MusicLayout = ({isMusic,MusicData}) => {
               alt=""
               className="w-[22px] h-[22px] "
             />
-          </div> 
+          </div>  */}
         </div>
       </div>
     </>
