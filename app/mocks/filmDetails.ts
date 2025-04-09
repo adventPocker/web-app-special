@@ -1610,9 +1610,24 @@ export const mockFilmData: ApiFilmData = {
               id: 60,
               attributes: {
                 name: "banner-1",
-                url: "/movies/card-images/film-card-3.png",
+                url: "/movies/naradan/banner-1.jpg",
               },
             },
+            {
+              id: 61,
+              attributes: {
+                name: "banner-2",
+                url: "/movies/naradan/banner-2.jpg",
+              },
+            },
+            {
+              id: 62,
+              attributes: {
+                name: "banner-3",
+                url: "/movies/naradan/banner-3.jpg",
+              },
+            },
+            
           ],
         },
         LeadCast: [
@@ -2218,7 +2233,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 64,
                 attributes: {
                   name: "gallery-1",
-                  url: "/movies/default.png",
+                  url: "/movies/naradan/gallery/gallery-1.jpg",
                 },
               },
             },
@@ -2231,7 +2246,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 65,
                 attributes: {
                   name: "gallery-2",
-                  url: "/movies/default.png",
+                  url: "/movies/naradan/gallery/gallery-2.jpg",
                 },
               },
             },
@@ -2244,7 +2259,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 66,
                 attributes: {
                   name: "gallery-3",
-                  url: "/movies/default.png",
+                  url: "/movies/naradan/gallery/gallery-3.jpg",
                 },
               },
             },
@@ -2257,7 +2272,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 67,
                 attributes: {
                   name: "gallery-4",
-                  url: "/movies/default.png",
+                  url: "/movies/naradan/gallery/gallery-4.jpg",
                 },
               },
             },
@@ -2270,7 +2285,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 68,
                 attributes: {
                   name: "gallery-5",
-                  url: "/movies/default.png",
+                  url: "/movies/naradan/gallery/gallery-5.jpg",
                 },
               },
             },
@@ -2283,7 +2298,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 69,
                 attributes: {
                   name: "gallery-6",
-                  url: "/movies/default.png",
+                  url: "/movies/naradan/gallery/gallery-6.jpg",
                 },
               },
             },
@@ -2296,7 +2311,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 70,
                 attributes: {
                   name: "gallery-7",
-                  url: "/movies/default.png",
+                  url: "/movies/naradan/gallery/gallery-7.jpg",
                 },
               },
             },
@@ -2309,7 +2324,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 71,
                 attributes: {
                   name: "gallery-8",
-                  url: "/movies/default.png",
+                  url: "/movies/naradan/gallery/gallery-8.jpg",
                 },
               },
             },
@@ -2322,7 +2337,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-9",
-                  url: "/movies/default.png",
+                  url: "/movies/naradan/gallery/gallery-9.jpg",
                 },
               },
             },
