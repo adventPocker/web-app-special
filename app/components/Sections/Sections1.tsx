@@ -163,7 +163,7 @@ const Sections1 = () => {
               </div>
               <div className="lg:rounded-[80px] rounded-[40px]  duration-500  transform transition border-2 border-transparent   hover:border-white">
                 <div
-                  className="lg:pl-[61px] p-[34px] md:py-[49px] md:px-[70px] md:min-h-[400px]  lg:rounded-[80px] rounded-[40px] justify-center items-center flex "
+                  className="lg:pl-[61px] px-[34px] py-[61px] md:py-[49px] md:px-[70px] md:min-h-[400px]  lg:rounded-[80px] rounded-[40px] justify-center items-center flex "
                   style={{
                     background:
                       "linear-gradient(238.7deg, #FF6572 31.09%, #A7426F 83.44%)",
@@ -220,7 +220,7 @@ const Sections1 = () => {
               </div>
               <div className="lg:rounded-[80px] rounded-[40px]  duration-500  transform transition border-2 border-transparent   hover:border-white">
                 <div
-                  className="lg:pl-[61px] p-[34px] md:py-[49px] md:px-[70px] md:min-h-[400px]  lg:rounded-[80px] rounded-[40px] justify-center items-center flex "
+                  className="lg:pl-[61px] px-[34px] py-[61px] md:py-[49px] md:px-[70px] md:min-h-[400px]  lg:rounded-[80px] rounded-[40px] justify-center items-center flex "
                   style={{
                     background:
                       "linear-gradient(238.7deg, #FF6572 31.09%, #A7426F 83.44%)",
