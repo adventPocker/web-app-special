@@ -287,10 +287,23 @@ export const mockFilmData: ApiFilmData = {
         Review: [
           {
             id: 1,
-            Reviewer: "The New York Times",
+            Reviewer: "The Times of India",
             ReviewContent:
-              "A Stylish, action - packed thriller with a vibrant visual palette.",
+              "Dileesh, Vijayaraghavan & Vani Vishwanath's charisma works well in this massy entertainer",
           },
+          {
+            id: 2,
+            Reviewer: "The Hindu ",
+            ReviewContent:
+              "Aashiq Abu’s stylish film is a treat to watch, but needed better writing",
+          },
+          {
+            id: 3,
+            Reviewer: "Filmysasi",
+            ReviewContent:
+              "Aashiq Abu pumps adrenaline into a wild year-ender",
+          },
+          
         ],
         Videos: [
           {
