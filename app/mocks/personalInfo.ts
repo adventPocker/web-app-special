@@ -373,17 +373,17 @@ export const mockPersonalData: PersonalApiResponse = {
             {
               id: 1,
               AwardFor: "Best Director",
-              AwardTitle: "CPC Cine Awards - Best Director"
+              AwardTitle: "CPC Cine Awards"
             },
             {
               id: 2, 
               AwardFor: "Best Director",
-              AwardTitle: "Critic's Choice Film Awards - Best Director"
+              AwardTitle: "Critic's Choice Film Awards"
             },
             {
               id: 3,
               AwardFor: "Best Feature Film",
-              AwardTitle: "Jagaran Film Festival - Best Indian Feature Film"
+              AwardTitle: "Jagaran Film Festival"
             }
           ]
         },
@@ -395,7 +395,7 @@ export const mockPersonalData: PersonalApiResponse = {
             {
               id: 4,
               AwardFor: "Best Film",
-              AwardTitle: "Padmarajan Award - Best Film"
+              AwardTitle: "Padmarajan Award"
             }
           ]
         },
@@ -407,32 +407,32 @@ export const mockPersonalData: PersonalApiResponse = {
             {
               id: 5,
               AwardFor: "Best Feature Film",
-              AwardTitle: "64th National Film Awards - Best Feature Film in Malayalam"
+              AwardTitle: "64th National Film Awards"
             },
             {
               id: 6,
               AwardFor: "Best Film", 
-              AwardTitle: "Kerala State Film Awards - Best Film with Popular Appeal and Aesthetic Value"
+              AwardTitle: "Kerala State Film Awards"
             },
             {
               id: 7,
               AwardFor: "Best Film",
-              AwardTitle: "Filmfare Award - Best Film – Malayalam"
+              AwardTitle: "Filmfare Award"
             },
             {
               id: 8,
               AwardFor: "Best Film",
-              AwardTitle: "CPC Cine Awards - Best Film"
+              AwardTitle: "CPC Cine Awards"
             },
             {
               id: 9,
               AwardFor: "Best Film",
-              AwardTitle: "Vanitha Film Awards - Best Film"
+              AwardTitle: "Vanitha Film Awards"
             },
             {
               id: 10,
               AwardFor: "Critics Award",
-              AwardTitle: "Asianet Film Awards - Critics Award for Best Film"
+              AwardTitle: "Asianet Film Awards"
             }
           ]
         },
@@ -444,7 +444,7 @@ export const mockPersonalData: PersonalApiResponse = {
             {
               id: 11,
               AwardFor: "Best Director",
-              AwardTitle: "Mohan Raghavan Award - Best Director"
+              AwardTitle: "Mohan Raghavan Award"
             }
           ]
         }

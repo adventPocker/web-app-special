@@ -31,7 +31,7 @@ const Sections1 = () => {
                     <div className="flex-col md:justify-start justify-center md:items-start items-center md:gap-8 gap-2 flex ">
                       <div className="md:w-[44.52px] md:h-11 w-[35px] h-[35px] ">
                         <div className="md:w-[43.48px] md:h-[42.96px] w-[35px] h-[35px] left-[0.52px] top-[0.52px] ">
-                          <img
+                        <Image
                             src="/Image/Layer_1.png"
                             alt="icon record"
                             width={43}
@@ -55,9 +55,11 @@ const Sections1 = () => {
                         </div>
                       </div>
                       <div className="py-2 rounded-xl flex items-center gap-3  transform transition-transform hover:scale-110 hover:cursor-pointer">
-                        <img
+                      <Image
                           src="/Image/arrow.png"
                           alt="icon"
+                          width={43}
+                          height={43}
                           className="md:w-6 md:h-6 h-[14px] w-[14px]"
                         />
                         <div
@@ -69,7 +71,7 @@ const Sections1 = () => {
                             color: "transparent",
                           }}
                         >
-                          Filmography
+                          Projects
                         </div>
                       </div>
                     </div>
@@ -135,7 +137,7 @@ const Sections1 = () => {
                             </div>
                           </div>
                         </a>
-                        <div className="py-2 rounded-xl flex items-center gap-3  transform transition-transform hover:scale-110 hover:cursor-pointer">
+                        {/* <div className="py-2 rounded-xl flex items-center gap-3  transform transition-transform hover:scale-110 hover:cursor-pointer">
                           <img
                             src="/Image/arrow.png"
                             alt="icon"
@@ -153,7 +155,7 @@ const Sections1 = () => {
                           >
                             ReadMore
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>
@@ -171,7 +173,7 @@ const Sections1 = () => {
                     <div className="flex-col md:justify-start justify-center md:items-start items-center md:gap-8 gap-2 flex ">
                       <div className="md:w-[44.52px] md:h-11 w-[35px] h-[35px] ">
                         <div className="md:w-[43.48px] md:h-[42.96px] w-[35px] h-[35px] left-[0.52px] top-[0.52px] ">
-                          <img
+                          <Image
                             src="/Image/home-page-icons-2.png"
                             alt="icon record"
                             width={43}
@@ -193,7 +195,7 @@ const Sections1 = () => {
                           streaming partnerships, and international film
                           distribution.{" "}
                         </div>
-                        <div className="py-2 rounded-xl flex items-center gap-3  transform transition-transform hover:scale-110 hover:cursor-pointer">
+                        {/* <div className="py-2 rounded-xl flex items-center gap-3  transform transition-transform hover:scale-110 hover:cursor-pointer">
                           <img
                             src="/Image/arrow.png"
                             alt="icon"
@@ -210,7 +212,7 @@ const Sections1 = () => {
                           >
                             Filmography
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>
@@ -251,7 +253,7 @@ const Sections1 = () => {
                           production techniques.
                         </div>
                       </div>
-                      <div className="py-2 rounded-xl flex items-center gap-3  transform transition-transform hover:scale-110 hover:cursor-pointer">
+                      {/* <div className="py-2 rounded-xl flex items-center gap-3  transform transition-transform hover:scale-110 hover:cursor-pointer">
                         <img
                           src="/Image/arrow.png"
                           alt="icon"
@@ -268,7 +270,7 @@ const Sections1 = () => {
                         >
                           Filmography
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
