@@ -300,10 +300,8 @@ export const mockFilmData: ApiFilmData = {
           {
             id: 3,
             Reviewer: "Filmysasi",
-            ReviewContent:
-              "Aashiq Abu pumps adrenaline into a wild year-ender",
+            ReviewContent: "Aashiq Abu pumps adrenaline into a wild year-ender",
           },
-          
         ],
         Videos: [
           {
@@ -317,11 +315,11 @@ export const mockFilmData: ApiFilmData = {
                 id: 90,
                 attributes: {
                   name: "video-thumb-1",
-                  url: "https://i.ytimg.com/vi/_HacZSM24mA/hq720.jpg"
-                }
-              }
-            }
-          }
+                  url: "https://i.ytimg.com/vi/_HacZSM24mA/hq720.jpg",
+                },
+              },
+            },
+          },
         ],
         Music: [
           {
@@ -335,15 +333,15 @@ export const mockFilmData: ApiFilmData = {
                 id: 91,
                 attributes: {
                   name: "music-thumb-1",
-                  url: "https://i.ytimg.com/vi/zL4cULLyBJY/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/zL4cULLyBJY/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 2,
             Title: "Nayattu Prarthana ",
-            FilmName: "Rifle Club", 
+            FilmName: "Rifle Club",
             Views: "450K",
             ExternalUrl: "https://youtu.be/9Cyns6JajLI?si=LTD2R0-4GlBeHBoT",
             ImgThumb: {
@@ -351,10 +349,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 92,
                 attributes: {
                   name: "music-thumb-2",
-                  url: "https://i.ytimg.com/vi/9Cyns6JajLI/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/9Cyns6JajLI/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 3,
@@ -367,11 +365,11 @@ export const mockFilmData: ApiFilmData = {
                 id: 93,
                 attributes: {
                   name: "music-thumb-3",
-                  url: "https://i.ytimg.com/vi/TbCRTGhQ_hI/hq720.jpg"
-                }
-              }
-            }
-          }
+                  url: "https://i.ytimg.com/vi/TbCRTGhQ_hI/hq720.jpg",
+                },
+              },
+            },
+          },
         ],
         Gallery: [
           {
@@ -883,28 +881,28 @@ export const mockFilmData: ApiFilmData = {
                 id: 41,
                 attributes: {
                   name: "video-thumb-1",
-                  url: "https://i.ytimg.com/vi/jOOO00WJRWw/hq720.jpg"
-                }
-              }
-            }
-          }
+                  url: "https://i.ytimg.com/vi/jOOO00WJRWw/hq720.jpg",
+                },
+              },
+            },
+          },
         ],
         Music: [
           {
             id: 1,
             Title: "Pottithakarnna Kinavu",
             FilmName: "Neelavelicham",
-            Views: "850K", 
+            Views: "850K",
             ExternalUrl: "https://youtu.be/SkBrZoG9jng",
             ImgThumb: {
               data: {
                 id: 42,
                 attributes: {
                   name: "music-thumb-1",
-                  url: "https://i.ytimg.com/vi/SkBrZoG9jng/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/SkBrZoG9jng/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 2,
@@ -916,16 +914,16 @@ export const mockFilmData: ApiFilmData = {
               data: {
                 id: 43,
                 attributes: {
-                  name: "music-thumb-2", 
-                  url: "https://i.ytimg.com/vi/CkqvBJLus3A/hq720.jpg"
-                }
-              }
-            }
+                  name: "music-thumb-2",
+                  url: "https://i.ytimg.com/vi/CkqvBJLus3A/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 3,
             Title: "Anuraga Madhuchashakam",
-            FilmName: "Neelavelicham", 
+            FilmName: "Neelavelicham",
             Views: "450K",
             ExternalUrl: "https://youtu.be/dw8iPOE_R3A",
             ImgThumb: {
@@ -933,10 +931,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 44,
                 attributes: {
                   name: "music-thumb-3",
-                  url: "https://i.ytimg.com/vi/dw8iPOE_R3A/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/dw8iPOE_R3A/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 4,
@@ -949,12 +947,11 @@ export const mockFilmData: ApiFilmData = {
                 id: 45,
                 attributes: {
                   name: "music-thumb-4",
-                  url: "https://i.ytimg.com/vi/mIXncepNj2k/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/mIXncepNj2k/hq720.jpg",
+                },
+              },
+            },
           },
-         
         ],
         Gallery: [
           {
@@ -1378,9 +1375,14 @@ export const mockFilmData: ApiFilmData = {
         Review: [
           {
             id: 1,
-            Reviewer: "The Hindu",
+            Reviewer: "Online Manorama ",
             ReviewContent:
-              "A compelling commentary on modern media ethics with powerful performances.",
+              "Kunchacko Boban's Bheemante Vazhi cuts a predictable path into an everyday issue...",
+          },
+          {
+            id: 2,
+            Reviewer: "The News Minute",
+            ReviewContent: "A compassionate, gripping medical thriller",
           },
         ],
         Awards: [],
@@ -1396,11 +1398,11 @@ export const mockFilmData: ApiFilmData = {
                 id: 62,
                 attributes: {
                   name: "video-thumb-1",
-                  url: "https://i.ytimg.com/vi/6jr0-y7L4IM/hq720.jpg"
-                }
-              }
-            }
-          }
+                  url: "https://i.ytimg.com/vi/6jr0-y7L4IM/hq720.jpg",
+                },
+              },
+            },
+          },
         ],
         Music: [
           {
@@ -1414,26 +1416,26 @@ export const mockFilmData: ApiFilmData = {
                 id: 63,
                 attributes: {
                   name: "music-thumb-1",
-                  url: "https://i.ytimg.com/vi/qxvmbw-tNG0/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/qxvmbw-tNG0/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 2,
             Title: "Bheemante Vazhippaattu",
             FilmName: "Bheemante Vazhi",
-            Views: "650K", 
+            Views: "650K",
             ExternalUrl: "https://youtu.be/CcYh17Rc5yU?si=3fzaKLy-DaAvX_T7",
             ImgThumb: {
               data: {
                 id: 64,
                 attributes: {
                   name: "music-thumb-2",
-                  url: "https://i.ytimg.com/vi/CcYh17Rc5yU/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/CcYh17Rc5yU/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 3,
@@ -1446,11 +1448,11 @@ export const mockFilmData: ApiFilmData = {
                 id: 65,
                 attributes: {
                   name: "music-thumb-3",
-                  url: "https://i.ytimg.com/vi/rgnMEuiID8g/hq720.jpg"
-                }
-              }
-            }
-          }
+                  url: "https://i.ytimg.com/vi/rgnMEuiID8g/hq720.jpg",
+                },
+              },
+            },
+          },
         ],
         Gallery: [
           {
@@ -1587,7 +1589,7 @@ export const mockFilmData: ApiFilmData = {
         Rating: "8.8",
         RunTime: "2h 29m",
         ReleaseDate: "2022-03-03",
-        Country: "India", 
+        Country: "India",
         Language: "Malayalam",
         Distribution: "OPM Cinemas",
         ProductionsCompany: "OPM Cinemas",
@@ -1640,7 +1642,6 @@ export const mockFilmData: ApiFilmData = {
                 url: "/movies/naradan/banner-3.jpg",
               },
             },
-            
           ],
         },
         LeadCast: [
@@ -2151,7 +2152,43 @@ export const mockFilmData: ApiFilmData = {
             },
           },
         ],
-        Review: [],
+        Review: [
+          {
+            id: 1,
+            Reviewer: "Bollywood Life",
+            ReviewContent: "Tovino Thomas and Anna Ben deliver the most stinging MASTERPIECE on TRP-hungry journalism"
+          },
+          {
+            id: 2,
+            Reviewer: "Times of India",
+            ReviewContent: "A closer look at TRP chasing newsrooms"
+          },
+          {
+            id: 3,
+            Reviewer: "Firstpost",
+            ReviewContent: "Tovino Thomas, Anna Ben land a slap on the face of India's fake-news-peddling media"
+          },
+          {
+            id: 4,
+            Reviewer: "The News Minute",
+            ReviewContent: "Tovino-Aashiq Abu film shows reality of new age journalism"
+          },
+          {
+            id: 5,
+            Reviewer: "Indian Express",
+            ReviewContent: "Tovino-Aashiq Abu film shows reality of new age journalism"
+          },
+          {
+            id: 6,
+            Reviewer: "Pinkvilla",
+            ReviewContent: "Tovino Thomas shines on screen as a news reporter in this thrilling story"
+          },
+          {
+            id: 7,
+            Reviewer: "Ottplay",
+            ReviewContent: "Tovino Thomas' anti-hero act makes Aashiq Abu's slow-burning thriller gripping"
+          }
+        ],
         Awards: [],
         Videos: [
           {
@@ -2164,16 +2201,16 @@ export const mockFilmData: ApiFilmData = {
               data: {
                 id: 80,
                 attributes: {
-                  name: "video-thumb-1", 
-                  url: "https://img.youtube.com/vi/Neo6E4sbZvQ/maxresdefault.jpg"
-                }
-              }
-            }
+                  name: "video-thumb-1",
+                  url: "https://img.youtube.com/vi/Neo6E4sbZvQ/maxresdefault.jpg",
+                },
+              },
+            },
           },
           {
             id: 2,
             Title: "Official Trailer 2",
-            FilmName: "Naaradan", 
+            FilmName: "Naaradan",
             Views: "170K",
             ExternalUrl: "Ni5__PfII6U",
             ImgThumb: {
@@ -2181,28 +2218,28 @@ export const mockFilmData: ApiFilmData = {
                 id: 81,
                 attributes: {
                   name: "video-thumb-2",
-                  url: "https://img.youtube.com/vi/Ni5__PfII6U/maxresdefault.jpg"
-                }
-              }
-            }
-          }
+                  url: "https://img.youtube.com/vi/Ni5__PfII6U/maxresdefault.jpg",
+                },
+              },
+            },
+          },
         ],
         Music: [
           {
             id: 1,
             Title: "Neeyethaa Song",
             FilmName: "Naaradan",
-            Views: "120K", 
+            Views: "120K",
             ExternalUrl: "https://youtu.be/CRGtNrpM3DM?si=kDS1xtofg0EnH4A8",
             ImgThumb: {
               data: {
                 id: 82,
                 attributes: {
                   name: "music-thumb-1",
-                  url: "https://img.youtube.com/vi/CRGtNrpM3DM/maxresdefault.jpg"
-                }
-              }
-            }
+                  url: "https://img.youtube.com/vi/CRGtNrpM3DM/maxresdefault.jpg",
+                },
+              },
+            },
           },
           {
             id: 2,
@@ -2215,10 +2252,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 83,
                 attributes: {
                   name: "music-thumb-2",
-                  url: "https://img.youtube.com/vi/wt3Y0F9IiYo/maxresdefault.jpg"
-                }
-              }
-            }
+                  url: "https://img.youtube.com/vi/wt3Y0F9IiYo/maxresdefault.jpg",
+                },
+              },
+            },
           },
           {
             id: 3,
@@ -2231,11 +2268,11 @@ export const mockFilmData: ApiFilmData = {
                 id: 84,
                 attributes: {
                   name: "music-thumb-3",
-                  url: "https://img.youtube.com/vi/YsTaHCzdeh4/maxresdefault.jpg"
-                }
-              }
-            }
-          }
+                  url: "https://img.youtube.com/vi/YsTaHCzdeh4/maxresdefault.jpg",
+                },
+              },
+            },
+          },
         ],
         Gallery: [
           {
@@ -2409,6 +2446,34 @@ export const mockFilmData: ApiFilmData = {
               attributes: {
                 name: "banner-1",
                 url: "/movies/virus/banner-1.png",
+              },
+            },
+            {
+              id: 62,
+              attributes: {
+                name: "banner-2",
+                url: "/movies/virus/banner-2.png",
+              },
+            },
+            {
+              id: 63,
+              attributes: {
+                name: "banner-3",
+                url: "/movies/virus/banner-3.png",
+              },
+            },
+            {
+              id: 64,
+              attributes: {
+                name: "banner-4",
+                url: "/movies/virus/banner-4.png",
+              },
+            },
+            {
+              id: 65,
+              attributes: {
+                name: "banner-5",
+                url: "/movies/virus/banner-5.png",
               },
             },
           ],
@@ -2718,7 +2783,7 @@ export const mockFilmData: ApiFilmData = {
               data: {
                 id: 74,
                 attributes: {
-                  name: "crew-2", 
+                  name: "crew-2",
                   url: "/movies/default.png",
                 },
               },
@@ -2835,10 +2900,67 @@ export const mockFilmData: ApiFilmData = {
                 },
               },
             },
-          }
+          },
         ],
-        Review: [],
-        Awards: [],
+        Review: [
+          {
+            id: 1,
+            Reviewer: "The Times of India",
+            ReviewContent:
+              "With Virus, Aashiq Abu cements his top form as a filmmaker. Overall, Virus is a straightforward, detailed and uncompromising retelling of an unbelievable story of humanity.",
+          },
+          {
+            id: 2,
+            Reviewer: "News18",
+            ReviewContent:
+              "irus is a mind-blowing movie and as its tagline says it rightly conveys the fear, fight and the survival during the Nipah outbreak. A well-crafted movie, which could be ranked as one among the best movies of all-time. Kudos to the team.",
+          },
+        ],
+        Awards: [
+          {
+            id: 1,
+            AwardSponsers: "Asianet Film Awards",
+            Recipient: "Parvathy Thiruvothu",
+            AwardTitle: "Best Actress (Shared with: Uyare)",
+          },
+          {
+            id: 2,
+            AwardSponsers: "Jagran Film Festival",
+            Recipient: "Aashiq Abu",
+            AwardTitle: "Jury Award – Best Indian Feature Film",
+          },
+          {
+            id: 3,
+            AwardSponsers: "Vanitha Film Awards",
+            Recipient: "Soubin Shahir",
+            AwardTitle:
+              "Best Supporting Actor (Shared with: Kumbalangi Nights)",
+          },
+          {
+            id: 4,
+            AwardSponsers: "Vanitha Film Awards",
+            Recipient: "Aashiq Abu",
+            AwardTitle: "Best Social Responsible Movie",
+          },
+          {
+            id: 5,
+            AwardSponsers: "Vanitha Film Awards",
+            Recipient: "Kunchacko Boban",
+            AwardTitle: "Best Social Responsible Actor",
+          },
+          {
+            id: 6,
+            AwardSponsers: "Vanitha Film Awards",
+            Recipient: "Rima Kallingal",
+            AwardTitle: "Best Social Responsible Actress",
+          },
+          {
+            id: 7,
+            AwardSponsers: "Critics' Choice Film Awards, India",
+            Recipient: "Aashiq Abu",
+            AwardTitle: "Best Director",
+          },
+        ],
         Videos: [
           {
             id: 1,
@@ -2851,10 +2973,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 90,
                 attributes: {
                   name: "video-thumb-1",
-                  url: "https://i.ytimg.com/vi/38MijVTyP7s/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBqf36MT9zgBK2-U_PNKmidWSQTHw"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/38MijVTyP7s/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBqf36MT9zgBK2-U_PNKmidWSQTHw",
+                },
+              },
+            },
           },
           {
             id: 2,
@@ -2867,11 +2989,11 @@ export const mockFilmData: ApiFilmData = {
                 id: 90,
                 attributes: {
                   name: "video-thumb-1",
-                  url: "https://i.ytimg.com/vi/1w9WTCoaxgs/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB-BEDCwtYFezvE2pQmJVnOkbOmZw"
-                }
-              }
-            }
-          }
+                  url: "https://i.ytimg.com/vi/1w9WTCoaxgs/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB-BEDCwtYFezvE2pQmJVnOkbOmZw",
+                },
+              },
+            },
+          },
         ],
         Music: [
           {
@@ -2879,19 +3001,20 @@ export const mockFilmData: ApiFilmData = {
             Title: "Spread Love",
             FilmName: "Virus",
             Views: "1.1M",
-            ExternalUrl: "https://open.spotify.com/track/2vwgZYCkVro14YMufGBhzg?autoplay=true",
+            ExternalUrl:
+              "https://open.spotify.com/track/2vwgZYCkVro14YMufGBhzg?autoplay=true",
             ImgThumb: {
               data: {
                 id: 91,
                 attributes: {
                   name: "music-thumb-1",
-                  url: "https://i.ytimg.com/vi/1w9WTCoaxgs/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/1w9WTCoaxgs/hq720.jpg",
+                },
+              },
+            },
           },
           {
-            id: 2, 
+            id: 2,
             Title: "Aaromal",
             FilmName: "Virus",
             Views: "890K",
@@ -2900,12 +3023,12 @@ export const mockFilmData: ApiFilmData = {
               data: {
                 id: 92,
                 attributes: {
-                  name: "music-thumb-2", 
-                  url: "https://i.ytimg.com/vi/qxCW6-O8d5M/hq720.jpg"
-                }
-              }
-            }
-          }
+                  name: "music-thumb-2",
+                  url: "https://i.ytimg.com/vi/qxCW6-O8d5M/hq720.jpg",
+                },
+              },
+            },
+          },
         ],
         Gallery: [
           {
@@ -2916,20 +3039,20 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-1",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/gallery/gallery-1.png",
                 },
               },
             },
           },
           {
             id: 2,
-            No: "2", 
+            No: "2",
             Image: {
               data: {
                 id: 72,
                 attributes: {
                   name: "gallery-2",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/gallery/gallery-2.png",
                 },
               },
             },
@@ -2942,7 +3065,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-3",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/gallery/gallery-3.png",
                 },
               },
             },
@@ -2955,7 +3078,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-4",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/gallery/gallery-4.png",
                 },
               },
             },
@@ -2968,7 +3091,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-5",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/gallery/gallery-5.png",
                 },
               },
             },
@@ -2981,7 +3104,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-6",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/gallery/gallery-6.png",
                 },
               },
             },
@@ -2994,7 +3117,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-7",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/gallery/gallery-7.png",
                 },
               },
             },
@@ -3007,7 +3130,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-8",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/gallery/gallery-8.png",
                 },
               },
             },
@@ -3020,7 +3143,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-9",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/gallery/gallery-10.png",
                 },
               },
             },
@@ -3078,8 +3201,51 @@ export const mockFilmData: ApiFilmData = {
               id: 62,
               attributes: {
                 name: "banner-1",
-                url: "/movies/mayanadhi/banner-1.png",
+                url: "/movies/mayanadhi/banner-01.png",
               },
+            },
+            {
+              id: 63,
+              attributes: {
+                name: "banner-2",
+                url: "/movies/mayanadhi/banner-02.png",
+              },
+            },
+            {
+              id: 64,
+              attributes: {
+                name: "banner-3",
+                url: "/movies/mayanadhi/banner-03.png",
+              },
+            },
+            {
+              id: 65,
+              attributes: {
+                name: "banner-4",
+                url: "/movies/mayanadhi/banner-04.png",
+              },
+            },
+            {
+              id: 66,
+              attributes: {
+                name: "banner-5",
+                url: "/movies/mayanadhi/banner-05.png",
+              },
+            },
+            {
+              id: 67,
+              attributes: {
+                name: "banner-6",
+                url: "/movies/mayanadhi/banner-06.png",
+              },
+            },
+            {
+              id: 68,
+              attributes: {
+                name: "banner-7",
+                url: "/movies/mayanadhi/banner-07.png",
+              },
+
             },
           ],
         },
@@ -3100,7 +3266,7 @@ export const mockFilmData: ApiFilmData = {
           },
           {
             id: 2,
-            Name: "Tovino Thomas", 
+            Name: "Tovino Thomas",
             Title: "John Mathew aka Mathan",
             Image: {
               data: {
@@ -3349,7 +3515,7 @@ export const mockFilmData: ApiFilmData = {
                 },
               },
             },
-          }
+          },
         ],
         LeadCrew: [
           {
@@ -3374,7 +3540,7 @@ export const mockFilmData: ApiFilmData = {
               data: {
                 id: 73,
                 attributes: {
-                  name: "crew-2", 
+                  name: "crew-2",
                   url: "/movies/default.png",
                 },
               },
@@ -3491,10 +3657,133 @@ export const mockFilmData: ApiFilmData = {
                 },
               },
             },
+          },
+        ],
+        Review: [
+          {
+            id: 1,
+            Reviewer: "G. Raghesh (Malayala Manorama)",
+            ReviewContent: "Aashiq Abu's craftsmanship as a filmmaker makes 'Mayaanadhi' a neatly narrated love story that has some of the most beautiful romantic moments Malayalam cinema has ever produced."
+          },
+          {
+            id: 2,
+            Reviewer: "Sudhi C. J. (Malayala Manorama)",
+            ReviewContent: "Mayaanadhi tugs at the heartstrings of viewers with the cinematic brilliance and excellence in craft displayed by Aashiq Abu, setting it apart from other contemporary films, most of which fail to leave an impression – of either sadness, happiness or thought – on the audience."
+          },
+          {
+            id: 3,
+            Reviewer: "Sanjith Sidhardhan (The Times of India)",
+            ReviewContent: "Aashiq Abu's 'Mayaanadhi' is a movie telling an intense story of urban characters without any superficiality. It's also a fine example on how two well fleshed out characters can take forward a film all on their own."
+          },
+          {
+            id: 4,
+            Reviewer: "Neelima Mohan (The News Minute)",
+            ReviewContent: "'Mayaanadhi' is a modern romance with all its trappings—yet the intensity cannot be more searing which inverts traditional ideas of romance."
+          },
+          {
+            id: 5,
+            Reviewer: "S. R. Praveen (The Hindu)",
+            ReviewContent: "'Mayaanadhi' is Aashiq Abu's best yet and a quite absorbing watch. The movie is a magic of love, life, and all in between."
+          },
+          {
+            id: 6,
+            Reviewer: "Aditya Shrikrishna (The New Indian Express)",
+            ReviewContent: "There is something about Mayaanadhi, Aashiq Abu's new Malayalam film, that is as mystical as its title. The film seemingly gravitates between genres but keeps the tone intact. Mayaanadhi's gaze, most sensitive gaze of all, doesn't flinch. Two threads run in parallel, a manhunt widening in real time and a lived relationship uncovering its past. Never a false moment in its 136-minute run, Mayaanadhi begins like a thriller, sways into romance territory, and keeps jumping timelines and genres at will."
+          },
+          {
+            id: 7,
+            Reviewer: "Sify",
+            ReviewContent: "Mayaanadhi is the kind of film that goes straight into your heart and provides a variety of emotions. It's romantic, funny and moving. It's the kind of honest and realistic movie that is not to be missed."
+          },
+          {
+            id: 8,
+            Reviewer: "Abhijith (Filmibeat)",
+            ReviewContent: "'Mayaanadhi' is pre-dominantly a love story and at the same time, it has some thrilling elements in it. Aashiq Abu has successfully switched sequences between these two different genres and never ever one would feel a mismatch."
+          },
+          {
+            id: 9,
+            Reviewer: "Anna MM Vetticad (Firstpost)",
+            ReviewContent: "In 'Mayaanadhi' Aishwarya Lekshmi, Tovino Thomas headline the romance of the year from Mollywood. 'Mayaanadhi' has its fine balance between being relatable and yet being an epic romance. It is a befitting December release in a year that has witnessed some great works from Malayalam cinema."
+          },
+          {
+            id: 10,
+            Reviewer: "Baradwaj Rangan",
+            ReviewContent: "We’ve seen many falling-in-love films, many falling-out-of-love films. This is a being-in-love film, with all the passions and problems the term suggests."
+          },
+          {
+            id: 11,
+            Reviewer: "Veeyen",
+            ReviewContent: "In ‘Mayaanadhi, director Aashiq Abu, armed with a dexterously penned screenplay, settles down to sensitively sketch a doomed tale of love. An impeccable reconstruction of an age-old narrative in an untested realistic setting, ‘Mayanadhi’ is the kind of film that holds a depth of meanings in those abstract gazes, a profundity of emotions in those unuttered words, and which leaves an inexplicable, seething sting at the upshot of it all."
           }
         ],
-        Review: [],
-        Awards: [],
+        Awards: [
+          {
+            id: 1,
+            AwardSponsers: "Asianet Film Awards",
+            Recipient: "Shahbaz Aman",
+            AwardTitle: "Best Playback Singer (Male)"
+          },
+          {
+            id: 2,
+            AwardSponsers: "Asianet Film Awards",
+            Recipient: "Tovino Thomas",
+            AwardTitle: "Performer of the Year"
+          },
+          {
+            id: 3,
+            AwardSponsers: "Kerala State Film Awards",
+            Recipient: "Shahbaz Aman",
+            AwardTitle: 'Best Singer (Male) – For the song "Mizhiyil Ninnum"'
+          },
+          {
+            id: 4,
+            AwardSponsers: "Filmfare Awards South",
+            Recipient: "Aishwarya Lekshmi",
+            AwardTitle: "Best Actress (Nominee)"
+          },
+          {
+            id: 5,
+            AwardSponsers: "Filmfare Awards South",
+            Recipient: "Tovino Thomas",
+            AwardTitle: "Best Actor (Nominee)"
+          },
+          {
+            id: 6,
+            AwardSponsers: "Filmfare Awards South",
+            Recipient: "Aashiq Abu",
+            AwardTitle: "Best Film (Nominee)"
+          },
+          {
+            id: 7,
+            AwardSponsers: "Filmfare Awards South",
+            Recipient: "Aashiq Abu",
+            AwardTitle: "Best Director (Nominee)"
+          },
+          {
+            id: 8,
+            AwardSponsers: "Filmfare Awards South",
+            Recipient: "Rex Vijayan",
+            AwardTitle: "Best Music Director"
+          },
+          {
+            id: 9,
+            AwardSponsers: "Vanitha Film Awards",
+            Recipient: "Syam Pushkaran, Dileesh Nair",
+            AwardTitle: "Best Script Writer"
+          },
+          {
+            id: 10,
+            AwardSponsers: "Vanitha Film Awards",
+            Recipient: "Aishwarya Lekshmi",
+            AwardTitle: "Best Romantic Heroine"
+          },
+          {
+            id: 11,
+            AwardSponsers: "Vanitha Film Awards",
+            Recipient: "Tovino Thomas",
+            AwardTitle: "Best Romantic Hero"
+          }
+      ],
         Videos: [
           {
             id: 1,
@@ -3507,11 +3796,11 @@ export const mockFilmData: ApiFilmData = {
                 id: 90,
                 attributes: {
                   name: "video-thumb-1",
-                  url: "https://i.ytimg.com/vi/RYYxyNxr_4E/hq720.jpg"
-                }
-              }
-            }
-          }
+                  url: "https://i.ytimg.com/vi/RYYxyNxr_4E/hq720.jpg",
+                },
+              },
+            },
+          },
         ],
         Music: [
           {
@@ -3525,15 +3814,15 @@ export const mockFilmData: ApiFilmData = {
                 id: 91,
                 attributes: {
                   name: "music-thumb-1",
-                  url: "https://i.ytimg.com/vi/4q5o3Tiwcmc/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/4q5o3Tiwcmc/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 2,
             Title: "Mizhiyil Ninnum",
-            FilmName: "Mayaanadhi", 
+            FilmName: "Mayaanadhi",
             Views: "23M",
             ExternalUrl: "https://youtu.be/D62rYLhBVVE",
             ImgThumb: {
@@ -3541,26 +3830,26 @@ export const mockFilmData: ApiFilmData = {
                 id: 92,
                 attributes: {
                   name: "music-thumb-2",
-                  url: "https://i.ytimg.com/vi/D62rYLhBVVE/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/D62rYLhBVVE/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 3,
             Title: "Kaatil",
             FilmName: "Mayaanadhi",
-            Views: "7.4M", 
+            Views: "7.4M",
             ExternalUrl: "https://youtu.be/OF_F1_kfalw",
             ImgThumb: {
               data: {
                 id: 93,
                 attributes: {
                   name: "music-thumb-3",
-                  url: "https://i.ytimg.com/vi/OF_F1_kfalw/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/OF_F1_kfalw/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 4,
@@ -3573,10 +3862,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 94,
                 attributes: {
                   name: "music-thumb-4",
-                  url: "https://i.ytimg.com/vi/vq5jfc2-1s4/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/vq5jfc2-1s4/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 5,
@@ -3589,11 +3878,11 @@ export const mockFilmData: ApiFilmData = {
                 id: 95,
                 attributes: {
                   name: "music-thumb-5",
-                  url: "https://i.ytimg.com/vi/t5AVSpUiQI8/hq720.jpg"
-                }
-              }
-            }
-          }
+                  url: "https://i.ytimg.com/vi/t5AVSpUiQI8/hq720.jpg",
+                },
+              },
+            },
+          },
         ],
         Gallery: [
           {
@@ -3604,20 +3893,20 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-1",
-                  url: "/movies/default.png",
+                  url: "/movies/mayanadhi/gallery/gallery-1.png",
                 },
               },
             },
           },
           {
             id: 2,
-            No: "2", 
+            No: "2",
             Image: {
               data: {
                 id: 72,
                 attributes: {
                   name: "gallery-2",
-                  url: "/movies/default.png",
+                  url: "/movies/mayanadhi/gallery/gallery-2.png",
                 },
               },
             },
@@ -3630,7 +3919,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-3",
-                  url: "/movies/default.png",
+                  url: "/movies/mayanadhi/gallery/gallery-3.png",
                 },
               },
             },
@@ -3643,7 +3932,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-4",
-                  url: "/movies/default.png",
+                  url: "/movies/mayanadhi/gallery/gallery-4.png",
                 },
               },
             },
@@ -3656,7 +3945,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-5",
-                  url: "/movies/default.png",
+                  url: "/movies/mayanadhi/gallery/gallery-5.png",
                 },
               },
             },
@@ -3669,7 +3958,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-6",
-                  url: "/movies/default.png",
+                  url: "/movies/mayanadhi/gallery/gallery-6.png",
                 },
               },
             },
@@ -3682,7 +3971,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-7",
-                  url: "/movies/default.png",
+                  url: "/movies/mayanadhi/gallery/gallery-7.png",
                 },
               },
             },
@@ -3695,7 +3984,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-8",
-                  url: "/movies/default.png",
+                  url: "/movies/mayanadhi/gallery/gallery-8.png",
                 },
               },
             },
@@ -3708,7 +3997,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-9",
-                  url: "/movies/default.png",
+                  url: "/movies/mayanadhi/gallery/gallery-9.png",
                 },
               },
             },
@@ -4100,7 +4389,7 @@ export const mockFilmData: ApiFilmData = {
                 },
               },
             },
-          }
+          },
         ],
         LeadCrew: [
           {
@@ -4118,7 +4407,7 @@ export const mockFilmData: ApiFilmData = {
             },
           },
           {
-            id: 2, 
+            id: 2,
             Name: "Syam Pushkaran",
             Title: "Writer",
             Image: {
@@ -4139,7 +4428,7 @@ export const mockFilmData: ApiFilmData = {
               data: {
                 id: 73,
                 attributes: {
-                  name: "crew-3", 
+                  name: "crew-3",
                   url: "/movies/default.png",
                 },
               },
@@ -4242,10 +4531,114 @@ export const mockFilmData: ApiFilmData = {
                 },
               },
             },
-          }
+          },
         ],
-        Review: [],
-        Awards: [],
+        Review: [
+          {
+            id: 1,
+            Reviewer: "The Times of India",
+            ReviewContent:
+              "Maheshinte Prathikaaram is a movie that has many feel-good moments and something everybody can relate to. This tale of sweet revenge is a rare genial comedy.",
+          },
+          {
+            id: 2,
+            Reviewer: "The Hindu",
+            ReviewContent:
+              "Syam Pushkaran, in writing the revenge story, takes away the usual ingredients of hate and anger, and replaces it with lots of humour, arriving as a torrent in one-liners, in situations and even in the minute gestures of the characters ... Maheshinte Prathikaram provides clean entertainment, treading new paths in that endeavour. If revenge comes like this, let's have more of it",
+          },
+        ],
+        Awards: [
+          {
+            id: 1,
+            AwardSponsers: "National Film Awards, India",
+            Recipient: "Syam Pushkaran",
+            AwardTitle: "Best Screenplay",
+          },
+          {
+            id: 2,
+            AwardSponsers: "National Film Awards, India",
+            Recipient: "Aashiq Abu (producer), Dileesh Pothan (director)",
+            AwardTitle: "Best Feature Film in Malayalam",
+          },
+          {
+            id: 3,
+            AwardSponsers: "Asianet Film Awards",
+            Recipient: "Syam Pushkaran",
+            AwardTitle: "Best Script",
+          },
+          {
+            id: 4,
+            AwardSponsers: "Asianet Film Awards",
+            Recipient: "Anusree",
+            AwardTitle: "Best Character Actress",
+          },
+          {
+            id: 5,
+            AwardSponsers: "Asianet Film Awards",
+            Recipient: "Aashiq Abu",
+            AwardTitle: "Critics Award for Best Film",
+          },
+          {
+            id: 6,
+            AwardSponsers: "Kerala State Film Awards",
+            Recipient: "Syam Pushkaran",
+            AwardTitle: " Best Screenplay Writer",
+          },
+          {
+            id: 7,
+            AwardSponsers: "Filmfare Awards South",
+            Recipient: "Dileesh Pothan",
+            AwardTitle: "Malayalam Film Industry – Best Film",
+          },
+          {
+            id: 8,
+            AwardSponsers: "Filmfare Awards South",
+            Recipient: "Dileesh Pothan",
+            AwardTitle: "Malayalam Film Industry – Best Director",
+          },
+          {
+            id: 9,
+            AwardSponsers: "Filmfare Awards South",
+            Recipient: "Fahadh Faasil",
+            AwardTitle: "Best Actor (Nominee)",
+          },
+          {
+            id: 10,
+            AwardSponsers: "South Indian International Movie Awards",
+            Recipient: "Bijibal",
+            AwardTitle: "SIIMA - Malayalam – Best Music Director",
+          },
+          {
+            id: 11,
+            AwardSponsers: "Vanitha Film Awards",
+            Recipient: "Shyju Khalid",
+            AwardTitle: "Best Cinematographer",
+          },
+          {
+            id: 12,
+            AwardSponsers: "Vanitha Film Awards",
+            Recipient: "Dileesh Pothan",
+            AwardTitle: "Best Film",
+          },
+          {
+            id: 13,
+            AwardSponsers: "Vanitha Film Awards",
+            Recipient: "Bijibal",
+            AwardTitle: "Best Music Composer",
+          },
+          {
+            id: 14,
+            AwardSponsers: "Vanitha Film Awards",
+            Recipient: "Anusree",
+            AwardTitle: "Most Popular Actress",
+          },
+          {
+            id: 15,
+            AwardSponsers: "Vanitha Film Awards",
+            Recipient: "Aparna Balamurali",
+            AwardTitle: "Best Newcomer Actress",
+          },
+        ],
         Videos: [
           {
             id: 1,
@@ -4258,26 +4651,26 @@ export const mockFilmData: ApiFilmData = {
                 id: 90,
                 attributes: {
                   name: "video-thumb-1",
-                  url: "https://i.ytimg.com/vi/_KY8Du4WWew/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/_KY8Du4WWew/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 2,
             Title: "Idukki",
             FilmName: "Maheshinte Prathikaram",
-            Views: "1.5M", 
+            Views: "1.5M",
             ExternalUrl: "NL5bYMXCSJ0",
             ImgThumb: {
               data: {
                 id: 91,
                 attributes: {
                   name: "video-thumb-2",
-                  url: "https://i.ytimg.com/vi/NL5bYMXCSJ0/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/NL5bYMXCSJ0/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 3,
@@ -4290,10 +4683,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 92,
                 attributes: {
                   name: "video-thumb-3",
-                  url: "https://i.ytimg.com/vi/O9768O9ezRA/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/O9768O9ezRA/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 4,
@@ -4306,11 +4699,11 @@ export const mockFilmData: ApiFilmData = {
                 id: 93,
                 attributes: {
                   name: "video-thumb-4",
-                  url: "https://i.ytimg.com/vi/sJLsgEWGYNA/hq720.jpg"
-                }
-              }
-            }
-          }
+                  url: "https://i.ytimg.com/vi/sJLsgEWGYNA/hq720.jpg",
+                },
+              },
+            },
+          },
         ],
         Music: [
           {
@@ -4324,15 +4717,15 @@ export const mockFilmData: ApiFilmData = {
                 id: 94,
                 attributes: {
                   name: "music-thumb-1",
-                  url: "https://i.ytimg.com/vi/NL5bYMXCSJ0/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/NL5bYMXCSJ0/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 2,
             Title: "Cherupunjiri",
-            FilmName: "Maheshinte Prathikaram", 
+            FilmName: "Maheshinte Prathikaram",
             Views: "980K",
             ExternalUrl: "O9768O9ezRA",
             ImgThumb: {
@@ -4340,26 +4733,26 @@ export const mockFilmData: ApiFilmData = {
                 id: 95,
                 attributes: {
                   name: "music-thumb-2",
-                  url: "https://i.ytimg.com/vi/O9768O9ezRA/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/O9768O9ezRA/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 3,
             Title: "Maheshinte Prathikaram Theme",
             FilmName: "Maheshinte Prathikaram",
-            Views: "750K", 
+            Views: "750K",
             ExternalUrl: "n9nMI4cf_F4",
             ImgThumb: {
               data: {
                 id: 96,
                 attributes: {
                   name: "music-thumb-3",
-                  url: "https://i.ytimg.com/vi/n9nMI4cf_F4/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/n9nMI4cf_F4/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 4,
@@ -4372,11 +4765,11 @@ export const mockFilmData: ApiFilmData = {
                 id: 97,
                 attributes: {
                   name: "music-thumb-4",
-                  url: "https://i.ytimg.com/vi/BMoCF_utpoU/hq720.jpg"
-                }
-              }
-            }
-          }
+                  url: "https://i.ytimg.com/vi/BMoCF_utpoU/hq720.jpg",
+                },
+              },
+            },
+          },
         ],
         Gallery: [
           {
@@ -4394,7 +4787,7 @@ export const mockFilmData: ApiFilmData = {
           },
           {
             id: 2,
-            No: "2", 
+            No: "2",
             Image: {
               data: {
                 id: 72,
@@ -4789,7 +5182,7 @@ export const mockFilmData: ApiFilmData = {
               data: {
                 id: 68,
                 attributes: {
-                  name: "crew-2", 
+                  name: "crew-2",
                   url: "/movies/default.png",
                 },
               },
@@ -4906,7 +5299,7 @@ export const mockFilmData: ApiFilmData = {
                 },
               },
             },
-          }
+          },
         ],
         Review: [],
         Awards: [],
@@ -4922,15 +5315,15 @@ export const mockFilmData: ApiFilmData = {
                 id: 90,
                 attributes: {
                   name: "video-thumb-1",
-                  url: "https://i.ytimg.com/vi/wt980_YsW_8/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/wt980_YsW_8/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 2,
             Title: "Gangster Trailer 2",
-            FilmName: "Gangster", 
+            FilmName: "Gangster",
             Views: "890K",
             ExternalUrl: "b5Oi3jG885w",
             ImgThumb: {
@@ -4938,11 +5331,11 @@ export const mockFilmData: ApiFilmData = {
                 id: 91,
                 attributes: {
                   name: "video-thumb-2",
-                  url: "https://i.ytimg.com/vi/b5Oi3jG885w/hq720.jpg"
-                }
-              }
-            }
-          }
+                  url: "https://i.ytimg.com/vi/b5Oi3jG885w/hq720.jpg",
+                },
+              },
+            },
+          },
         ],
         Music: [
           {
@@ -4956,10 +5349,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 92,
                 attributes: {
                   name: "music-thumb-1",
-                  url: "https://i.ytimg.com/vi/Adfkh3ygnc4/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/Adfkh3ygnc4/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 2,
@@ -4972,11 +5365,11 @@ export const mockFilmData: ApiFilmData = {
                 id: 93,
                 attributes: {
                   name: "music-thumb-2",
-                  url: "https://i.ytimg.com/vi/pR9g5pCFM8E/hq720.jpg"
-                }
-              }
-            }
-          }
+                  url: "https://i.ytimg.com/vi/pR9g5pCFM8E/hq720.jpg",
+                },
+              },
+            },
+          },
         ],
         Gallery: [
           {
@@ -4994,7 +5387,7 @@ export const mockFilmData: ApiFilmData = {
           },
           {
             id: 2,
-            No: "2", 
+            No: "2",
             Image: {
               data: {
                 id: 72,
@@ -5368,8 +5761,215 @@ export const mockFilmData: ApiFilmData = {
             },
           },
         ],
-        Review: [],
-        Awards: [],
+        Review: [
+          {
+            id: 1,
+            Reviewer: "Nirmal Jovial (The Week)",
+            ReviewContent: "Ee.Ma.Yau will certainly be counted among the classics of Malayalam cinema."
+          },
+          {
+            id: 2,
+            Reviewer: "Navamy Sudhish (The Hindu)",
+            ReviewContent: "Praises PF Mathews' screenplay and calls director Lijo Jose Pellissery and cinematographer Shyju Khalid as the heroes of the film."
+          },
+          {
+            id: 3,
+            Reviewer: "Gokul M. G. (Deccan Chronicle)",
+            ReviewContent: "Calls Ee.Ma.Yau one of the finest films in Mollywood in a very long time, adding that nobody is leaving without shedding a drop of tear or without a heavy heart."
+          },
+          {
+            id: 4,
+            Reviewer: "Film critic Veeyen",
+            ReviewContent: "Was all praise for the film, rated the film 'Excellent', and wrote that \"With ‘Ee.Ma.Yau’ Lijo Jose Pellissery surpasses himself, asserts once and for all that he's a master craftsman who astutely sees his dough even in a theme that is as stiff and unmalleable as a corpse (pun intended), and crafts a chimerical ode to mortality.\""
+          },
+          {
+            id: 5,
+            Reviewer: "Baradwaj Rangan (Film Companion South)",
+            ReviewContent: "A laugh-out-loud, yet deep, meditation on death and faith that's a masterclass in writing."
+          }
+        ],
+        Awards: [
+          {
+            id: 1,
+            AwardSponsers: "Asianet Film Awards",
+            Recipient: "Aashiq Abu, Rajesh George Kulangara",
+            AwardTitle: "Best Film (Nominated)"
+          },
+          {
+            id: 2,
+            AwardSponsers: "Asianet Film Awards",
+            Recipient: "Lijo Jose Pellissery",
+            AwardTitle: "Best Director"
+          },
+          {
+            id: 3,
+            AwardSponsers: "Asianet Film Awards",
+            Recipient: "P. F. Mathews",
+            AwardTitle: "Best Screenplay (Nominated)"
+          },
+          {
+            id: 4,
+            AwardSponsers: "Asiavision Awards",
+            Recipient: "Lijo Jose Pellissery",
+            AwardTitle: "Best Director"
+          },
+          {
+            id: 5,
+            AwardSponsers: "CPC Cine Awards",
+            Recipient: "Lijo Jose Pellissery",
+            AwardTitle: "Best Director"
+          },
+          {
+            id: 6,
+            AwardSponsers: "CPC Cine Awards",
+            Recipient: "Prashant Pillai",
+            AwardTitle: "Best Background Score"
+          },
+          {
+            id: 7,
+            AwardSponsers: "CPC Cine Awards",
+            Recipient: "Shyju Khalid",
+            AwardTitle: "Best Cinematographer"
+          },
+          {
+            id: 8,
+            AwardSponsers: "CPC Cine Awards",
+            Recipient: "Renganaath Ravee",
+            AwardTitle: "Best Sound Design"
+          },
+          {
+            id: 9,
+            AwardSponsers: "CPC Cine Awards",
+            Recipient: "Vinayakan",
+            AwardTitle: "Best Character Actor – Male"
+          },
+          {
+            id: 10,
+            AwardSponsers: "CPC Cine Awards",
+            Recipient: "Pauly Valsan",
+            AwardTitle: "Best Character Actor – Female"
+          },
+          {
+            id: 11,
+            AwardSponsers: "Film Critics Circle of India",
+            Recipient: "Ee.Ma.Yau. – Lijo Jose Pellissery",
+            AwardTitle: "Best Indian Film of 2018"
+          },
+          {
+            id: 12,
+            AwardSponsers: "Filmfare Awards South",
+            Recipient: "Ee.Ma.Yau. – Aashiq Abu, Rajesh George Kulangara",
+            AwardTitle: "Best Film – Malayalam (Nominated)"
+          },
+          {
+            id: 13,
+            AwardSponsers: "Filmfare Awards South",
+            Recipient: "Lijo Jose Pellissery",
+            AwardTitle: "Best Director – Malayalam"
+          },
+          {
+            id: 14,
+            AwardSponsers: "Filmfare Awards South",
+            Recipient: "Chemban Vinod Jose",
+            AwardTitle: "Best Actor – Malayalam (Nominated)"
+          },
+          {
+            id: 15,
+            AwardSponsers: "Filmfare Awards South",
+            Recipient: "Vinayakan",
+            AwardTitle: "Best Supporting Actor – Malayalam"
+          },
+          {
+            id: 16,
+            AwardSponsers: "Filmfare Awards South",
+            Recipient: "Pauly Valsan",
+            AwardTitle: "Best Supporting Actress – Malayalam (Nominated)"
+          },
+          {
+            id: 17,
+            AwardSponsers: "International Film Festival of India",
+            Recipient: "Lijo Jose Pellissery",
+            AwardTitle: "Best Director"
+          },
+          {
+            id: 18,
+            AwardSponsers: "International Film Festival of India",
+            Recipient: "Chemban Vinod Jose",
+            AwardTitle: "Best Actor (Male)"
+          },
+          {
+            id: 19,
+            AwardSponsers: "International Film Festival of Kerala",
+            Recipient: "Lijo Jose Pellissery",
+            AwardTitle: "The Silver Crow Pheasant Award for the Best Director"
+          },
+          {
+            id: 20,
+            AwardSponsers: "International Film Festival of Kerala",
+            Recipient: "Ee.Ma.Yau. – Lijo Jose Pellissery",
+            AwardTitle: "NETPAC Award: Best Asian Film"
+          },
+          {
+            id: 21,
+            AwardSponsers: "Kerala State Film Awards",
+            Recipient: "Lijo Jose Pellissery",
+            AwardTitle: "Best Director"
+          },
+          {
+            id: 22,
+            AwardSponsers: "Kerala State Film Awards",
+            Recipient: "Pauly Valsan",
+            AwardTitle: "Best Character Actress"
+          },
+          {
+            id: 23,
+            AwardSponsers: "Kerala State Film Awards",
+            Recipient: "Renganaath Ravee",
+            AwardTitle: "Best Sound Design"
+          },
+          {
+            id: 24,
+            AwardSponsers: "South Indian International Movie Awards",
+            Recipient: "Ee.Ma.Yau. – Aashiq Abu, Rajesh George Kulangara",
+            AwardTitle: "Best Film – Malayalam (Nominated)"
+          },
+          {
+            id: 25,
+            AwardSponsers: "South Indian International Movie Awards",
+            Recipient: "Lijo Jose Pellissery",
+            AwardTitle: "Best Director – Malayalam (Nominated)"
+          },
+          {
+            id: 26,
+            AwardSponsers: "South Indian International Movie Awards",
+            Recipient: "Shyju Khalid",
+            AwardTitle: "Best Cinematographer – Malayalam (Nominated)"
+          },
+          {
+            id: 27,
+            AwardSponsers: "South Indian International Movie Awards",
+            Recipient: "Dileesh Pothan",
+            AwardTitle: "Best Actor in a Supporting Role – Malayalam (Nominated)"
+          },
+          {
+            id: 28,
+            AwardSponsers: "Toulouse Indian Film Festival",
+            Recipient: "Ee.Ma.Yau. – Lijo Jose Pellissery",
+            AwardTitle: "Jury Award Best Film"
+          },
+          {
+            id: 29,
+            AwardSponsers: "Vanitha Film Awards",
+            Recipient: "Ee.Ma.Yau. – Lijo Jose Pellissery",
+            AwardTitle: "Best Film"
+          },
+          {
+            id: 30,
+            AwardSponsers: "Vanitha Film Awards",
+            Recipient: "Lijo Jose Pellissery",
+            AwardTitle: "Best Director"
+          }
+        ],
         Videos: [
           {
             id: 1,
@@ -5382,10 +5982,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 90,
                 attributes: {
                   name: "video-thumb-1",
-                  url: "https://i.ytimg.com/vi/b8WZa0GvNYs/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/b8WZa0GvNYs/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 2,
@@ -5398,10 +5998,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 91,
                 attributes: {
                   name: "video-thumb-2",
-                  url: "https://i.ytimg.com/vi/SweKJ8VVXCU/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/SweKJ8VVXCU/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 3,
@@ -5414,10 +6014,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 92,
                 attributes: {
                   name: "video-thumb-3",
-                  url: "https://i.ytimg.com/vi/eCHffAm0704/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/eCHffAm0704/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 4,
@@ -5430,10 +6030,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 93,
                 attributes: {
                   name: "video-thumb-4",
-                  url: "https://i.ytimg.com/vi/dXh_w18uO64/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/dXh_w18uO64/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 5,
@@ -5446,11 +6046,11 @@ export const mockFilmData: ApiFilmData = {
                 id: 94,
                 attributes: {
                   name: "video-thumb-5",
-                  url: "https://i.ytimg.com/vi/kfrqCh5xWFY/hq720.jpg"
-                }
-              }
-            }
-          }
+                  url: "https://i.ytimg.com/vi/kfrqCh5xWFY/hq720.jpg",
+                },
+              },
+            },
+          },
         ],
         Music: [],
         Gallery: [
@@ -5469,7 +6069,7 @@ export const mockFilmData: ApiFilmData = {
           },
           {
             id: 2,
-            No: "2", 
+            No: "2",
             Image: {
               data: {
                 id: 72,
@@ -5597,7 +6197,8 @@ export const mockFilmData: ApiFilmData = {
         createdAt: "2024-09-01T00:00:00.000Z",
         updatedAt: "2024-09-01T00:00:00.000Z",
         Trailer_url: "https://www.youtube.com/watch?v=m2dBHSeYGEc",
-        MovieUrl: "https://www.primevideo.com/region/eu/detail/Halal-Love-Story/0LPLOCC37IW8TVCT4M2G4L81D4",
+        MovieUrl:
+          "https://www.primevideo.com/region/eu/detail/Halal-Love-Story/0LPLOCC37IW8TVCT4M2G4L81D4",
         publishedAt: "2024-09-01T00:00:00.000Z",
         slug: "halal-love-story",
         CardImage: {
@@ -5630,7 +6231,7 @@ export const mockFilmData: ApiFilmData = {
             {
               id: 67,
               attributes: {
-                name: "banner-2", 
+                name: "banner-2",
                 url: "/movies/halal-love-story/banner-02.png",
               },
             },
@@ -5681,7 +6282,7 @@ export const mockFilmData: ApiFilmData = {
           },
           {
             id: 2,
-            Name: "Soubin Shahir", 
+            Name: "Soubin Shahir",
             Title: "Azad (Sound Recordist in Tele Cinema)",
             Image: {
               data: {
@@ -5930,7 +6531,7 @@ export const mockFilmData: ApiFilmData = {
                 },
               },
             },
-          }
+          },
         ],
         LeadCrew: [
           {
@@ -6215,7 +6816,38 @@ export const mockFilmData: ApiFilmData = {
           },
         ],
         Review: [],
-        Awards: [],
+        Awards: [
+          {
+            id: 1,
+            AwardSponsers: "Filmfare Awards South",
+            Recipient: "Grace Antony",
+            AwardTitle: "Best Actress (Nominee)"
+          },
+          {
+            id: 2,
+            AwardSponsers: "Filmfare Awards South",
+            Recipient: "Joju George",
+            AwardTitle: "Best Supporting Actor (Nominee)"
+          },
+          {
+            id: 3,
+            AwardSponsers: "South Indian International Movie Awards",
+            Recipient: "Joju George",
+            AwardTitle: "Best Actor in a Supporting Role"
+          },
+          {
+            id: 4,
+            AwardSponsers: "South Indian International Movie Awards",
+            Recipient: "Zakariya",
+            AwardTitle: "Best Director (Nominee)"
+          },
+          {
+            id: 5,
+            AwardSponsers: "South Indian International Movie Awards",
+            Recipient: "Ajay Menon",
+            AwardTitle: "Best Cinematographer (Nominee)"
+          }
+        ],
         Videos: [
           {
             id: 1,
@@ -6228,27 +6860,27 @@ export const mockFilmData: ApiFilmData = {
                 id: 90,
                 attributes: {
                   name: "video-thumb-1",
-                  url: "https://i.ytimg.com/vi/m2dBHSeYGEc/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/m2dBHSeYGEc/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 2,
             Title: "Halal Love Story Teaser",
             FilmName: "Halal Love Story",
-            Views: "980K", 
+            Views: "980K",
             ExternalUrl: "zugaixFgqQg",
             ImgThumb: {
               data: {
                 id: 91,
                 attributes: {
                   name: "video-thumb-2",
-                  url: "https://i.ytimg.com/vi/zugaixFgqQg/hq720.jpg"
-                }
-              }
-            }
-          }
+                  url: "https://i.ytimg.com/vi/zugaixFgqQg/hq720.jpg",
+                },
+              },
+            },
+          },
         ],
         Music: [
           {
@@ -6262,10 +6894,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 92,
                 attributes: {
                   name: "music-thumb-1",
-                  url: "https://i.ytimg.com/vi/eDOODIDoXH4/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/eDOODIDoXH4/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 2,
@@ -6278,10 +6910,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 93,
                 attributes: {
                   name: "music-thumb-2",
-                  url: "https://i.ytimg.com/vi/rEEeXo-Td_w/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/rEEeXo-Td_w/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 3,
@@ -6294,11 +6926,11 @@ export const mockFilmData: ApiFilmData = {
                 id: 94,
                 attributes: {
                   name: "music-thumb-3",
-                  url: "https://i.ytimg.com/vi/oEqtkLcnr4g/hq720.jpg"
-                }
-              }
-            }
-          }
+                  url: "https://i.ytimg.com/vi/oEqtkLcnr4g/hq720.jpg",
+                },
+              },
+            },
+          },
         ],
         Gallery: [
           {
@@ -6316,7 +6948,7 @@ export const mockFilmData: ApiFilmData = {
           },
           {
             id: 2,
-            No: "2", 
+            No: "2",
             Image: {
               data: {
                 id: 72,
@@ -6492,15 +7124,15 @@ export const mockFilmData: ApiFilmData = {
                 id: 90,
                 attributes: {
                   name: "video-thumb-1",
-                  url: "https://i.ytimg.com/vi/EkeS429PUvM/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/EkeS429PUvM/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 2,
             Title: "Aarkkariyam Official Teaser",
-            FilmName: "Aarkkariyam", 
+            FilmName: "Aarkkariyam",
             Views: "450K",
             ExternalUrl: "hqoMRddz7tY",
             ImgThumb: {
@@ -6508,10 +7140,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 91,
                 attributes: {
                   name: "video-thumb-2",
-                  url: "https://i.ytimg.com/vi/hqoMRddz7tY/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/hqoMRddz7tY/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 3,
@@ -6524,11 +7156,11 @@ export const mockFilmData: ApiFilmData = {
                 id: 92,
                 attributes: {
                   name: "video-thumb-3",
-                  url: "https://i.ytimg.com/vi/024wiEIE9Zw/hq720.jpg"
-                }
-              }
-            }
-          }
+                  url: "https://i.ytimg.com/vi/024wiEIE9Zw/hq720.jpg",
+                },
+              },
+            },
+          },
         ],
         Music: [
           {
@@ -6542,10 +7174,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 93,
                 attributes: {
                   name: "music-thumb-1",
-                  url: "https://i.ytimg.com/vi/27JtbWsnazY/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/27JtbWsnazY/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 2,
@@ -6558,10 +7190,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 94,
                 attributes: {
                   name: "music-thumb-2",
-                  url: "https://i.ytimg.com/vi/Mtzyvyt2NRc/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/Mtzyvyt2NRc/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 3,
@@ -6574,10 +7206,10 @@ export const mockFilmData: ApiFilmData = {
                 id: 95,
                 attributes: {
                   name: "music-thumb-3",
-                  url: "https://i.ytimg.com/vi/x-DI1RbpSnE/hq720.jpg"
-                }
-              }
-            }
+                  url: "https://i.ytimg.com/vi/x-DI1RbpSnE/hq720.jpg",
+                },
+              },
+            },
           },
           {
             id: 4,
@@ -6590,11 +7222,11 @@ export const mockFilmData: ApiFilmData = {
                 id: 96,
                 attributes: {
                   name: "music-thumb-4",
-                  url: "https://i.ytimg.com/vi/bXNY9ewSlDU/hq720.jpg"
-                }
-              }
-            }
-          }
+                  url: "https://i.ytimg.com/vi/bXNY9ewSlDU/hq720.jpg",
+                },
+              },
+            },
+          },
         ],
         Gallery: [
           {
@@ -6612,7 +7244,7 @@ export const mockFilmData: ApiFilmData = {
           },
           {
             id: 2,
-            No: "2", 
+            No: "2",
             Image: {
               data: {
                 id: 72,
