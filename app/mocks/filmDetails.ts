@@ -5542,7 +5542,14 @@ export const mockFilmData: ApiFilmData = {
               id: 65,
               attributes: {
                 name: "banner-1",
-                url: "/movies/ee-ma-yau/banner-1.png",
+                url: "/movies/ee-ma-yau/banner-01.png",
+              },
+            },
+            {
+              id: 66,
+              attributes: {
+                name: "banner-2",
+                url: "/movies/ee-ma-yau/banner-02.png",
               },
             },
           ],
@@ -6062,7 +6069,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-1",
-                  url: "/movies/default.png",
+                  url: "/movies/ee-ma-yau/banner-01.png",
                 },
               },
             },
@@ -6075,7 +6082,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "gallery-2",
-                  url: "/movies/default.png",
+                  url: "/movies/ee-ma-yau/banner-02.png",
                 },
               },
             },
@@ -7103,13 +7110,694 @@ export const mockFilmData: ApiFilmData = {
               id: 67,
               attributes: {
                 name: "banner-1",
-                url: "/movies/aarkkariyam/banner-1.png",
+                url: "/movies/aarkkariyam/banner-01.png",
+              },
+            },
+            {
+              id: 68,
+              attributes: {
+                name: "banner-2",
+                url: "/movies/aarkkariyam/banner-02.png",
+              },    
+            },
+            {
+              id: 69,
+              attributes: {
+                name: "banner-3",
+                url: "/movies/aarkkariyam/banner-03.png",
+              },
+            },
+            {
+              id: 70,
+              attributes: {
+                name: "banner-4",
+                url: "/movies/aarkkariyam/banner-04.png",
               },
             },
           ],
         },
         LeadCast: [],
-        LeadCrew: [],
+        LeadCrew: [
+
+          {
+            id: 1,
+            Name: "Sanu John Varughese",
+            Title: "Director & Writer",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 2,
+            Name: "Arun Janardhanan",
+            Title: "Writer",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 3,
+            Name: "Rajesh Ravi",
+            Title: "Writer",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 4,
+            Name: "Aashiq Abu",
+            Title: "Producer",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 5,
+            Name: "Pravin Kattukaran",
+            Title: "Co-producer",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 6,
+            Name: "Santhosh T. Kuruvilla",
+            Title: "Producer",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 7,
+            Name: "Mibu Jose Nettikadan",
+            Title: "Co-producer",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 8,
+            Name: "Sandipa Rakshit",
+            Title: "Executive Producer",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 9,
+            Name: "Arun Thampi",
+            Title: "Executive Producer",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 10,
+            Name: "Sanjay Divecha",
+            Title: "Composer (Original Background Score)",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 11,
+            Name: "G. Sreenivas Reddy",
+            Title: "Cinematographer",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 12,
+            Name: "Mahesh Narayanan",
+            Title: "Editor",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 13,
+            Name: "Ratheesh Balakrishnan Poduval",
+            Title: "Production Designer",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 14,
+            Name: "Jotish Shankar",
+            Title: "Art Director",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 15,
+            Name: "Sameera Saneesh",
+            Title: "Costume Designer",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 16,
+            Name: "Ranjith Ambady",
+            Title: "Makeup",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 17,
+            Name: "Benny Kattappana",
+            Title: "Production Manager",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 18,
+            Name: "Anu Augustine",
+            Title: "Assistant Director: Second Unit",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 19,
+            Name: "Thomas George",
+            Title: "Assistant Director (Credit Only)",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 20,
+            Name: "Vava Nujumudeen",
+            Title: "Associate / Chief Associate Director",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 21,
+            Name: "Arun Alphonse",
+            Title: "Boom Operator",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 22,
+            Name: "Shijomon George",
+            Title: "Dialogue Editor",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 23,
+            Name: "Akhil Hari",
+            Title: "Sound Editor",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 24,
+            Name: "Subramanian K.V.",
+            Title: "Sound Editor",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 25,
+            Name: "Arun Kumar R",
+            Title: "Sound Designer",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 26,
+            Name: "Gokul Gopinath",
+            Title: "Visual Effects",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 27,
+            Name: "Shameem Hussain K.",
+            Title: "Match Moving Artist",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 28,
+            Name: "Dharmic Mathur",
+            Title: "DI Producer",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 29,
+            Name: "Aswin Sanfran",
+            Title: "Visual Effects Coordinator",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 30,
+            Name: "Sabin Uralikandy",
+            Title: "Chief Associate Cameraman",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 31,
+            Name: "Vaishak",
+            Title: "Second Assistant Camera",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 32,
+            Name: "Tushar Chhaya",
+            Title: "Digital Intermediate Conformist",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 33,
+            Name: "Mujahid Khan",
+            Title: "Digital Intermediate Conformist",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 34,
+            Name: "Punit Poojari",
+            Title: "Digital Intermediate Conformist",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 35,
+            Name: "Rahul Radhakrishnan",
+            Title: "First Assistant Editor",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 36,
+            Name: "Zaheer Shaikh",
+            Title: "Colorist",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 37,
+            Name: "Navin Shetty",
+            Title: "Colorist",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 38,
+            Name: "Anvar Ali",
+            Title: "Lyricist",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 39,
+            Name: "Neha Nair",
+            Title: "Songs",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 40,
+            Name: "Madhuvanthi Narayan",
+            Title: "Playback Singer",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 41,
+            Name: "Yakzan Gary Pereira",
+            Title: "Songs",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 42,
+            Name: "Pushpavathy",
+            Title: "Playback Singer",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 43,
+            Name: "G. Sreeram",
+            Title: "Playback Singer",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 44,
+            Name: "Vaikom Vijayalakshmi",
+            Title: "Playback Singer",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 45,
+            Name: "Jobeesh Antony",
+            Title: "Finance Controller",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 46,
+            Name: "Balu Parameswar",
+            Title: "Digital Content Manager",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 47,
+            Name: "Vivek Ranjit",
+            Title: "Subtitler",
+            Image: {
+              data: {
+                id: 101,
+                attributes: {
+                  name: "cast-1",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+        ],
         Review: [],
         Awards: [],
         Videos: [
