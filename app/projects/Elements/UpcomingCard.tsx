@@ -24,7 +24,7 @@ const UpcomingCard = ({ image }: propUpcoming) => {
             <div className=" w-full h-full bg-opacity-25 bg-black md:py-11 md:px-12 p-5  absolute transform transition duration-500 delay-100 inset-0 rounded-3xl md:rounded-[80px] ">
               <div className="w-full h-full  relative ">
                 <div className="absolute top-0  flex items-end justify-end   w-full  h-auto">
-                  <div className="flex justify-normal gap-2 py-2 ">
+                  <a target="_blank" href="https://www.youtube.com/watch?v=W4zE0OWTZBU" className="flex justify-normal gap-2 py-2 ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -52,7 +52,7 @@ const UpcomingCard = ({ image }: propUpcoming) => {
                     <div className="text-[19px] font-archive font-normal leading-[26.6px] text-white ">
                       Watch Trailer
                     </div>
-                  </div>
+                  </a>
                 </div>
                 <div className="absolute bottom-0 left-0 w-full  h-auto">
                   <img
@@ -60,7 +60,7 @@ const UpcomingCard = ({ image }: propUpcoming) => {
                     alt=""
                     className="md:max-w-[267px] md:max-h-[104px] max-w-[109px] max-h-[41px]"
                   />
-                </div>
+                  </div>
               </div>
             </div>
           </div>

@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Navbar from "../GlobalELements/Navbar";
+import Image from "next/image";
 const Hero = () => {
   const [play, setPlay] = useState(false);
   const [modalplay, setmodalPlay] = useState(false);
@@ -76,16 +77,19 @@ const Hero = () => {
                       setmodalPlay(!modalplay);
                     }}
                   >
-                    <motion.img
+                    <motion.div  initial="initial"
+                      animate="animate"   variants={variantsText}>
+                    <Image
                       src="/Image/play-2.svg"
-                      alt=""
-                      initial="initial"
-                      animate="animate"
+                      alt="hero image "
+                     priority
                       className="hover:cursor-pointer"
-                      variants={variantsText}
+                      
                       width={66}
                       height={66}
                     />
+                    </motion.div>
+                  
                   </motion.div>
                 </div>
               </div>

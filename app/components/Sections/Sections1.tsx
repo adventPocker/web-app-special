@@ -230,7 +230,7 @@ const Sections1 = () => {
                     <div className="flex-col md:justify-start justify-center md:items-start items-center md:gap-8 gap-2 flex ">
                       <div className="md:w-[44.52px] md:h-11 w-[35px] h-[35px] ">
                         <div className="md:w-[43.48px] md:h-[42.96px] w-[35px] h-[35px] left-[0.52px] top-[0.52px] ">
-                          <img
+                          <Image
                             src="/Image/home-page-icons-1.png"
                             alt="icon record"
                             width={43}

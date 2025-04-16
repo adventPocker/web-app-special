@@ -49,46 +49,45 @@ export default function SectionsC02() {
               </h2>
 
               <p className="text-gray-300 leading-relaxed">
-                Aashiq Abu is an Indian film director, producer, actor, and
-                distributor, who works in Malayalam cinema. He is best known for
-                his films such as Daddy Cool, Salt N&apos; Pepper, 22 Female
-                Kottayam, Idukki Gold.
+                Got a burning question or just want to share your thoughts? Our
+                team is all ears! Dive into a conversation with us and
+                experience how a simple inquiry can spark extraordinary
+                insights. We believe every question is a chance to make magic
+                happen—reach out and let&apos;s get the dialogue started. 
               </p>
             </div>
 
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid md:grid-cols-2 grid-cols-1 gap-[25px]">
-
-              <div className="space-y-1">
-                <label htmlFor="name" className="text-gray-300">
-                  Name
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  className="w-full bg-transparent border border-gray-400 rounded-md p-3 text-white focus:outline-none focus:border-[#e47a9e] transition-colors"
-                  required
-                />
+                <div className="space-y-1">
+                  <label htmlFor="name" className="text-gray-300">
+                    Name
+                  </label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    className="w-full bg-transparent border border-gray-400 rounded-md p-3 text-white focus:outline-none focus:border-[#e47a9e] transition-colors"
+                    required
+                  />
+                </div>
+                <div className="space-y-1">
+                  <label htmlFor="email" className="text-gray-300">
+                    Email
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    className="w-full bg-transparent border border-gray-400 rounded-md p-3 text-white focus:outline-none focus:border-[#e47a9e] transition-colors"
+                    required
+                  />
+                </div>
               </div>
-              <div className="space-y-1">
-                <label htmlFor="email" className="text-gray-300">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  className="w-full bg-transparent border border-gray-400 rounded-md p-3 text-white focus:outline-none focus:border-[#e47a9e] transition-colors"
-                  required
-                />
-              </div>
-              </div>
-
 
               <div className="space-y-1">
                 <label htmlFor="message" className="text-gray-300">

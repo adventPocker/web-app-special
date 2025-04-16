@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 const Footer = () => {
   const footerStyle = {
     background: "linear-gradient(238.7deg, #FF6572 31.09%, #A7426F 83.44%)",
@@ -75,26 +76,54 @@ const Footer = () => {
                   </div>
                 </div>
                 <div className="flex gap-8 justify-normal md:mt-0 mt-[37px]">
-                  <img
-                    src="/Image/iconF-3.svg"
-                    alt=""
-                    className="md:w-[18px] md:h-[18px] w-full h-[13.31px] object-fill"
-                  />
-                  <img
-                    src="/Image/iconF-1.svg"
-                    alt=""
-                    className="md:w-[18px] md:h-[18px] w-full h-[13.31px] object-fill"
-                  />
-                  <img
-                    src="/Image/iconF-4.svg"
-                    alt=""
-                    className="md:w-[18px] md:h-[18px] w-full h-[13.31px] object-fill"
-                  />
-                  <img
-                    src="/Image/iconF-2.svg"
-                    alt=""
-                    className="md:w-[18px] md:h-[18px] w-full h-[13.31px] object-fill"
-                  />
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/OpmDreamMillCinemas"
+                  >
+                    <Image
+                      src="/Image/iconF-3.svg"
+                      alt="facebook icon"
+                      width={18}
+                      height={18}
+                      className="md:w-[18px] md:h-[18px] w-full h-[13.31px] object-fill"
+                    />
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/opmcinemas/"
+                  >
+                    <Image
+                      src="/Image/iconF-1.svg"
+                      alt="instagram icon"
+                      width={18}
+                      height={18}
+                      className="md:w-[18px] md:h-[18px] w-full h-[13.31px] object-fill"
+                    />
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://x.com/opmcinemas"
+                  >
+                    <Image
+                      src="/Image/iconF-4.svg"
+                      alt="twitter icon"
+                      width={18}
+                      height={18}
+                      className="md:w-[18px] md:h-[18px] w-full h-[13.31px] object-fill"
+                    />
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/@OPMRecords"
+                  >
+                    <Image
+                      src="/Image/iconF-2.svg"
+                      alt="youtube icon"
+                      width={18}
+                      height={18}
+                      className="md:w-[18px] md:h-[18px] w-full h-[13.31px] object-fill"
+                    />
+                  </a>
                 </div>
               </div>
               <div className="h-full  md:w-1/2 w-full md:block hidden">
@@ -152,8 +181,9 @@ const Footer = () => {
                   <input
                     type="email"
                     placeholder="Your email address"
-                    className={`bg-white text-black md:h-[61px]   px-4 h-8 w-full md:rounded-l-[18px] ${isValidEmail ? "" : "border-red-500"
-                      }`}
+                    className={`bg-white text-black md:h-[61px]   px-4 h-8 w-full md:rounded-l-[18px] ${
+                      isValidEmail ? "" : "border-red-500"
+                    }`}
                     value={email}
                     onChange={handleInputChange}
                   />

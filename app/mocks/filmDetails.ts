@@ -22,8 +22,8 @@ export const mockFilmData: ApiFilmData = {
         Aspect_Ratio: "2:39:1",
         createdAt: "2024-01-01T00:00:00.000Z",
         updatedAt: "2024-01-01T00:00:00.000Z",
-        Trailer_url: "https://www.youtube.com/watch?v=example1",
-        MovieUrl: "https://www.example.com/watch/the-last-journey",
+        Trailer_url: "https://www.youtube.com/watch?v=_HacZSM24mA",
+        MovieUrl: "https://www.netflix.com/in/title/81752390",
         publishedAt: "2024-01-01T00:00:00.000Z",
         slug: "rifle-club",
         CardImage: {
@@ -177,10 +177,10 @@ export const mockFilmData: ApiFilmData = {
             Title: "Director, Cinematographer & Producer",
             Image: {
               data: {
-                id: 7,
+                id: 73,
                 attributes: {
                   name: "crew-1",
-                  url: "/movies/rifle_clube/crew-5.png",
+                  url: "/movies/common-images/AashiqAbu.jpg",
                 },
               },
             },
@@ -255,7 +255,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 14,
                 attributes: {
                   name: "crew-8",
-                  url: "/movies/rifle_clube/crew-3.png",
+                  url: "/movies/common-images/RexVijayan.jpg",
                 },
               },
             },
@@ -357,7 +357,7 @@ export const mockFilmData: ApiFilmData = {
             id: 2,
             Reviewer: "The Hindu ",
             ReviewContent:
-              "Aashiq Abu’s stylish film is a treat to watch, but needed better writing",
+              "Aashiq Abu's stylish film is a treat to watch, but needed better writing",
           },
           {
             id: 3,
@@ -563,8 +563,8 @@ export const mockFilmData: ApiFilmData = {
         Aspect_Ratio: "1.85:1",
         createdAt: "2024-02-01T00:00:00.000Z",
         updatedAt: "2024-02-01T00:00:00.000Z",
-        Trailer_url: "https://www.youtube.com/watch?v=neelavelicham",
-        MovieUrl: "https://www.example.com/watch/neelavelicham",
+        Trailer_url: "https://www.youtube.com/watch?v=jOOO00WJRWw",
+        MovieUrl: "https://www.primevideo.com/dp/amzn1.dv.gti.9bb39d7f-9956-4df4-be84-614fa31b6099",
         publishedAt: "2024-02-01T00:00:00.000Z",
         slug: "neelavelicham",
         CardImage: {
@@ -606,7 +606,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 34,
                 attributes: {
                   name: "actor-1",
-                  url: "/movies/default.png",
+                  url: "/movies/common-images/TovinoThomas.jpg",
                 },
               },
             },
@@ -634,7 +634,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 36,
                 attributes: {
                   name: "actor-3",
-                  url: "/movies/default.png",
+                  url: "/movies/common-images/RoshanMathew.jpg",
                 },
               },
             },
@@ -659,10 +659,10 @@ export const mockFilmData: ApiFilmData = {
             Title: "Bhargavi",
             Image: {
               data: {
-                id: 38,
+                id: 54,
                 attributes: {
-                  name: "actor-5",
-                  url: "/movies/default.png",
+                  name: "crew-4",
+                  url: "/movies/common-images/RimaKallingal.jpg",
                 },
               },
             },
@@ -790,7 +790,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 41,
                 attributes: {
                   name: "crew-4",
-                  url: "/movies/default.png",
+                  url: "/movies/common-images/HrishikeshBhaskaran.jpg",
                 },
               },
             },
@@ -804,7 +804,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 42,
                 attributes: {
                   name: "crew-5",
-                  url: "/movies/default.png",
+                  url: "/movies/common-images/VaikomMuhammadBasheer.jpg",
                 },
               },
             },
@@ -818,7 +818,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 43,
                 attributes: {
                   name: "crew-6",
-                  url: "/movies/default.png",
+                  url: "/movies/common-images/GirishGangadharan.jpg",
                 },
               },
             },
@@ -832,7 +832,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 44,
                 attributes: {
                   name: "crew-7",
-                  url: "/movies/default.png",
+                  url: "/movies/common-images/JimshiKhalid.jpg",
                 },
               },
             },
@@ -843,10 +843,10 @@ export const mockFilmData: ApiFilmData = {
             Title: "Cinematography",
             Image: {
               data: {
-                id: 45,
+                id: 5,
                 attributes: {
-                  name: "crew-8",
-                  url: "/movies/default.png",
+                  name: "crew-5",
+                  url: "/movies/common-images/ShyjuKhalid.jpg",
                 },
               },
             },
@@ -874,7 +874,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 47,
                 attributes: {
                   name: "crew-10",
-                  url: "/movies/default.png",
+                  url: "/movies/common-images/Bijibal.jpg",
                 },
               },
             },
@@ -899,10 +899,10 @@ export const mockFilmData: ApiFilmData = {
             Title: "Production Design",
             Image: {
               data: {
-                id: 49,
+                id: 101,
                 attributes: {
-                  name: "crew-12",
-                  url: "/movies/default.png",
+                  name: "cast-1",
+                  url: "/movies/common-images/JotishShankar.jpg",
                 },
               },
             },
@@ -913,10 +913,10 @@ export const mockFilmData: ApiFilmData = {
             Title: "Costume Design",
             Image: {
               data: {
-                id: 50,
+                id: 15,
                 attributes: {
                   name: "crew-13",
-                  url: "/movies/default.png",
+                  url: "/movies/common-images/SameeraSaneesh.jpg",
                 },
               },
             },
@@ -1145,8 +1145,8 @@ export const mockFilmData: ApiFilmData = {
         Aspect_Ratio: "2.39:1",
         createdAt: "2024-03-01T00:00:00.000Z",
         updatedAt: "2024-03-01T00:00:00.000Z",
-        Trailer_url: "https://www.youtube.com/watch?v=bheemante-vazhi",
-        MovieUrl: "https://www.example.com/watch/bheemante-vazhi",
+        Trailer_url: "https://www.youtube.com/watch?v=6jr0-y7L4IM",
+        MovieUrl: "https://www.primevideo.com/dp/amzn1.dv.gti.ebd61229-0add-4fdc-97b0-3bcd8f8e298b",
         publishedAt: "2024-03-01T00:00:00.000Z",
         slug: "bheemante-vazhi",
         CardImage: {
@@ -1330,7 +1330,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 54,
                 attributes: {
                   name: "crew-4",
-                  url: "/movies/default.png",
+                  url: "/movies/common-images/RimaKallingal.jpg",
                 },
               },
             },
@@ -1358,7 +1358,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 56,
                 attributes: {
                   name: "crew-6",
-                  url: "/movies/default.png",
+                  url: "/movies/common-images/GirishGangadharan.jpg",
                 },
               },
             },
@@ -1659,8 +1659,8 @@ export const mockFilmData: ApiFilmData = {
         Aspect_Ratio: "2.39:1",
         createdAt: "2024-03-01T00:00:00.000Z",
         updatedAt: "2024-03-01T00:00:00.000Z",
-        Trailer_url: "https://www.youtube.com/watch?v=naaradan-trailer",
-        MovieUrl: "https://www.example.com/watch/naaradan",
+        Trailer_url: "https://www.youtube.com/watch?v=Neo6E4sbZvQ",
+        MovieUrl: "https://www.primevideo.com/detail/Naradan/0QPXVB4YJHGRO3TACGPG44GI8T",
         publishedAt: "2024-03-01T00:00:00.000Z",
         slug: "naaradan",
         CardImage: {
@@ -2479,8 +2479,8 @@ export const mockFilmData: ApiFilmData = {
         Aspect_Ratio: "2.39:1",
         createdAt: "2024-04-01T00:00:00.000Z",
         updatedAt: "2024-04-01T00:00:00.000Z",
-        Trailer_url: "https://www.youtube.com/watch?v=virus-trailer",
-        MovieUrl: "https://www.example.com/watch/virus",
+        Trailer_url: "https://www.youtube.com/watch?v=38MijVTyP7s",
+        MovieUrl: "https://www.primevideo.com/dp/amzn1.dv.gti.1abc36ee-a86c-44bd-02af-890cfdbaed96",
         publishedAt: "2024-04-01T00:00:00.000Z",
         slug: "virus",
         CardImage: {
@@ -2832,7 +2832,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "crew-1",
-                  url: "/movies/default.png",
+                  url: "/movies/common-images/AashiqAbu.jpg",
                 },
               },
             },
@@ -2916,7 +2916,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 79,
                 attributes: {
                   name: "crew-7",
-                  url: "/movies/default.png",
+                  url: "/movies/common-images/RimaKallingal.jpg",
                 },
               },
             },
@@ -2958,7 +2958,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 82,
                 attributes: {
                   name: "crew-10",
-                  url: "/movies/default.png",
+                  url: "/movies/common-images/ShyjuKhalid.jpg",
                 },
               },
             },
@@ -3235,8 +3235,8 @@ export const mockFilmData: ApiFilmData = {
         Aspect_Ratio: "1.85:1",
         createdAt: "2024-05-01T00:00:00.000Z",
         updatedAt: "2024-05-01T00:00:00.000Z",
-        Trailer_url: "https://www.youtube.com/watch?v=mayanadhi-trailer",
-        MovieUrl: "https://www.example.com/watch/mayanadhi",
+        Trailer_url: "https://www.youtube.com/watch?v=RYYxyNxr_4E",
+        MovieUrl: "https://www.airtelxstream.in/movies/mayanadhi/DOLLYWOOD_MOVIE_65431c3ba18a0e4c51c21f97",
         publishedAt: "2024-05-01T00:00:00.000Z",
         slug: "mayanadhi",
         CardImage: {
@@ -3589,7 +3589,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "crew-1",
-                  url: "/movies/default.png",
+                  url: "/movies/common-images/AashiqAbu.jpg",
                 },
               },
             },
@@ -3659,7 +3659,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "crew-6",
-                  url: "/movies/default.png",
+                  url: "/movies/common-images/RexVijayan.jpg",
                 },
               },
             },
@@ -3715,7 +3715,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "crew-10",
-                  url: "/movies/default.png",
+                  url: "/movies/common-images/SameeraSaneesh.jpg",
                 },
               },
             },
@@ -3770,12 +3770,12 @@ export const mockFilmData: ApiFilmData = {
           {
             id: 10,
             Reviewer: "Baradwaj Rangan",
-            ReviewContent: "We’ve seen many falling-in-love films, many falling-out-of-love films. This is a being-in-love film, with all the passions and problems the term suggests."
+            ReviewContent: "We've seen many falling-in-love films, many falling-out-of-love films. This is a being-in-love film, with all the passions and problems the term suggests."
           },
           {
             id: 11,
             Reviewer: "Veeyen",
-            ReviewContent: "In ‘Mayaanadhi, director Aashiq Abu, armed with a dexterously penned screenplay, settles down to sensitively sketch a doomed tale of love. An impeccable reconstruction of an age-old narrative in an untested realistic setting, ‘Mayanadhi’ is the kind of film that holds a depth of meanings in those abstract gazes, a profundity of emotions in those unuttered words, and which leaves an inexplicable, seething sting at the upshot of it all."
+            ReviewContent: "In 'Mayaanadhi, director Aashiq Abu, armed with a dexterously penned screenplay, settles down to sensitively sketch a doomed tale of love. An impeccable reconstruction of an age-old narrative in an untested realistic setting, 'Mayanadhi' is the kind of film that holds a depth of meanings in those abstract gazes, a profundity of emotions in those unuttered words, and which leaves an inexplicable, seething sting at the upshot of it all."
           }
         ],
         Awards: [
@@ -4089,8 +4089,8 @@ export const mockFilmData: ApiFilmData = {
         Aspect_Ratio: "2.39:1",
         createdAt: "2024-06-01T00:00:00.000Z",
         updatedAt: "2024-06-01T00:00:00.000Z",
-        Trailer_url: "https://www.youtube.com/watch?v=maheshinte-trailer",
-        MovieUrl: "https://www.example.com/watch/maheshinte-prathikaram",
+        Trailer_url: "https://www.youtube.com/watch?v=_KY8Du4WWew",
+        MovieUrl: "https://www.primevideo.com/dp/amzn1.dv.gti.eaba98c7-6c18-e03b-a285-19c7aceffb2f",
         publishedAt: "2024-06-01T00:00:00.000Z",
         slug: "maheshinte-prathikaram",
         CardImage: {
@@ -4463,7 +4463,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "crew-1",
-                  url: "/movies/default.png",
+                  url: "/movies/common-images/AashiqAbu.jpg",
                 },
               },
             },
@@ -4505,7 +4505,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "crew-4",
-                  url: "/movies/default.png",
+                  url: "/movies/common-images/Bijibal.jpg",
                 },
               },
             },
@@ -4519,7 +4519,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "crew-5",
-                  url: "/movies/default.png",
+                  url: "/movies/common-images/ShyjuKhalid.jpg",
                 },
               },
             },
@@ -4561,7 +4561,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "crew-8",
-                  url: "/movies/default.png",
+                  url: "/movies/common-images/SameeraSaneesh.jpg",
                 },
               },
             },
@@ -4976,8 +4976,8 @@ export const mockFilmData: ApiFilmData = {
         Aspect_Ratio: "2.39:1",
         createdAt: "2024-07-01T00:00:00.000Z",
         updatedAt: "2024-07-01T00:00:00.000Z",
-        Trailer_url: "https://www.youtube.com/watch?v=gangster-trailer",
-        MovieUrl: "https://www.example.com/watch/gangster",
+        Trailer_url: "https://www.youtube.com/watch?v=wt980_YsW_8",
+        MovieUrl: "https://www.primevideo.com/dp/amzn1.dv.gti.10b8067a-6b27-e706-2e7e-02caf4c8e1c1",
         publishedAt: "2024-07-01T00:00:00.000Z",
         slug: "gangster",
         CardImage: {
@@ -5231,7 +5231,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 67,
                 attributes: {
                   name: "crew-1",
-                  url: "/movies/default.png",
+                  url: "/movies/common-images/AashiqAbu.jpg",
                 },
               },
             },
@@ -5576,8 +5576,8 @@ export const mockFilmData: ApiFilmData = {
         Aspect_Ratio: "2.39:1",
         createdAt: "2024-08-01T00:00:00.000Z",
         updatedAt: "2024-08-01T00:00:00.000Z",
-        Trailer_url: "https://www.youtube.com/watch?v=ee-ma-yau-trailer",
-        MovieUrl: "https://www.example.com/watch/ee-ma-yau",
+        Trailer_url: "https://www.youtube.com/watch?v=b8WZa0GvNYs",
+        MovieUrl: "https://www.justwatch.com/in/movie/ee-ma-yau",
         publishedAt: "2024-08-01T00:00:00.000Z",
         slug: "ee-ma-yau",
         CardImage: {
@@ -5849,7 +5849,7 @@ export const mockFilmData: ApiFilmData = {
           {
             id: 4,
             Reviewer: "Film critic Veeyen",
-            ReviewContent: "Was all praise for the film, rated the film 'Excellent', and wrote that \"With ‘Ee.Ma.Yau’ Lijo Jose Pellissery surpasses himself, asserts once and for all that he's a master craftsman who astutely sees his dough even in a theme that is as stiff and unmalleable as a corpse (pun intended), and crafts a chimerical ode to mortality.\""
+            ReviewContent: "Was all praise for the film, rated the film 'Excellent', and wrote that \"With 'Ee.Ma.Yau' Lijo Jose Pellissery surpasses himself, asserts once and for all that he's a master craftsman who astutely sees his dough even in a theme that is as stiff and unmalleable as a corpse (pun intended), and crafts a chimerical ode to mortality.\""
           },
           {
             id: 5,
@@ -6766,7 +6766,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 122,
                 attributes: {
                   name: "crew-12",
-                  url: "/movies/default.png",
+                  url: "/movies/common-images/Bijibal.jpg",
                 },
               },
             },
@@ -6794,7 +6794,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 124,
                 attributes: {
                   name: "crew-14",
-                  url: "/movies/default.png",
+                  url: "/movies/common-images/SameeraSaneesh.jpg",
                 },
               },
             },
@@ -7392,7 +7392,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 101,
                 attributes: {
                   name: "cast-1",
-                  url: "/movies/default.png",
+                  url: "/movies/common-images/JotishShankar.jpg",
                 },
               },
             },
@@ -7406,7 +7406,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 101,
                 attributes: {
                   name: "cast-1",
-                  url: "/movies/default.png",
+                  url: "/movies/common-images/SameeraSaneesh.jpg",
                 },
               },
             },

@@ -16,6 +16,7 @@ const FilmImageCard = ({ data }: propsFilmImageCard) => {
               alt=""
               height={350}
               width={377}
+              loading="eager"
             />
           </Link>
           <div
