@@ -174,7 +174,7 @@ export const mockFilmData: ApiFilmData = {
           {
             id: 1,
             Name: "Aashiq Abu",
-            Title: "Director , Cinematographer & Producer",
+            Title: "Director, Cinematographer & Producer",
             Image: {
               data: {
                 id: 7,
@@ -191,9 +191,9 @@ export const mockFilmData: ApiFilmData = {
             Title: "Screenplay",
             Image: {
               data: {
-                id: 7,
+                id: 8,
                 attributes: {
-                  name: "crew-1",
+                  name: "crew-2",
                   url: "/movies/rifle_clube/crew-1.png",
                 },
               },
@@ -201,84 +201,146 @@ export const mockFilmData: ApiFilmData = {
           },
           {
             id: 3,
-            Name: "Dileesh Karunakaran",
+            Name: "Dileesh Nair",
             Title: "Screenplay",
             Image: {
               data: {
-                id: 7,
+                id: 9,
                 attributes: {
-                  name: "crew-1",
+                  name: "crew-3",
                   url: "/movies/rifle_clube/crew-6.png",
                 },
               },
             },
           },
           {
-            id: 4,
-            Name: "Suhas",
-            Title: "Screenplay",
-            Image: {
-              data: {
-                id: 7,
-                attributes: {
-                  name: "crew-1",
-                  url: "/movies/rifle_clube/crew-7.png",
-                },
-              },
-            },
-          },
-          {
-            id: 3,
+            id: 7,
             Name: "Vincent Vadakkan",
-            Title: "Producers",
+            Title: "Producer",
             Image: {
               data: {
-                id: 7,
+                id: 13,
                 attributes: {
-                  name: "crew-2",
+                  name: "crew-7",
                   url: "/movies/rifle_clube/crew-2.png",
+
+                  // 
                 },
               },
             },
           },
+          
           {
-            id: 3,
-            Name: "Vincent Vadakkan",
-            Title: "Producers",
+            id: 5,
+            Name: "Abid Abu",
+            Title: "Executive Producer",
             Image: {
               data: {
-                id: 7,
+                id: 11,
                 attributes: {
-                  name: "crew-2",
-                  url: "/movies/default.png",
+                  name: "crew-5",
+                  url: "/movies/rifle_clube/crew-4.png",
                 },
               },
             },
           },
+         
+   
           {
-            id: 3,
-            Name: "Vincent Vadakkan",
-            Title: "Producers",
+            id: 8,
+            Name: "Rex Vijayan",
+            Title: "Composer & Music Producer",
             Image: {
               data: {
-                id: 7,
+                id: 14,
                 attributes: {
-                  name: "crew-2",
+                  name: "crew-8",
                   url: "/movies/rifle_clube/crew-3.png",
                 },
               },
             },
           },
           {
-            id: 3,
-            Name: "Vincent Vadakkan",
-            Title: "Producers",
+            id: 10,
+            Name: "Suhas",
+            Title: "Screenplay",
             Image: {
               data: {
-                id: 7,
+                id: 16,
                 attributes: {
-                  name: "crew-2",
-                  url: "/movies/rifle_clube/crew-4.png",
+                  name: "crew-10",
+                  url: "/movies/rifle_clube/crew-7.png",
+                },
+              },
+            },
+          },
+          {
+            id: 6,
+            Name: "Augustine George",
+            Title: "Executive Producer",
+            Image: {
+              data: {
+                id: 12,
+                attributes: {
+                  name: "crew-6",
+                 url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 4,
+            Name: "Sharfu",
+            Title: "Screenplay",
+            Image: {
+              data: {
+                id: 10,
+                attributes: {
+                  name: "crew-4",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 9,
+            Name: "V. Sajan",
+            Title: "Editor",
+            Image: {
+              data: {
+                id: 15,
+                attributes: {
+                  name: "crew-9",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+         
+          {
+            id: 11,
+            Name: "Ajayan Chalissery",
+            Title: "Production Designer",
+            Image: {
+              data: {
+                id: 17,
+                attributes: {
+                  name: "crew-11",
+                  url: "/movies/default.png",
+                },
+              },
+            },
+          },
+          {
+            id: 12,
+            Name: "Mashar Hamsa",
+            Title: "Costume Designer",
+            Image: {
+              data: {
+                id: 18,
+                attributes: {
+                  name: "crew-12",
+                  url: "/movies/default.png",
                 },
               },
             },
