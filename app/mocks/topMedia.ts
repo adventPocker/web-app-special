@@ -9,70 +9,135 @@ export const mockTopMediaData: ApiTopMedia = {
         Video: [
           {
             id: 1,
-            Title: "Behind the Scenes - The Last Journey",
-            FilmName: "The Last Journey",
-            Views: "150K",
-            ExternalUrl: "https://www.youtube.com/watch?v=example1",
+            Title: "Lovely - Official Teaser",
+            FilmName: "Lovely",
+            Views: "1M",
+            ExternalUrl: "W4zE0OWTZBU",
             ImgThumb: {
               data: {
                 id: 1,
                 attributes: {
                   name: "video-thumb-1",
-                  url: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=300",
+                  url: "https://i.ytimg.com/vi/W4zE0OWTZBU/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCf2_HbMjmXoGEU6vLv3CSKydbIxQ",
                 }
               }
             }
           },
           {
             id: 2,
-            Title: "Making of Ocean's Whisper",
-            FilmName: "Ocean's Whisper",
-            Views: "100K",
-            ExternalUrl: "https://www.youtube.com/watch?v=example2",
+            Title: "Craziness - Official Video Song",
+            FilmName: "Lovely",
+            Views: "1.2M",
+            ExternalUrl: "tUrHQj14-Eg",
             ImgThumb: {
               data: {
                 id: 2,
                 attributes: {
                   name: "video-thumb-2",
-                  url: "https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?w=300",
+                  url: "https://i.ytimg.com/vi/tUrHQj14-Eg/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCf2_HbMjmXoGEU6vLv3CSKydbIxQ",
+                }
+              }
+            }
+          },
+          {
+            id: 3,
+            Title: "Bubble Poomottukal - Official Video Song",
+            FilmName: "Lovely",
+            Views: "1.2M",
+            ExternalUrl: "1cAq0h4d35A",
+            ImgThumb: {
+              data: {
+                id: 3,
+                attributes: {
+                  name: "video-thumb-3",
+                  url: "https://i.ytimg.com/vi/1cAq0h4d35A/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCf2_HbMjmXoGEU6vLv3CSKydbIxQ",
                 }
               }
             }
           }
         ],
         Music: [
-          {
-            id: 1,
-            Title: "Journey's Theme",
-            FilmName: "The Last Journey",
-            Views: "200K",
-            ExternalUrl: "https://www.youtube.com/watch?v=example3",
-            ImgThumb: {
-              data: {
-                id: 3,
-                attributes: {
-                  name: "music-thumb-1",
-                  url: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=300",
-                }
-              }
-            }
-          },
+         
           {
             id: 2,
-            Title: "Ocean's Lullaby",
-            FilmName: "Ocean's Whisper",
+            Title: "Craziness - Song",
+            FilmName: "Lovely",
             Views: "180K",
-            ExternalUrl: "https://www.youtube.com/watch?v=example4",
+            ExternalUrl: "https://www.youtube.com/watch?v=tUrHQj14-Eg",
             ImgThumb: {
               data: {
                 id: 4,
                 attributes: {
                   name: "music-thumb-2",
-                  url: "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=300",
+                  url: "https://i.ytimg.com/vi/tUrHQj14-Eg/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCf2_HbMjmXoGEU6vLv3CSKydbIxQ",
                 }
               }
             }
-          }
+          },
+          {
+            id: 3,
+            Title: "Bubble Poomottukal",
+            FilmName: "Lovely",
+            Views: "1.2M",
+            ExternalUrl: "https://www.youtube.com/watch?v=1cAq0h4d35A",
+            ImgThumb: {
+              data: {
+                id: 5,
+                attributes: {
+                  name: "music-thumb-3",
+                  url: "https://i.ytimg.com/vi/1cAq0h4d35A/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCf2_HbMjmXoGEU6vLv3CSKydbIxQ",
+                }
+              }
+            }
+          },
+          {
+            id: 4,
+            Title: "Killer On The Loose",
+            FilmName: "Rifle Club",
+            Views: "",
+            ExternalUrl: "https://www.youtube.com/watch?v=zL4cULLyBJY",
+            ImgThumb: {
+              data: {
+                id: 6,
+                attributes: {
+                  name: "music-thumb-4",
+                  url: "https://i.ytimg.com/vi/zL4cULLyBJY/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCf2_HbMjmXoGEU6vLv3CSKydbIxQ",
+                }
+              }
+            }
+          },
+          {
+            id: 5,
+            Title: "Gandharva Ganam",
+            FilmName: "Rifle Club",
+            Views: "",
+            ExternalUrl: "https://www.youtube.com/watch?v=TbCRTGhQ_hI",
+            ImgThumb: {
+              data: {
+                id: 7,
+                attributes: {
+                  name: "music-thumb-5",
+                  url: "https://i.ytimg.com/vi/TbCRTGhQ_hI/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCf2_HbMjmXoGEU6vLv3CSKydbIxQ",
+                }
+              }
+            }
+          },
+          // {
+          //   id: 6,
+          //   Title: "Aalunnu Neeye - Song",
+          //   FilmName: "Rifle Club",
+          //   Views: "1.2M",
+          //   ExternalUrl: "https://www.youtube.com/watch?v=uf_5u7ngzp4",
+          //   ImgThumb: {
+          //     data: {
+          //       id: 8,
+          //       attributes: {
+          //         name: "music-thumb-6",
+          //         url: "https://i.ytimg.com/vi/uf_5u7ngzp4/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCf2_HbMjmXoGEU6vLv3CSKydbIxQ",
+          //       }
+          //     }
+          //   }
+          // }
         ]
       }
     }
