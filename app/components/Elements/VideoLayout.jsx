@@ -21,7 +21,7 @@ const VideoLayout = ({ isVideo,VideoData }) => {
   return (
     <>
       <div
-        className={`w-full ${isVideo ? " md:pt-[154px] md:pb-[120px]" : ""}`}
+        className={`w-full bg-gre ${isVideo ? " md:pt-[154px] md:pb-[120px]" : ""}`}
       >
         {isVideo && (
           <div className="w-[203px] h-[53px] justify-start items-start gap-5 inline-flex">
@@ -50,7 +50,7 @@ const VideoLayout = ({ isVideo,VideoData }) => {
               slidesPerView: 3,
             },
           }}
-          className=" md:mt-16  h-full w-full md:max-h-[300px] mt-12"
+          className=" md:mt-16  h-full w-full md:max-h-[300px] "
         >
           {VideoData.map((data, index)=>(
           <SwiperSlide key={index}>
