@@ -2526,7 +2526,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 44,
                 attributes: {
                   name: "actor-1",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/people/BasilJoseph.jpg",
                 },
               },
             },
@@ -2540,7 +2540,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 45,
                 attributes: {
                   name: "actor-2",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/people/KunchackoBoban.jpg",
                 },
               },
             },
@@ -2554,7 +2554,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 46,
                 attributes: {
                   name: "actor-3",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/people/AsifAli.jpg",
                 },
               },
             },
@@ -2568,7 +2568,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 47,
                 attributes: {
                   name: "actor-4",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/people/JojuGeorge.jpg",
                 },
               },
             },
@@ -2582,7 +2582,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 48,
                 attributes: {
                   name: "actor-5",
-                  url: "/movies/default.png",
+                  url: "/movies/common-images/TovinoThomas.jpg",
                 },
               },
             },
@@ -2596,7 +2596,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 49,
                 attributes: {
                   name: "actor-6",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/people/VaisakhShankar.jpg",
                 },
               },
             },
@@ -2610,7 +2610,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 50,
                 attributes: {
                   name: "actor-7",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/people/ParvathyThiruvothu.jpg",
                 },
               },
             },
@@ -2624,7 +2624,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 51,
                 attributes: {
                   name: "actor-8",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/people/SoubinShahir.jpg",
                 },
               },
             },
@@ -2638,7 +2638,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 52,
                 attributes: {
                   name: "actor-9",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/people/Revathi.jpg",
                 },
               },
             },
