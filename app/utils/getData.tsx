@@ -3,6 +3,7 @@ import { mockFilmData } from '../mocks/filmDetails';
 import { mockTopMediaData } from '../mocks/topMedia';
 import { mockAwardsData } from '../mocks/awards';
 import { mockPersonalData } from '../mocks/personalInfo';
+import { heroAwardsData } from '../mocks/heroData';
 
 export async function getMovieCardData(): Promise<ApiFilmCard> {
   return mockMovieCardData;
@@ -33,3 +34,8 @@ export async function getAwardsData(): Promise<AwardApiResponse> {
 export async function getPersonalData(): Promise<PersonalApiResponse> {
   return mockPersonalData;
 }
+
+export async function getHeroData(): Promise<AwardApiResponse> {
+  return heroAwardsData;
+}
+  

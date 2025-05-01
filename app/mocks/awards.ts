@@ -11,6 +11,7 @@ export const mockAwardsData: AwardApiResponse = {
         createdAt: "2016-02-05T00:00:00.000Z",
         updatedAt: "2016-02-05T00:00:00.000Z",
         publishedAt: "2016-02-05T00:00:00.000Z",
+        detail_page:"/projects/maheshinte-prathikaram",
         ImageThumb: {
           data: [
             {
@@ -23,6 +24,22 @@ export const mockAwardsData: AwardApiResponse = {
           ]
         },
         Sponser: [
+          {
+            id: 6,
+            AwardSponser: "National Film Awards",
+            Details: [
+              {
+                id: 15,
+                AwardRecipient: "Syam Pushkaran",
+                AwardTitle: "Best Original Screenplay"
+              },
+              {
+                id: 16,
+                AwardRecipient: "Aashiq Abu, Dileesh Pothan",
+                AwardTitle: "Best Feature Film in Malayalam"
+              }
+            ]
+          },
           {
             id: 1,
             AwardSponser: "Asianet Film Awards",
@@ -123,22 +140,7 @@ export const mockAwardsData: AwardApiResponse = {
               }
             ]
           },
-          {
-            id: 6,
-            AwardSponser: "National Film Awards",
-            Details: [
-              {
-                id: 15,
-                AwardRecipient: "Syam Pushkaran",
-                AwardTitle: "Best Original Screenplay"
-              },
-              {
-                id: 16,
-                AwardRecipient: "Aashiq Abu, Dileesh Pothan",
-                AwardTitle: "Best Feature Film in Malayalam"
-              }
-            ]
-          },
+         
           {
             id: 7,
             AwardSponser: "North American Film Awards",
@@ -241,6 +243,7 @@ export const mockAwardsData: AwardApiResponse = {
         createdAt: "2017-12-22T00:00:00.000Z",
         updatedAt: "2017-12-22T00:00:00.000Z",
         publishedAt: "2017-12-22T00:00:00.000Z",
+        detail_page:"/projects/mayanadhi",
         ImageThumb: {
           data: [
             {
@@ -253,6 +256,17 @@ export const mockAwardsData: AwardApiResponse = {
           ]
         },
         Sponser: [
+          {
+            id: 6,
+            AwardSponser: "Kerala State Film Awards",
+            Details: [
+              {
+                id: 12,
+                AwardRecipient: "Shahabaz Aman",
+                AwardTitle: "Best Singer"
+              }
+            ]
+          },
           {
             id: 1,
             AwardSponser: "Asianet Film Awards",
@@ -338,17 +352,7 @@ export const mockAwardsData: AwardApiResponse = {
               }
             ]
           },
-          {
-            id: 6,
-            AwardSponser: "Kerala State Film Awards",
-            Details: [
-              {
-                id: 12,
-                AwardRecipient: "Shahabaz Aman",
-                AwardTitle: "Best Singer"
-              }
-            ]
-          },
+         
           {
             id: 7,
             AwardSponser: "Mazhavil Mango Music Awards",
@@ -463,6 +467,7 @@ export const mockAwardsData: AwardApiResponse = {
         createdAt: "2018-05-04T00:00:00.000Z",
         updatedAt: "2018-05-04T00:00:00.000Z",
         publishedAt: "2018-05-04T00:00:00.000Z",
+        detail_page:"/projects/ee-ma-yau",
         ImageThumb: {
           data: [
             {
@@ -475,6 +480,27 @@ export const mockAwardsData: AwardApiResponse = {
           ]
         },
         Sponser: [
+          {
+            id: 8,
+            AwardSponser: "Kerala State Film Awards",
+            Details: [
+              {
+                id: 16,
+                AwardRecipient: "Lijo Jose Pellissery",
+                AwardTitle: "Best Director"
+              },
+              {
+                id: 17,
+                AwardRecipient: "Pauly Valsan",
+                AwardTitle: "Best Character Actress"
+              },
+              {
+                id: 18,
+                AwardRecipient: "Renganaath Ravee",
+                AwardTitle: "Best Sound Design"
+              }
+            ]
+          },
           {
             id: 1,
             AwardSponser: "Asianet Film Awards",
@@ -592,27 +618,7 @@ export const mockAwardsData: AwardApiResponse = {
               }
             ]
           },
-          {
-            id: 8,
-            AwardSponser: "Kerala State Film Awards",
-            Details: [
-              {
-                id: 16,
-                AwardRecipient: "Lijo Jose Pellissery",
-                AwardTitle: "Best Director"
-              },
-              {
-                id: 17,
-                AwardRecipient: "Pauly Valsan",
-                AwardTitle: "Best Character Actress"
-              },
-              {
-                id: 18,
-                AwardRecipient: "Renganaath Ravee",
-                AwardTitle: "Best Sound Design"
-              }
-            ]
-          },
+         
           {
             id: 9,
             AwardSponser: "Toulouse Indian Film Festival",
@@ -653,6 +659,7 @@ export const mockAwardsData: AwardApiResponse = {
         createdAt: "2019-06-07T00:00:00.000Z",
         updatedAt: "2019-06-07T00:00:00.000Z",
         publishedAt: "2019-06-07T00:00:00.000Z",
+        detail_page:"/projects/virus",
         ImageThumb: {
           data: [
             {
@@ -741,6 +748,7 @@ export const mockAwardsData: AwardApiResponse = {
         createdAt: "2020-10-15T00:00:00.000Z",
         updatedAt: "2020-10-15T00:00:00.000Z",
         publishedAt: "2020-10-15T00:00:00.000Z",
+        detail_page:"/projects/halal-love-story",
         ImageThumb: {
           data: [
             {
@@ -752,7 +760,17 @@ export const mockAwardsData: AwardApiResponse = {
             }
           ]
         },
-        Sponser: [
+        Sponser: [  {
+          id: 2,
+          AwardSponser: "Kerala State Film Awards",
+          Details: [
+            {
+              id: 3,
+              AwardRecipient: "Shahabaz Aman",
+              AwardTitle: "Best Male Singer"
+            }
+          ]
+        },
           {
             id: 1,
             AwardSponser: "South Indian International Movie Awards",
@@ -769,17 +787,7 @@ export const mockAwardsData: AwardApiResponse = {
               }
             ]
           },
-          {
-            id: 2,
-            AwardSponser: "Kerala State Film Awards",
-            Details: [
-              {
-                id: 3,
-                AwardRecipient: "Shahabaz Aman",
-                AwardTitle: "Best Male Singer"
-              }
-            ]
-          }
+        
         ]
       }
     },
@@ -793,6 +801,7 @@ export const mockAwardsData: AwardApiResponse = {
         createdAt: "2021-04-01T00:00:00.000Z",
         updatedAt: "2021-04-01T00:00:00.000Z",
         publishedAt: "2021-04-01T00:00:00.000Z",
+        detail_page:"/projects/aarkkariyam",
         ImageThumb: {
           data: [
             {
@@ -845,6 +854,7 @@ export const mockAwardsData: AwardApiResponse = {
         createdAt: "2022-12-20T00:00:00.000Z",
         updatedAt: "2022-12-20T00:00:00.000Z",
         publishedAt: "2022-12-20T00:00:00.000Z",
+        detail_page:"/projects/neelavelicham",
         ImageThumb: {
           data: [
             {

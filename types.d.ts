@@ -221,6 +221,7 @@ type awardsData = {
     createdAt: string;
     updatedAt: string;
     publishedAt: string;
+    detail_page: string;
     ImageThumb: {
       data: Image[];
     };
