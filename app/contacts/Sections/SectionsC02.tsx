@@ -45,15 +45,14 @@ export default function SectionsC02() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start md:py-[74px] py-4">
             <div className="space-y-6 max-w-[470px]">
               <h2 className="text-xl md:text-4xl font-bold text-orange-200">
-                Don&apos;t hesitate to ask us a question
+                Contact Us
               </h2>
 
               <p className="text-gray-300 leading-relaxed">
-                Got a burning question or just want to share your thoughts? Our
-                team is all ears! Dive into a conversation with us and
-                experience how a simple inquiry can spark extraordinary
-                insights. We believe every question is a chance to make magic
-                happen—reach out and let&apos;s get the dialogue started. 
+                We welcome your inquiries and feedback. Our dedicated team is
+                ready to assist you with any questions or concerns you may have.
+                Please feel free to reach out through the contact form below,
+                and we will respond to your message at the earliest convenience.
               </p>
             </div>
 
