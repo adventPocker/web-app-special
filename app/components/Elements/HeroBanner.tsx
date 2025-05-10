@@ -1,11 +1,5 @@
 "use client";
-import AwardsCards from "@/app/awards/Elements/AwardsCards";
-import { motion } from "framer-motion";
-
 import Image from "next/image";
-import Link from "next/link";
-import Navbar from "../GlobalELements/Navbar";
-import { useState } from "react";
 interface BannerSliderProp {
   awardsData: heroData;
 }
@@ -23,7 +17,6 @@ const HeroBannerSlider = ({ awardsData }: BannerSliderProp) => {
     <>
       <main className="h-[100vh]  min-w-[100%]">
       <div
-        
         >
         <Image
           src={`${awardsData.attributes.ImageThumb.data[0].attributes.url}`}
@@ -46,7 +39,7 @@ const HeroBannerSlider = ({ awardsData }: BannerSliderProp) => {
                       alt={`${awardsData.attributes.movieName}`}
                       width={100}
                       height={120}
-                      className="md:min-h-[120px]   w-auto h-auto object-contain "
+                      className="md:min-h-[120px] max-w-[350px]  w-auto h-auto object-contain "
                     />
                   </div>
                   <div className="md:w-[371px] md:h-11 py-2.5 justify-start items-center gap-2.5 inline-flex">
@@ -76,9 +69,11 @@ const HeroBannerSlider = ({ awardsData }: BannerSliderProp) => {
                             "linear-gradient(238.7deg, #FFDAA9 31.09%, #FDB478 83.44%)",
                         }}
                       >
-                        <img
+                        <Image  
                           src="/Image/Play2.svg"
                           alt="no image"
+                          width={24}
+                          height={24}
                           className="w-6 h-6"
                         />
                         <span className="text-neutral-700 text-[23px] font-medium font-archive leading-loose tracking-wide">
@@ -92,10 +87,12 @@ const HeroBannerSlider = ({ awardsData }: BannerSliderProp) => {
                       rel="noopener noreferrer"
                     >
                       <button className="flex justify-center items-center gradient-button  rounded-xl gap-3 h-12 px-5 py-2  border border-white  hover:shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]  hover:scale-200 transition-transform duration-500 ease-in-out delay-400">
-                        <img
+                        <Image
                           src="/Image/Play2.svg"
                           alt="no image"
                           className="w-6 h-6"
+                          width={24}
+                          height={24}
                         />
                         <span className="text-white text-[23px] font-medium font-archive leading-loose tracking-wide">
                           Watch Trailer

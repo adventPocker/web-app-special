@@ -48,7 +48,7 @@ const HeroBanner = () => {
           modules={[Pagination, Autoplay]}
           className="mySwiper"
         >
-          {randomThreeData?.map((data:heroData, index:number) => (
+          {awardData?.data?.map((data:heroData, index:number) => (
             <SwiperSlide key={index}>
               <HeroBannerSlider awardsData={data} />
             </SwiperSlide>

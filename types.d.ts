@@ -252,7 +252,7 @@ type heroData = {
     ImageThumb: {
       data: Image[];
     };
-    Sponser: SponserDetails[];
+    Sponser?: SponserDetails[];
     TitleImage: {
       data: Image;
     };
