@@ -54,9 +54,11 @@ const SectionF1 = ({ data }: propsSectionF1) => {
               <div className=" w-full h-full  ">
                 <div className=" flex flex-col items-center md:items-start ">
                   <div className="flex flex-col md:items-start ">
-                    <img
+                    <Image  
                       src={`${data[0].attributes.TitleImage.data.attributes.url}`}
-                      alt=""
+                      alt="film title"
+                      width={100}
+                      height={100}
                       className="md:min-h-[99px] max-h-[68px] w-auto h-auto object-fill "
                     />
                   </div>

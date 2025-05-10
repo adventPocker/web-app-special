@@ -234,6 +234,35 @@ type AwardApiResponse = {
   meta: Meta;
 };
 
+type heroData = {
+  id: number;
+  attributes: {
+    movieName: string;
+    Director: string;
+    Year: string;
+    genere1: string;
+    genere2: string;
+    RunTime: string;
+    IMD_rating: string;
+    createdAt: string;
+    updatedAt: string;
+    publishedAt: string;
+    detail_page: string;
+    Trailer_url: string;
+    ImageThumb: {
+      data: Image[];
+    };
+    Sponser: SponserDetails[];
+    TitleImage: {
+      data: Image;
+    };
+  };
+};
+type HeroDataResponse = {
+  data: heroData[];
+  meta: Meta;
+}
+
 type WorkData = {
   id: number;
   Tilte: string;

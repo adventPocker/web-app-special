@@ -214,6 +214,20 @@ export const mockFilmData: ApiFilmData = {
             },
           },
           {
+            id: 10,
+            Name: "Suhas",
+            Title: "Screenplay",
+            Image: {
+              data: {
+                id: 16,
+                attributes: {
+                  name: "crew-10",
+                  url: "/movies/rifle_clube/crew-7.png",
+                },
+              },
+            },
+          },
+          {
             id: 7,
             Name: "Vincent Vadakkan",
             Title: "Producer",
@@ -239,13 +253,11 @@ export const mockFilmData: ApiFilmData = {
                 id: 11,
                 attributes: {
                   name: "crew-5",
-                  url: "/movies/rifle_clube/crew-4.png",
+                  url: "/movies/default.png",
                 },
               },
             },
           },
-         
-   
           {
             id: 8,
             Name: "Rex Vijayan",
@@ -260,20 +272,7 @@ export const mockFilmData: ApiFilmData = {
               },
             },
           },
-          {
-            id: 10,
-            Name: "Suhas",
-            Title: "Screenplay",
-            Image: {
-              data: {
-                id: 16,
-                attributes: {
-                  name: "crew-10",
-                  url: "/movies/rifle_clube/crew-7.png",
-                },
-              },
-            },
-          },
+         
           {
             id: 6,
             Name: "Augustine George",
@@ -288,20 +287,7 @@ export const mockFilmData: ApiFilmData = {
               },
             },
           },
-          {
-            id: 4,
-            Name: "Sharfu",
-            Title: "Screenplay",
-            Image: {
-              data: {
-                id: 10,
-                attributes: {
-                  name: "crew-4",
-                  url: "/movies/default.png",
-                },
-              },
-            },
-          },
+         
           {
             id: 9,
             Name: "V. Sajan",
@@ -311,7 +297,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 15,
                 attributes: {
                   name: "crew-9",
-                  url: "/movies/default.png",
+                  url: "/movies/rifle_clube/crew-4.png",
                 },
               },
             },
@@ -2526,7 +2512,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 44,
                 attributes: {
                   name: "actor-1",
-                  url: "/movies/virus/people/BasilJoseph.jpg",
+                  url: "/movies/virus/leadCast/Basil-Joseph.jpeg",
                 },
               },
             },
@@ -2540,7 +2526,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 45,
                 attributes: {
                   name: "actor-2",
-                  url: "/movies/virus/people/KunchackoBoban.jpg",
+                  url: "/movies/virus/leadCast/Kunchako-Boban.jpeg",
                 },
               },
             },
@@ -2554,7 +2540,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 46,
                 attributes: {
                   name: "actor-3",
-                  url: "/movies/virus/people/AsifAli.jpg",
+                  url: "/movies/virus/leadCast/Asif-Ali.jpeg",
                 },
               },
             },
@@ -2568,7 +2554,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 47,
                 attributes: {
                   name: "actor-4",
-                  url: "/movies/virus/people/JojuGeorge.jpg",
+                  url: "/movies/virus/leadCast/Joju-George.jpeg",
                 },
               },
             },
@@ -2582,7 +2568,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 48,
                 attributes: {
                   name: "actor-5",
-                  url: "/movies/common-images/TovinoThomas.jpg",
+                  url: "/movies/virus/leadCast/Tovino.jpeg",
                 },
               },
             },
@@ -2596,7 +2582,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 49,
                 attributes: {
                   name: "actor-6",
-                  url: "/movies/virus/people/VaisakhShankar.jpg",
+                  url: "/movies/virus/leadCast/vaishank-shanker.jpeg",
                 },
               },
             },
@@ -2610,7 +2596,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 50,
                 attributes: {
                   name: "actor-7",
-                  url: "/movies/virus/people/ParvathyThiruvothu.jpg",
+                  url: "/movies/virus/leadCast/Parvathy.jpeg",
                 },
               },
             },
@@ -2624,7 +2610,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 51,
                 attributes: {
                   name: "actor-8",
-                  url: "/movies/virus/people/SoubinShahir.jpg",
+                  url: "/movies/virus/leadCast/soubin-sahir.jpeg",
                 },
               },
             },
@@ -2652,7 +2638,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 53,
                 attributes: {
                   name: "actor-10",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/leadCast/Indrans.jpeg",
                 },
               },
             },
@@ -2666,7 +2652,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 54,
                 attributes: {
                   name: "actor-11",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/leadCast/Darshana.jpeg",
                 },
               },
             },
@@ -2680,7 +2666,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 55,
                 attributes: {
                   name: "actor-12",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/leadCast/Dileesh-Pothan.jpeg",
                 },
               },
             },
@@ -2694,7 +2680,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 56,
                 attributes: {
                   name: "actor-13",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/leadCast/Sharafudheen.jpeg",
                 },
               },
             },
@@ -2708,7 +2694,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 57,
                 attributes: {
                   name: "actor-14",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/leadCast/Madona.jpeg",
                 },
               },
             },
@@ -2722,7 +2708,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 58,
                 attributes: {
                   name: "actor-15",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/leadCast/Indrajith-Sukumaran.jpeg",
                 },
               },
             },
@@ -2736,7 +2722,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 59,
                 attributes: {
                   name: "actor-16",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/leadCast/Sreenath-Bhasi.jpeg",
                 },
               },
             },
@@ -2750,7 +2736,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 60,
                 attributes: {
                   name: "actor-17",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/leadCast/Rahman.jpeg",
                 },
               },
             },
@@ -2764,7 +2750,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 61,
                 attributes: {
                   name: "actor-18",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/leadCast/Srikant-Murali.jpeg/",
                 },
               },
             },
@@ -2808,7 +2794,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "crew-1",
-                  url: "/movies/common-images/AashiqAbu.jpg",
+                  url: "/movies/virus/leadCrew/Ashiq-Abu.jpeg",
                 },
               },
             },
@@ -2822,7 +2808,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 74,
                 attributes: {
                   name: "crew-2",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/leadCrew/Muhsin-Parari.jpeg",
                 },
               },
             },
@@ -2836,7 +2822,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 75,
                 attributes: {
                   name: "crew-3",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/leadCrew/Sharfu.jpeg",
                 },
               },
             },
@@ -2850,7 +2836,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 76,
                 attributes: {
                   name: "crew-4",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/leadCrew/Suhas.jpeg",
                 },
               },
             },
@@ -2864,7 +2850,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 77,
                 attributes: {
                   name: "crew-5",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/leadCrew/Abid-Abu.jpeg",
                 },
               },
             },
@@ -2878,7 +2864,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 78,
                 attributes: {
                   name: "crew-6",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/leadCrew/Wazim-Hyder.jpeg",
                 },
               },
             },
@@ -2892,7 +2878,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 79,
                 attributes: {
                   name: "crew-7",
-                  url: "/movies/common-images/RimaKallingal.jpg",
+                  url: "/movies/virus/leadCrew/Rima-Kallingal.jpeg",
                 },
               },
             },
@@ -2906,7 +2892,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 80,
                 attributes: {
                   name: "crew-8",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/leadCrew/Santhosh-T-Kuruvila.jpeg",
                 },
               },
             },
@@ -2920,7 +2906,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 81,
                 attributes: {
                   name: "crew-9",
-                  url: "/movies/default.png",
+                  url: "/movies/virus/leadCrew/Sushin-Shyam.jpeg",
                 },
               },
             },
@@ -2934,7 +2920,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 82,
                 attributes: {
                   name: "crew-10",
-                  url: "/movies/common-images/ShyjuKhalid.jpg",
+                  url: "/movies/virus/leadCrew/Rajeev-Ravi.jpeg",
                 },
               },
             },
@@ -3297,7 +3283,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "actor-1",
-                  url: "/movies/default.png",
+                  url: "/movies/mayanadhi/leadCast/AishwaryaLakshmi.jpeg",
                 },
               },
             },
@@ -3311,7 +3297,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "actor-2",
-                  url: "/movies/default.png",
+                  url: "/movies/mayanadhi/leadCast/Tovino.jpeg",
                 },
               },
             },
@@ -3325,7 +3311,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "actor-3",
-                  url: "/movies/default.png",
+                  url: "/movies/mayanadhi/leadCast/Leona-Lishoy.jpeg",
                 },
               },
             },
@@ -3353,21 +3339,63 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "actor-5",
-                  url: "/movies/default.png",
+                  url: "/movies/mayanadhi/leadCast/HarishUthaman.jpeg",
+                },
+              },
+            },
+          },
+          // {
+          //   id: 6,
+          //   Name: "Aparna Balamurali",
+          //   Title: "Self - Actress (Cameo)",
+          //   Image: {
+          //     data: {
+          //       id: 73,
+          //       attributes: {
+          //         name: "actor-6",
+          //         url: "/movies/mayanadhi/leadCast/Aparna-Balamurali.jpeg",
+          //       },
+          //     },
+          //   },
+          // },
+          {
+            id: 9,
+            Name: "Basil Joseph",
+            Title: "Jinu Joseph",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "actor-9",
+                  url: "/movies/mayanadhi/leadCast/Basil-Joseph.jpeg",
                 },
               },
             },
           },
           {
-            id: 6,
-            Name: "Aparna Balamurali",
-            Title: "Self - Actress (Cameo)",
+            id: 10,
+            Name: "Rajesh Madhavan",
+            Title: "Rajesh",
             Image: {
               data: {
                 id: 73,
                 attributes: {
-                  name: "actor-6",
-                  url: "/movies/default.png",
+                  name: "actor-10",
+                  url: "/movies/mayanadhi/leadCast/RajeshMadhawan.jpeg",
+                },
+              },
+            },
+          },
+          {
+            id: 13,
+            Name: "Lijo Jose Pellissery",
+            Title: "Len Prasad",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "actor-13",
+                  url: "/movies/mayanadhi/leadCast/Lijo-Jose-Pellissery.jpeg",
                 },
               },
             },
@@ -3401,34 +3429,6 @@ export const mockFilmData: ApiFilmData = {
             },
           },
           {
-            id: 9,
-            Name: "Basil Joseph",
-            Title: "Jinu Joseph",
-            Image: {
-              data: {
-                id: 73,
-                attributes: {
-                  name: "actor-9",
-                  url: "/movies/default.png",
-                },
-              },
-            },
-          },
-          {
-            id: 10,
-            Name: "Rajesh Madhavan",
-            Title: "Rajesh",
-            Image: {
-              data: {
-                id: 73,
-                attributes: {
-                  name: "actor-10",
-                  url: "/movies/default.png",
-                },
-              },
-            },
-          },
-          {
             id: 11,
             Name: "Maya Menon",
             Title: "Vasumathi",
@@ -3451,20 +3451,6 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "actor-12",
-                  url: "/movies/default.png",
-                },
-              },
-            },
-          },
-          {
-            id: 13,
-            Name: "Lijo Jose Pellissery",
-            Title: "Len Prasad",
-            Image: {
-              data: {
-                id: 73,
-                attributes: {
-                  name: "actor-13",
                   url: "/movies/default.png",
                 },
               },
@@ -3559,59 +3545,18 @@ export const mockFilmData: ApiFilmData = {
           {
             id: 1,
             Name: "Aashiq Abu",
-            Title: "Director",
+            Title: "Director & Producer",
             Image: {
               data: {
                 id: 73,
                 attributes: {
                   name: "crew-1",
-                  url: "/movies/common-images/AashiqAbu.jpg",
+                  url: "/movies/mayanadhi/leadCrew/Ashiq-Abu.jpeg",
                 },
               },
             },
           },
-          {
-            id: 2,
-            Name: "Dileesh Nair",
-            Title: "Writer",
-            Image: {
-              data: {
-                id: 73,
-                attributes: {
-                  name: "crew-2",
-                  url: "/movies/default.png",
-                },
-              },
-            },
-          },
-          {
-            id: 3,
-            Name: "Syam Pushkaran",
-            Title: "Writer",
-            Image: {
-              data: {
-                id: 73,
-                attributes: {
-                  name: "crew-3",
-                  url: "/movies/default.png",
-                },
-              },
-            },
-          },
-          {
-            id: 4,
-            Name: "Aashiq Abu",
-            Title: "Producer",
-            Image: {
-              data: {
-                id: 73,
-                attributes: {
-                  name: "crew-4",
-                  url: "/movies/default.png",
-                },
-              },
-            },
-          },
+         
           {
             id: 5,
             Name: "Amal Neerad",
@@ -3627,6 +3572,34 @@ export const mockFilmData: ApiFilmData = {
             },
           },
           {
+            id: 2,
+            Name: "Dileesh Nair",
+            Title: "Writer",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "crew-2",
+                  url: "/movies/mayanadhi/leadCrew/Dileesh-Nair.jpeg",
+                },
+              },
+            },
+          },
+          {
+            id: 3,
+            Name: "Syam Pushkaran",
+            Title: "Writer",
+            Image: {
+              data: {
+                id: 73,
+                attributes: {
+                  name: "crew-3",
+                  url: "/movies/mayanadhi/leadCrew/Shyam-Pushkaran.jpeg",
+                },
+              },
+            },
+          },
+          {
             id: 6,
             Name: "Rex Vijayan",
             Title: "Music Composer",
@@ -3635,7 +3608,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "crew-6",
-                  url: "/movies/common-images/RexVijayan.jpg",
+                  url: "/movies/mayanadhi/leadCrew/Rex-Vijayan.jpeg",
                 },
               },
             },
@@ -3649,7 +3622,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "crew-7",
-                  url: "/movies/default.png",
+                  url: "/movies/mayanadhi/leadCrew/Jayesh-Mohan.jpeg",
                 },
               },
             },
@@ -3663,7 +3636,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "crew-8",
-                  url: "/movies/default.png",
+                  url: "/movies/mayanadhi/leadCrew/Saiju-Sreedharan.jpeg",
                 },
               },
             },
@@ -3677,7 +3650,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "crew-9",
-                  url: "/movies/default.png",
+                  url: "/movies/mayanadhi/leadCrew/Shiji-Pattanam.jpeg",
                 },
               },
             },
@@ -3691,7 +3664,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "crew-10",
-                  url: "/movies/common-images/SameeraSaneesh.jpg",
+                  url: "/movies/mayanadhi/leadCrew/Sameera-Saneesh.jpeg",
                 },
               },
             },
@@ -4129,7 +4102,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 101,
                 attributes: {
                   name: "cast-1",
-                  url: "/movies/default.png",
+                  url: "/movies/maheshinte-prathikaram/leadCast/Fahadh-Fasil.jpg",
                 },
               },
             },
@@ -4143,7 +4116,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 102,
                 attributes: {
                   name: "cast-2",
-                  url: "/movies/default.png",
+                  url: "/movies/maheshinte-prathikaram/leadCast/AparnaBalamurali.jpeg",
                 },
               },
             },
@@ -4157,7 +4130,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 103,
                 attributes: {
                   name: "cast-3",
-                  url: "/movies/default.png",
+                  url: "/movies/maheshinte-prathikaram/leadCast/soubin-sahir.jpg",
                 },
               },
             },
@@ -4171,7 +4144,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 104,
                 attributes: {
                   name: "cast-4",
-                  url: "/movies/default.png",
+                  url: "/movies/maheshinte-prathikaram/leadCast/AlencierLeyLopez.jpeg",
                 },
               },
             },
@@ -4185,7 +4158,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 105,
                 attributes: {
                   name: "cast-5",
-                  url: "/movies/default.png",
+                  url: "/movies/maheshinte-prathikaram/leadCast/Anusree.jpeg",
                 },
               },
             },
@@ -4199,7 +4172,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 106,
                 attributes: {
                   name: "cast-6",
-                  url: "/movies/default.png",
+                  url: "/movies/maheshinte-prathikaram/leadCast/AntonyKochi.jpeg",
                 },
               },
             },
@@ -4213,7 +4186,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 107,
                 attributes: {
                   name: "cast-7",
-                  url: "/movies/default.png",
+                  url: "/movies/maheshinte-prathikaram/leadCast/Dileesh-Pothan.jpg",
                 },
               },
             },
@@ -4227,7 +4200,51 @@ export const mockFilmData: ApiFilmData = {
                 id: 108,
                 attributes: {
                   name: "cast-8",
-                  url: "/movies/default.png",
+                  url: "/movies/maheshinte-prathikaram/leadCast/Achuthanandan.jpeg",
+                },
+              },
+            },
+          },
+        
+          {
+            id: 11,
+            Name: "Jaffer Idukki",
+            Title: "Kunjumon",
+            Image: {
+              data: {
+                id: 111,
+                attributes: {
+                  name: "cast-11",
+                  url: "/movies/maheshinte-prathikaram/leadCast/Jaffer-Idukki.jpeg",
+                },
+              },
+            },
+          },
+         
+          {
+            id: 13,
+            Name: "Lijo Mol Jose",
+            Title: "Soniya",
+            Image: {
+              data: {
+                id: 113,
+                attributes: {
+                  name: "cast-13",
+                  url: "/movies/maheshinte-prathikaram/leadCast/Lijo-Mol-Jose.jpg",
+                },
+              },
+            },
+          },
+          {
+            id: 19,
+            Name: "Unnimaya Prasad",
+            Title: "Sara",
+            Image: {
+              data: {
+                id: 119,
+                attributes: {
+                  name: "cast-19",
+                  url: "/movies/maheshinte-prathikaram/leadCast/Unimaya.jpg",
                 },
               },
             },
@@ -4255,48 +4272,6 @@ export const mockFilmData: ApiFilmData = {
                 id: 110,
                 attributes: {
                   name: "cast-10",
-                  url: "/movies/default.png",
-                },
-              },
-            },
-          },
-          {
-            id: 11,
-            Name: "Jaffer Idukki",
-            Title: "Kunjumon",
-            Image: {
-              data: {
-                id: 111,
-                attributes: {
-                  name: "cast-11",
-                  url: "/movies/default.png",
-                },
-              },
-            },
-          },
-          {
-            id: 12,
-            Name: "Jayashankar",
-            Title: "Baby's Bro-in-law",
-            Image: {
-              data: {
-                id: 112,
-                attributes: {
-                  name: "cast-12",
-                  url: "/movies/default.png",
-                },
-              },
-            },
-          },
-          {
-            id: 13,
-            Name: "Lijo Mol Jose",
-            Title: "Soniya",
-            Image: {
-              data: {
-                id: 113,
-                attributes: {
-                  name: "cast-13",
                   url: "/movies/default.png",
                 },
               },
@@ -4373,19 +4348,20 @@ export const mockFilmData: ApiFilmData = {
             },
           },
           {
-            id: 19,
-            Name: "Unnimaya Prasad",
-            Title: "Sara",
+            id: 12,
+            Name: "Jayashankar",
+            Title: "Baby's Bro-in-law",
             Image: {
               data: {
-                id: 119,
+                id: 112,
                 attributes: {
-                  name: "cast-19",
+                  name: "cast-12",
                   url: "/movies/default.png",
                 },
               },
             },
           },
+         
           {
             id: 20,
             Name: "Shiny T. Rajan",
@@ -4439,7 +4415,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "crew-1",
-                  url: "/movies/common-images/AashiqAbu.jpg",
+                  url: "/movies/maheshinte-prathikaram/leadCrew/Dileesh-Pothan.jpeg",
                 },
               },
             },
@@ -4453,7 +4429,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "crew-2",
-                  url: "/movies/default.png",
+                  url: "/movies/maheshinte-prathikaram/leadCrew/Shyam-Pushkaran.jpeg",
                 },
               },
             },
@@ -4467,7 +4443,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "crew-3",
-                  url: "/movies/default.png",
+                  url: "/movies/maheshinte-prathikaram/leadCrew/Ashiq-Abu.jpeg",
                 },
               },
             },
@@ -4481,7 +4457,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "crew-4",
-                  url: "/movies/common-images/Bijibal.jpg",
+                  url: "/movies/maheshinte-prathikaram/leadCrew/Bijibal.jpeg",
                 },
               },
             },
@@ -4495,7 +4471,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "crew-5",
-                  url: "/movies/common-images/ShyjuKhalid.jpg",
+                  url: "/movies/maheshinte-prathikaram/leadCrew/Shyju-Khalid.jpeg",
                 },
               },
             },
@@ -4509,7 +4485,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "crew-6",
-                  url: "/movies/default.png",
+                  url: "/movies/maheshinte-prathikaram/leadCrew/Saiju-Sreedharan.jpeg",
                 },
               },
             },
@@ -4523,7 +4499,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "crew-7",
-                  url: "/movies/default.png",
+                  url: "/movies/maheshinte-prathikaram/leadCrew/Ajayan-Chalissery.jpeg",
                 },
               },
             },
@@ -4537,7 +4513,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "crew-8",
-                  url: "/movies/common-images/SameeraSaneesh.jpg",
+                  url: "/movies/maheshinte-prathikaram/leadCrew/Sameera-Saneesh.jpeg",
                 },
               },
             },
@@ -4551,7 +4527,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "crew-9",
-                  url: "/movies/default.png",
+                  url: "/movies/maheshinte-prathikaram/leadCrew/Ronex-Xavier.jpeg",
                 },
               },
             },
@@ -5009,7 +4985,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 74,
                 attributes: {
                   name: "cast-1",
-                  url: "/movies/default.png",
+                  url: "/movies/gangster/leadCast/Mammootty.jpeg",
                 },
               },
             },
@@ -5023,21 +4999,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 75,
                 attributes: {
                   name: "cast-2",
-                  url: "/movies/default.png",
-                },
-              },
-            },
-          },
-          {
-            id: 3,
-            Name: "Favour Francis",
-            Title: "Owner of Hotel Rahath",
-            Image: {
-              data: {
-                id: 76,
-                attributes: {
-                  name: "cast-3",
-                  url: "/movies/default.png",
+                  url: "/movies/gangster/leadCast/Ashwath-Bhatt.jpeg",
                 },
               },
             },
@@ -5051,7 +5013,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 77,
                 attributes: {
                   name: "cast-4",
-                  url: "/movies/default.png",
+                  url: "/movies/gangster/leadCast/Aparna-Gopinath.jpeg",
                 },
               },
             },
@@ -5065,6 +5027,76 @@ export const mockFilmData: ApiFilmData = {
                 id: 78,
                 attributes: {
                   name: "cast-5",
+                  url: "/movies/gangster/leadCast/Kunchan.jpeg",
+                },
+              },
+            },
+          },
+          {
+            id: 9,
+            Name: "Hareesh Peradi",
+            Title: "Hareesh Peradi",
+            Image: {
+              data: {
+                id: 82,
+                attributes: {
+                  name: "cast-9",
+                  url: "/movies/gangster/leadCast/Hareesh-Peradi.jpeg",
+                },
+              },
+            },
+          },
+          {
+            id: 10,
+            Name: "Dileesh Pothan",
+            Title: "Vidhura",
+            Image: {
+              data: {
+                id: 83,
+                attributes: {
+                  name: "cast-10",
+                  url: "/movies/gangster/leadCast/DileeshPothan.jpeg",
+                },
+              },
+            },
+          },
+          {
+            id: 11,
+            Name: "T.G. Ravi",
+            Title: "Hajikka",
+            Image: {
+              data: {
+                id: 84,
+                attributes: {
+                  name: "cast-11",
+                  url: "/movies/gangster/leadCast/T.G.Ravi.jpeg",
+                },
+              },
+            },
+          },
+          {
+            id: 14,
+            Name: "Nyla Usha",
+            Title: "Sana Ibrahim",
+            Image: {
+              data: {
+                id: 87,
+                attributes: {
+                  name: "cast-14",
+                  url: "/movies/gangster/leadCast/Nyla-Usha.jpeg",
+                },
+              },
+            },
+          },
+          {
+            id: 3,
+            Name: "Favour Francis",
+            Title: "Owner of Hotel Rahath",
+            Image: {
+              data: {
+                id: 76,
+                attributes: {
+                  name: "cast-3",
                   url: "/movies/default.png",
                 },
               },
@@ -5113,48 +5145,6 @@ export const mockFilmData: ApiFilmData = {
             },
           },
           {
-            id: 9,
-            Name: "Hareesh Peradi",
-            Title: "Hareesh Peradi",
-            Image: {
-              data: {
-                id: 82,
-                attributes: {
-                  name: "cast-9",
-                  url: "/movies/default.png",
-                },
-              },
-            },
-          },
-          {
-            id: 10,
-            Name: "Dileesh Pothan",
-            Title: "Vidhura",
-            Image: {
-              data: {
-                id: 83,
-                attributes: {
-                  name: "cast-10",
-                  url: "/movies/default.png",
-                },
-              },
-            },
-          },
-          {
-            id: 11,
-            Name: "T.G. Ravi",
-            Title: "Hajikka",
-            Image: {
-              data: {
-                id: 84,
-                attributes: {
-                  name: "cast-11",
-                  url: "/movies/default.png",
-                },
-              },
-            },
-          },
-          {
             id: 12,
             Name: "Ahmed Sidhique",
             Title: "Cameo",
@@ -5182,20 +5172,6 @@ export const mockFilmData: ApiFilmData = {
               },
             },
           },
-          {
-            id: 14,
-            Name: "Nyla Usha",
-            Title: "Sana Ibrahim",
-            Image: {
-              data: {
-                id: 87,
-                attributes: {
-                  name: "cast-14",
-                  url: "/movies/default.png",
-                },
-              },
-            },
-          },
         ],
         LeadCrew: [
           {
@@ -5207,7 +5183,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 67,
                 attributes: {
                   name: "crew-1",
-                  url: "/movies/common-images/AashiqAbu.jpg",
+                  url: "/movies/gangster/leadCrew/Ashiq-Abu.jpeg",
                 },
               },
             },
@@ -5221,7 +5197,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 68,
                 attributes: {
                   name: "crew-2",
-                  url: "/movies/default.png",
+                  url: "/movies/gangster/leadCrew/Abhilash-Kumar.jpeg",
                 },
               },
             },
@@ -5235,7 +5211,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 69,
                 attributes: {
                   name: "crew-3",
-                  url: "/movies/default.png",
+                  url: "/movies/gangster/leadCrew/Ahmed-Sidhique.jpeg",
                 },
               },
             },
@@ -5249,7 +5225,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 70,
                 attributes: {
                   name: "crew-4",
-                  url: "/movies/default.png",
+                  url: "/movies/gangster/leadCrew/Deepak-Dev.jpeg",
                 },
               },
             },
@@ -5263,7 +5239,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 71,
                 attributes: {
                   name: "crew-5",
-                  url: "/movies/default.png",
+                  url: "/movies/gangster/leadCrew/Alby-Antony.jpeg",
                 },
               },
             },
@@ -5277,7 +5253,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 72,
                 attributes: {
                   name: "crew-6",
-                  url: "/movies/default.png",
+                  url: "/movies/gangster/leadCrew/Saiju-Sreedharan.jpeg",
                 },
               },
             },
@@ -5291,7 +5267,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "crew-7",
-                  url: "/movies/default.png",
+                  url: "/movies/gangster/leadCrew/Madhu-C-Narayanan.jpeg",
                 },
               },
             },
@@ -5305,7 +5281,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 74,
                 attributes: {
                   name: "crew-8",
-                  url: "/movies/default.png",
+                  url: "/movies/gangster/leadCrew/Dileesh-Pothan.jpeg",
                 },
               },
             },

@@ -10,7 +10,7 @@ import { getHeroData } from "@/app/utils/getData";
 import LoadingUi from "@/app/utils/LoadingUi";
 
 const HeroBanner = () => {
-  const [awardData, setawardData] = useState<AwardApiResponse>();
+  const [awardData, setawardData] = useState<HeroDataResponse>();
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -37,7 +37,7 @@ const HeroBanner = () => {
 
   return (
     <>
-      <div className="overflow-hidden  flex">
+      <div className="">
         <Swiper
           spaceBetween={10}
           slidesPerView={1}
@@ -48,7 +48,7 @@ const HeroBanner = () => {
           modules={[Pagination, Autoplay]}
           className="mySwiper"
         >
-          {randomThreeData?.map((data:awardsData, index:number) => (
+          {randomThreeData?.map((data:heroData, index:number) => (
             <SwiperSlide key={index}>
               <HeroBannerSlider awardsData={data} />
             </SwiperSlide>
@@ -59,4 +59,4 @@ const HeroBanner = () => {
   );
 };
 
-export default HeroBanner;
+export default HeroBanner

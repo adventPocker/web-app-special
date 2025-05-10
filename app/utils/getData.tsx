@@ -35,7 +35,7 @@ export async function getPersonalData(): Promise<PersonalApiResponse> {
   return mockPersonalData;
 }
 
-export async function getHeroData(): Promise<AwardApiResponse> {
+export async function getHeroData(): Promise<HeroDataResponse> {
   return heroAwardsData;
 }
   

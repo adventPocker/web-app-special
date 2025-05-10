@@ -1,17 +1,21 @@
 
-export const heroAwardsData: AwardApiResponse = {
+export const heroAwardsData: HeroDataResponse = {
     data: [
       {
         id: 1,
         attributes: {
           movieName: "Maheshinte Prathikaram",
           Director: "Dileesh Pothan",
+          genere1: "Drama",
+        genere2: "Comedy",
+        RunTime: "2h 0m",
           Year: "2016",
           IMD_rating: "8.2",
           createdAt: "2016-02-05T00:00:00.000Z",
           updatedAt: "2016-02-05T00:00:00.000Z",
           publishedAt: "2016-02-05T00:00:00.000Z",
           detail_page:"/projects/maheshinte-prathikaram",
+          Trailer_url: "https://www.youtube.com/watch?v=_KY8Du4WWew",
           ImageThumb: {
             data: [
               {
@@ -22,6 +26,15 @@ export const heroAwardsData: AwardApiResponse = {
                 }
               }
             ]
+          },
+          TitleImage: {
+            data: {
+              id: 18,
+              attributes: {
+                name: "movie-title-6",
+                url: "/movies/maheshinte-prathikaram/maheshinte-prathikaram-title-image.png",
+              },
+            },
           },
           Sponser: [
             {
@@ -239,11 +252,15 @@ export const heroAwardsData: AwardApiResponse = {
           movieName: "Mayaanadhi",
           Director: "Aashiq Abu",
           Year: "2017",
+          genere1: "Romance",
+        genere2: "Thriller",
+        RunTime: "2h 16m",
           IMD_rating: "8.3",
           createdAt: "2017-12-22T00:00:00.000Z",
           updatedAt: "2017-12-22T00:00:00.000Z",
           publishedAt: "2017-12-22T00:00:00.000Z",
           detail_page:"/projects/mayanadhi",
+          Trailer_url: "https://www.youtube.com/watch?v=RYYxyNxr_4E",
           ImageThumb: {
             data: [
               {
@@ -254,6 +271,15 @@ export const heroAwardsData: AwardApiResponse = {
                 }
               }
             ]
+          },
+          TitleImage: {
+            data: {
+              id: 15,
+              attributes: {
+                name: "movie-title-5",
+                url: "/movies/mayanadhi/mayanadhi-title-image.png",
+              },
+            },
           },
           Sponser: [
             {
@@ -463,11 +489,15 @@ export const heroAwardsData: AwardApiResponse = {
           movieName: "Ee.Ma.Yau",
           Director: "Lijo Jose Pellissery",
           Year: "2018",
+          genere1: "Drama",
+          genere2: "Comedy",
+          RunTime: "2h 00min",
           IMD_rating: "8.5",
           createdAt: "2018-05-04T00:00:00.000Z",
           updatedAt: "2018-05-04T00:00:00.000Z",
           publishedAt: "2018-05-04T00:00:00.000Z",
           detail_page:"/projects/ee-ma-yau",
+          Trailer_url: "https://www.youtube.com/watch?v=b8WZa0GvNYs",
           ImageThumb: {
             data: [
               {
@@ -478,6 +508,15 @@ export const heroAwardsData: AwardApiResponse = {
                 }
               }
             ]
+          },
+          TitleImage: {
+            data: {
+              id: 24,
+              attributes: {
+                name: "movie-title-8",
+                url: "/movies/ee-ma-yau/ee-ma-yau-title-image.png",
+              },
+            },
           },
           Sponser: [
             {
@@ -744,11 +783,15 @@ export const heroAwardsData: AwardApiResponse = {
           movieName: "Halal Love Story",
           Director: "Zakariya Mohammed",
           Year: "2020",
+          genere1: "Comedy",
+          genere2: "Drama",
+          RunTime: "1h 50min",
           IMD_rating: "7.5",
           createdAt: "2020-10-15T00:00:00.000Z",
           updatedAt: "2020-10-15T00:00:00.000Z",
           publishedAt: "2020-10-15T00:00:00.000Z",
           detail_page:"/projects/halal-love-story",
+          Trailer_url: "https://www.youtube.com/watch?v=m2dBHSeYGEc",
           ImageThumb: {
             data: [
               {
@@ -759,6 +802,15 @@ export const heroAwardsData: AwardApiResponse = {
                 }
               }
             ]
+          },
+          TitleImage: {
+            data: {
+              id: 27,
+              attributes: {
+                name: "movie-title-9",
+                url: "/movies/halal-love-story/halal-love-story-title-image.png",
+              },
+            },
           },
           Sponser: [  {
             id: 2,
@@ -798,10 +850,14 @@ export const heroAwardsData: AwardApiResponse = {
           Director: "Sanu John Varghese",
           Year: "2021",
           IMD_rating: "7.3",
+          genere1: "Drama",
+          genere2: "Mystery",
+          RunTime: "2h 21min",
           createdAt: "2021-04-01T00:00:00.000Z",
           updatedAt: "2021-04-01T00:00:00.000Z",
           publishedAt: "2021-04-01T00:00:00.000Z",
           detail_page:"/projects/aarkkariyam",
+          Trailer_url: "https://www.youtube.com/watch?v=aarkkariyam-trailer",
           ImageThumb: {
             data: [
               {
@@ -812,6 +868,15 @@ export const heroAwardsData: AwardApiResponse = {
                 }
               }
             ]
+          },
+          TitleImage: {
+            data: {
+              id: 30,
+              attributes: {
+                name: "movie-title-10",
+                url: "/movies/aarkkariyam/aarkkariyam-title-image.png",
+              },
+            },
           },
           Sponser: [
             {

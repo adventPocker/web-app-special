@@ -20,9 +20,9 @@ export const ImageFrame = ({ imgSrc, name, role }: propsImageFrame) => {
         <Image
           src={`${imgSrc}`}
           alt="img"
-          className="md:max-w-[279px] md:max-h-[189px] md:min-h-[189px] min-h-[135px] md:w-full md:h-full max-w-[157px] max-h-[135px] rounded-[20px] md:rounded-[40px] object-cover"
+          className="md:max-w-[279px] md:max-h-[240px] md:min-h-[240px] min-h-[135px] md:w-full md:h-full max-w-[157px] max-h-[135px] rounded-[20px] md:rounded-[40px] object-cover bg-gray-300"
           width={279}
-          height={189}
+          height={240}
           loading="lazy"
         />
         <div className="w-auto mt-5">

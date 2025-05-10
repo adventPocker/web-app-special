@@ -65,7 +65,7 @@ const Sections2 = () => {
             color: "transparent",
           }}
         >
-          We are makers of unforgettable stories
+       Makers of unforgettable stories
         </h2>
 
         <div className="mt-12 md:mt-20 relative">

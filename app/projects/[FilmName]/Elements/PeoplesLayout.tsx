@@ -32,6 +32,7 @@ export const PeoplesLayout = ({ Title, data }: PeoplesLayoutProps) => {
                   imgSrc={data.Image.data.attributes.url}
                   name={data.Name}
                   role={data.Title}
+                  
                 />
               </div>
             ))}

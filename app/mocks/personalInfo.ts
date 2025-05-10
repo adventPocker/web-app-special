@@ -227,21 +227,6 @@ export const mockPersonalData: PersonalApiResponse = {
       ],
       Actor: [
         {
-          id: 1,
-          Tilte: "2018",
-          Year: "2023", 
-          Rating: "8.5",
-          Image: {
-            data: {
-              id: 1,
-              attributes: {
-                name: "2018",
-                url: "/movies/card-images/film-card-24.png"
-              }
-            }
-          }
-        },
-        {
           id: 2,
           Tilte: "C/o56APO",
           Year: "2022",
@@ -286,51 +271,9 @@ export const mockPersonalData: PersonalApiResponse = {
             }
           }
         },
-        {
-          id: 5,
-          Tilte: "Annayum Rasoolum",
-          Year: "2013",
-          Rating: "8.5",
-          Image: {
-            data: {
-              id: 5,
-              attributes: {
-                name: "annayum-rasoolum",
-                url: "/movies/card-images/film-card-22.png"
-              }
-            }
-          }
-        },
-        {
-          id: 6,
-          Tilte: "Theevram",
-          Year: "2018",
-          Rating: "8.5",
-          Image: {
-            data: {
-              id: 6,
-              attributes: {
-                name: "theevram",
-                url: "/movies/card-images/film-card-23.png"
-              }
-            }
-          }
-        },
-        {
-          id: 7,
-          Tilte: "Rappakal",
-          Year: "2006",
-          Rating: "8.5",
-          Image: {
-            data: {
-              id: 7,
-              attributes: {
-                name: "rappakal",
-                url: "/movies/card-images/film-card-25.png"
-              }
-            }
-          }
-        }
+       
+     
+    
       ],
       Cinematographer: [
         {
