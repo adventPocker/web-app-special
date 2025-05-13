@@ -2196,7 +2196,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 64,
                 attributes: {
                   name: "gallery-1",
-                  url: "/movies/naradan/gallery/gallery-1.jpg",
+                  url: "/movies/naradan/gallery/gallery-1.jpeg",
                 },
               },
             },
