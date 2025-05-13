@@ -36,7 +36,7 @@ const Gallery = ({ImageData}) => {
                   alt={`Image ${index + 1}`}
                   loading="lazy"
                   width={357}
-                  height={350}
+                  height={1000}
                 />
               </motion.div>
             ))}
