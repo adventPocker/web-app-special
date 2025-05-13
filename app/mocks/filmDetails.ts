@@ -283,20 +283,7 @@ export const mockFilmData: ApiFilmData = {
               },
             },
           },
-          {
-            id: 9,
-            Name: "Sharfu",
-            Title: "Screenplay",
-            Image: {
-              data: {
-                id: 19,
-                attributes: {
-                  name: "crew-13",
-                  url: "/movies/rifle_clube/leadCrew/Sharfu.jpeg",
-                },
-              },
-            },
-          },
+          
           {
             id: 10,
             Name: "V. Sajan",
