@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import VideoLayout from "./../Elements/VideoLayout";
 import MusicLayout from "./../Elements/MusicLayout";
+import Image from "next/image";
 import { getTopMedias } from "@/app/utils/getData";
 const Sections4 = () => {
   const [activeButton, setActiveButton] = useState("video");
@@ -11,8 +12,6 @@ const Sections4 = () => {
     const fetchData = async () => {
       try {
         const data = await getTopMedias();
-        console.log("its here");
-        console.log(data);
         setMedia(data.data);
       } catch (error) {
         console.error("Error fetching data:", error);

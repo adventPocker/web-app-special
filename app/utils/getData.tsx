@@ -6,7 +6,9 @@ import { mockPersonalData } from '../mocks/personalInfo';
 import { heroAwardsData } from '../mocks/heroData';
 
 export async function getMovieCardData(): Promise<ApiFilmCard> {
-  return mockMovieCardData;
+  const res = await fetch('/api/movieCards', { cache: 'no-store' });
+  if (!res.ok) throw new Error('Failed to fetch movie card data');
+  return res.json();
 }
 
 export async function getFilmData({
@@ -14,28 +16,38 @@ export async function getFilmData({
 }: {
   slugs: string;
 }): Promise<ApiFilmData> {
+  const res = await fetch('/api/filmDetails', { cache: 'no-store' });
+  if (!res.ok) throw new Error('Failed to fetch film data');
+  const allData = await res.json();
   // Filter the data based on the slug
   const filteredData = {
-    data: mockFilmData.data.filter(film => film.attributes.slug === slugs),
-    meta: mockFilmData.meta
+    data: allData.data.filter((film: any) => film.attributes.slug === slugs),
+    meta: allData.meta
   };
-  
   return filteredData;
 }
 
 export async function getTopMedias(): Promise<ApiTopMedia> {
-  return mockTopMediaData;
+  const res = await fetch('/api/topMedia', { cache: 'no-store' });
+  if (!res.ok) throw new Error('Failed to fetch top media data');
+  return res.json();
 }
 
 export async function getAwardsData(): Promise<AwardApiResponse> {
-  return mockAwardsData;
+  const res = await fetch('/api/awards', { cache: 'no-store' });
+  if (!res.ok) throw new Error('Failed to fetch awards data');
+  return res.json();
 }
 
 export async function getPersonalData(): Promise<PersonalApiResponse> {
-  return mockPersonalData;
+  const res = await fetch('/api/personalInfo', { cache: 'no-store' });
+  if (!res.ok) throw new Error('Failed to fetch personal data');
+  return res.json();
 }
 
 export async function getHeroData(): Promise<HeroDataResponse> {
-  return heroAwardsData;
+  const res = await fetch('/api/heroData', { cache: 'no-store' });
+  if (!res.ok) throw new Error('Failed to fetch hero data');
+  return res.json();
 }
   

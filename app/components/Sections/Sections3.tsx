@@ -1,6 +1,5 @@
 'use client'
 import React, { useEffect,useState } from "react";
-import FilmsCards from "../Elements/FilmsCards";
 import SliderFilms from "./../Elements/SliderFilms";
 import SliderMobile from "./../Elements/SliderMobile";
 import { getMovieCardData } from "@/app/utils/getData";

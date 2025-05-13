@@ -12,20 +12,14 @@ import { Pagination } from "swiper/modules";
 import FilmCards from "../Elements/FilmCards";
 import { getMovieCardData } from "@/app/utils/getData";
 
-const SectionsP2 = () => {
-  const [movieData, setMovieData] = useState<ApiFilmCard>();
-  useEffect(() => {
-    async function fetchMovieData() {
-      try {
-        const data = await getMovieCardData();
-        setMovieData(data);
-      } catch (error) {
-        console.error("Error fetching movie data:", error);
-      }
-    }
+interface propSectionsP2{
+  movieData?:ApiFilmCard
+}
 
-    fetchMovieData();
-  }, []);
+const SectionsP2 = ({movieData}:propSectionsP2) => {
+
+
+ 
 
   return (
     <>

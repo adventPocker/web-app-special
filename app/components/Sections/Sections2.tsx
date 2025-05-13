@@ -55,7 +55,7 @@ const Sections2 = () => {
   }, [])
 
   return (
-    <section className="w-full py-16 md:py-40">
+    <section className="w-full pt-16 md:pt-32 ">
       <div className="max-w-[1204px] mx-auto px-4">
         <h2
           className="font-ClashGrotesk-Medium text-center text-[25px] md:text-[40px] font-medium leading-[35px] md:leading-[56px]"

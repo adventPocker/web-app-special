@@ -21,7 +21,7 @@ const Gallery = ({ImageData}) => {
       <div className="w-auto text-orange-200 md:text-[40px]  font-ClashGrotesk-Medium md:leading-[56px] text-2xl font-medium leading-[120%]">
         Gallery
       </div>
-      <div className="md:grid grid-cols-2 md:grid-cols-3 gap-4 mt-10  hidden">
+      <div className="md:grid grid-cols-2 md:grid-cols-3 gap-4 mt-10  hidden ">
         {chunkedImages.map((chunk, chunkIndex) => (
           <div key={chunkIndex} className="grid gap-4">
             {chunk.map((image, index) => (
@@ -31,7 +31,7 @@ const Gallery = ({ImageData}) => {
                 transition={{ duration: 0.3 }}
               >
                 <Image
-                  className="h-full object-cover max-w-full rounded-lg"
+                  className="h-full object-cover max-w-full rounded-lg bg-[#F4F4F5]"
                   src={`${image.Image.data.attributes.url}`}
                   alt={`Image ${index + 1}`}
                   loading="lazy"
@@ -71,7 +71,7 @@ const Gallery = ({ImageData}) => {
                 transition={{ duration: 0.3 }}
               >
                 <Image
-                  className="min-w-[333px] w-full h-[334px] rounded-[20px] object-cover mb-9"
+                  className="min-w-[333px] w-full h-[334px] rounded-[20px] object-cover mb-9 bg-[#F4F4F5]"
                   src={`${image.Image.data.attributes.url}`}                 
                   alt={`Image ${index + 1}`}
                   loading="eager"

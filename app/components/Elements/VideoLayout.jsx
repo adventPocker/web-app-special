@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
 import VideoCards from "./VideoCards";
+import Image from "next/image";
 const VideoLayout = ({ isVideo,VideoData }) => {
   const sliderRef = useRef(null);
 
@@ -66,14 +67,14 @@ const VideoLayout = ({ isVideo,VideoData }) => {
               onClick={handlePrev}
               className="py-2 px-5 rounded-2xl gradient-button  hover:shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]  hover:scale-200 transition-transform duration-500 ease-in-out delay-400"
             >
-              <img src="/Image/arrow-2.svg" className="w-[22px] h-[22px] " />
+              <Image src="/Image/arrow-2.svg" width={22} height={22} className="w-[22px] h-[22px] " />
             </div>
             <div
               style={{ border: "0.50px #FFDAA9 solid" }}
               onClick={handleNext}
               className="py-2 px-5 rounded-2xl gradient-button  hover:shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]  hover:scale-200 transition-transform duration-500 ease-in-out delay-400"
             >
-              <img src="/Image/arrow-3.svg" className="w-[22px] h-[22px] " />
+                <Image src="/Image/arrow-3.svg" width={22} height={22} className="w-[22px] h-[22px] " />
             </div>
           </div>
 

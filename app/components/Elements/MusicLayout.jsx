@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
 import MusicCards from "./MusicCards";
+import Image from "next/image";
 const MusicLayout = ({isMusic,MusicData}) => {
   const sliderRef = useRef(null);
 
@@ -62,14 +63,14 @@ const MusicLayout = ({isMusic,MusicData}) => {
               onClick={handlePrev}
               className="py-2 px-5 rounded-2xl gradient-button  transition-transform duration-500 ease-in-out delay-400"
             >
-              <img src="/Image/arrow-2.svg" className="w-[22px] h-[22px] " />
+              <Image src="/Image/arrow-2.svg" width={22} height={22} className="w-[22px] h-[22px] " />
             </div>
             <div
               style={{ border: "0.50px #FFDAA9 solid" }}
               onClick={handleNext}
               className="py-2 px-5 rounded-2xl gradient-button  transition-transform duration-500 ease-in-out delay-400"
             >
-              <img src="/Image/arrow-3.svg" className="w-[22px] h-[22px] " />
+              <Image src="/Image/arrow-3.svg" width={22} height={22} className="w-[22px] h-[22px] " />
             </div>
           </div>
 

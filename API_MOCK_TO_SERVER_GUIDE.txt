@@ -1,0 +1,49 @@
+ # Guide: Updating API Mock Routes to Use Real Backend Data
+
+This project currently uses API routes to serve mock data from files in `app/mocks/` for development and to reduce client bundle size. When the backend is ready, follow these steps to update the API routes to fetch real data:
+
+---
+
+## 1. Locate the API Route
+- API routes are in `app/api/<resource>/route.ts` (e.g., `app/api/awards/route.ts`, `app/api/heroData/route.ts`).
+
+## 2. Current Mock Implementation Example
+```
+import { mockAwardsData } from '../../mocks/awards';
+
+export async function GET() {
+  return Response.json(mockAwardsData);
+}
+```
+
+## 3. Update to Fetch from Backend
+Replace the mock import and response with a fetch to your backend API. Example:
+```
+export async function GET() {
+  const res = await fetch('https://your-backend-api.com/awards');
+  if (!res.ok) {
+    return new Response('Failed to fetch data', { status: 500 });
+  }
+  const data = await res.json();
+  return Response.json(data);
+}
+```
+- Update the URL to your actual backend endpoint.
+- Handle errors as needed.
+
+## 4. Test the API Route
+- Use your frontend or tools like Postman/curl to ensure the API route returns the expected data from the backend.
+
+## 5. Remove Unused Mock Data (Optional)
+- Once all routes use backend data, you may remove the corresponding files from `app/mocks/`.
+
+---
+
+**Summary:**
+- Find the API route for the resource.
+- Replace the mock data import/usage with a fetch to your backend.
+- Test to confirm correct data is returned.
+
+---
+
+*This guide applies to all resources currently using mock data via API routes in this project.*

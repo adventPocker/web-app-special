@@ -32,8 +32,7 @@ const HeroBanner = () => {
     return <LoadingUi />;
   }
 
-  const shuffledData = awardData?.data?.sort(() => Math.random() - 0.5);
-  const randomThreeData = shuffledData?.slice(0, 3);
+
 
   return (
     <>

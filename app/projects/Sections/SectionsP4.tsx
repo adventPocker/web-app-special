@@ -6,22 +6,11 @@ import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
 import FilmImageCard from "../Elements/FilmImageCard";
 import { getMovieCardData } from "@/app/utils/getData";
+interface propSectionsP4{
+  movieData?:ApiFilmCard
+}
 
-const SectionsP4 = () => {
-  const [movieData, setMovieData] = useState<ApiFilmCard>();
-  useEffect(() => {
-    async function fetchMovieData() {
-      try {
-        const data = await getMovieCardData();
-        setMovieData(data);
-      } catch (error) {
-        console.error("Error fetching movie data:", error);
-      }
-    }
-
-    fetchMovieData();
-  }, []);
-
+const SectionsP4 = ({movieData}:propSectionsP4) => {
   return (
     <>
       <div className="items-center flex flex-col justify-center h-auto px-5 max-md:px-5 ">

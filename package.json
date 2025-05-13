@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.18",
+    "@next/bundle-analyzer": "^15.3.2",
     "@nextui-org/react": "^2.2.9",
     "framer-motion": "^10.18.0",
     "lightgallery": "^2.7.2",
