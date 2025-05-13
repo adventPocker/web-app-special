@@ -1982,7 +1982,7 @@ export const mockFilmData: ApiFilmData = {
           {
             id: 9,
             Name: "Jaffer Zadique",
-            Title: "Associate Cinematographer",
+            Title: "Cinematographer",
             Image: {
               data: {
                 id: 72,
