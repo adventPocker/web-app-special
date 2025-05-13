@@ -59,14 +59,14 @@ export const mockFilmData: ApiFilmData = {
         LeadCast: [
           {
             id: 1,
-            Name: "Dileesh Pothan ",
+            Name: "Dileesh Pothan",
             Title: "Secretary Avaran",
             Image: {
               data: {
                 id: 7,
                 attributes: {
                   name: "crew-1",
-                  url: "/movies/rifle_clube/actors-8.png",
+                  url: "/movies/rifle_clube/leadCast/DileeshPothan.jpeg",
                 },
               },
             },
@@ -74,13 +74,13 @@ export const mockFilmData: ApiFilmData = {
           {
             id: 2,
             Name: "Anurag Kashyap",
-            Title: "Dayanand Bare ",
+            Title: "Dayanand Bare",
             Image: {
               data: {
                 id: 7,
                 attributes: {
                   name: "crew-1",
-                  url: "/movies/rifle_clube/actors-1.png",
+                  url: "/movies/rifle_clube/leadCast/AnuragKashyap.jpeg",
                 },
               },
             },
@@ -94,21 +94,21 @@ export const mockFilmData: ApiFilmData = {
                 id: 7,
                 attributes: {
                   name: "crew-1",
-                  url: "/movies/rifle_clube/actors-2.png",
+                  url: "/movies/rifle_clube/leadCast/Vijayaraghavan.jpeg",
                 },
               },
             },
           },
           {
             id: 4,
-            Name: "Vani Viswanath ",
+            Name: "Vani Viswanath",
             Title: "Ittiyanam",
             Image: {
               data: {
                 id: 7,
                 attributes: {
                   name: "crew-1",
-                  url: "/movies/rifle_clube/actors-3.png",
+                  url: "/movies/rifle_clube/leadCast/VaniViswanath.jpeg",
                 },
               },
             },
@@ -122,7 +122,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 7,
                 attributes: {
                   name: "crew-1",
-                  url: "/movies/rifle_clube/actors-4.png",
+                  url: "/movies/rifle_clube/leadCast/SurabhiLakshmi.jpeg",
                 },
               },
             },
@@ -136,7 +136,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 7,
                 attributes: {
                   name: "crew-1",
-                  url: "/movies/rifle_clube/actors-5.png",
+                  url: "/movies/rifle_clube/leadCast/Hanumankind.jpeg",
                 },
               },
             },
@@ -150,21 +150,21 @@ export const mockFilmData: ApiFilmData = {
                 id: 7,
                 attributes: {
                   name: "crew-1",
-                  url: "/movies/rifle_clube/actors-6.png",
+                  url: "/movies/rifle_clube/leadCast/VishnuAgasthya.jpeg",
                 },
               },
             },
           },
           {
             id: 8,
-            Name: "Unnimaya Prasad ",
-            Title: "Sisly",
+            Name: "Unnimaya Prasad",
+            Title: "Sisily",
             Image: {
               data: {
                 id: 7,
                 attributes: {
                   name: "crew-1",
-                  url: "/movies/rifle_clube/actors-7.png",
+                  url: "/movies/rifle_clube/leadCast/UnnimayaPrasad.jpeg",
                 },
               },
             },
@@ -180,49 +180,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 73,
                 attributes: {
                   name: "crew-1",
-                  url: "/movies/common-images/AashiqAbu.jpg",
-                },
-              },
-            },
-          },
-          {
-            id: 7,
-            Name: "Vincent Vadakkan",
-            Title: "Producer",
-            Image: {
-              data: {
-                id: 13,
-                attributes: {
-                  name: "crew-7",
-                  url: "/movies/rifle_clube/crew-2.png",
-                },
-              },
-            },
-          },
-          {
-            id: 5,
-            Name: "Abid Abu",
-            Title: "Executive Producer",
-            Image: {
-              data: {
-                id: 11,
-                attributes: {
-                  name: "crew-5",
-                  url: "/movies/default.png",
-                },
-              },
-            },
-          },
-          {
-            id: 6,
-            Name: "Augustine George",
-            Title: "Executive Producer",
-            Image: {
-              data: {
-                id: 12,
-                attributes: {
-                  name: "crew-6",
-                  url: "/movies/default.png",
+                  url: "/movies/rifle_clube/leadCrew/AashiqAbu.jpeg",
                 },
               },
             },
@@ -236,7 +194,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 8,
                 attributes: {
                   name: "crew-2",
-                  url: "/movies/rifle_clube/crew-1.png",
+                  url: "/movies/rifle_clube/leadCrew/SyamPushkaran.jpeg",
                 },
               },
             },
@@ -250,27 +208,55 @@ export const mockFilmData: ApiFilmData = {
                 id: 9,
                 attributes: {
                   name: "crew-3",
-                  url: "/movies/rifle_clube/crew-6.png",
+                  url: "/movies/rifle_clube/leadCrew/DileeshNair.jpeg",
                 },
               },
             },
           },
           {
-            id: 10,
-            Name: "Suhas",
-            Title: "Screenplay",
+            id: 4,
+            Name: "Vincent Vadakkan",
+            Title: "Producer",
             Image: {
               data: {
-                id: 16,
+                id: 13,
                 attributes: {
-                  name: "crew-10",
-                  url: "/movies/rifle_clube/crew-7.png",
+                  name: "crew-7",
+                  url: "/movies/rifle_clube/leadCrew/VincentVadakkan.jpeg",
                 },
               },
             },
           },
           {
-            id: 8,
+            id: 5,
+            Name: "Abid Abu",
+            Title: "Executive Producer",
+            Image: {
+              data: {
+                id: 11,
+                attributes: {
+                  name: "crew-5",
+                  url: "/movies/rifle_clube/leadCrew/AbidAbu.jpeg",
+                },
+              },
+            },
+          },
+          {
+            id: 6,
+            Name: "Augustine George",
+            Title: "Executive Producer",
+            Image: {
+              data: {
+                id: 12,
+                attributes: {
+                  name: "crew-6",
+                  url: "/movies/rifle_clube/leadCrew/AugustineGeorge.jpeg",
+                },
+              },
+            },
+          },
+          {
+            id: 7,
             Name: "Rex Vijayan",
             Title: "Composer & Music Producer",
             Image: {
@@ -278,7 +264,49 @@ export const mockFilmData: ApiFilmData = {
                 id: 14,
                 attributes: {
                   name: "crew-8",
-                  url: "/movies/common-images/RexVijayan.jpg",
+                  url: "/movies/rifle_clube/leadCrew/RexVijayan.jpeg",
+                },
+              },
+            },
+          },
+          {
+            id: 8,
+            Name: "Suhas",
+            Title: "Screenplay",
+            Image: {
+              data: {
+                id: 16,
+                attributes: {
+                  name: "crew-10",
+                  url: "/movies/rifle_clube/leadCrew/Suhas.jpeg",
+                },
+              },
+            },
+          },
+          {
+            id: 9,
+            Name: "Sharfu",
+            Title: "Screenplay",
+            Image: {
+              data: {
+                id: 19,
+                attributes: {
+                  name: "crew-13",
+                  url: "/movies/rifle_clube/leadCrew/Sharfu.jpeg",
+                },
+              },
+            },
+          },
+          {
+            id: 10,
+            Name: "V. Sajan",
+            Title: "Editor",
+            Image: {
+              data: {
+                id: 15,
+                attributes: {
+                  name: "crew-9",
+                  url: "/movies/rifle_clube/leadCrew/Sajan.jpeg",
                 },
               },
             },
@@ -292,7 +320,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 17,
                 attributes: {
                   name: "crew-11",
-                  url: "/movies/default.png",
+                  url: "/movies/rifle_clube/leadCrew/AjayanChalissery.jpeg",
                 },
               },
             },
@@ -306,21 +334,7 @@ export const mockFilmData: ApiFilmData = {
                 id: 18,
                 attributes: {
                   name: "crew-12",
-                  url: "/movies/default.png",
-                },
-              },
-            },
-          },
-          {
-            id: 9,
-            Name: "V. Sajan",
-            Title: "Editor",
-            Image: {
-              data: {
-                id: 15,
-                attributes: {
-                  name: "crew-9",
-                  url: "/movies/rifle_clube/crew-4.png",
+                  url: "/movies/rifle_clube/leadCrew/MasharHamsa.jpeg",
                 },
               },
             },
@@ -1906,24 +1920,11 @@ export const mockFilmData: ApiFilmData = {
               },
             },
           },
-          {
-            id: 3,
-            Name: "Abid Abu",
-            Title: "Producer",
-            Image: {
-              data: {
-                id: 66,
-                attributes: {
-                  name: "crew-3",
-                  url: "/movies/naradan/leadCrew/AbidAbu.jpeg",
-                },
-              },
-            },
-          },
+        
           {
             id: 5,
             Name: "Rima Kallingal",
-            Title: "Executive Producer",
+            Title: "Producer",
             Image: {
               data: {
                 id: 68,
@@ -1944,6 +1945,20 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "crew-6",
                   url: "/movies/naradan/leadCrew/SanthoshTKuruvila.jpeg",
+                },
+              },
+            },
+          },
+          {
+            id: 3,
+            Name: "Abid Abu",
+            Title: "Executive Producer",
+            Image: {
+              data: {
+                id: 66,
+                attributes: {
+                  name: "crew-3",
+                  url: "/movies/naradan/leadCrew/AbidAbu.jpeg",
                 },
               },
             },
@@ -2648,7 +2663,7 @@ export const mockFilmData: ApiFilmData = {
           {
             id: 1,
             Name: "Aashiq Abu",
-            Title: "Director",
+            Title: "Director & Producer",
             Image: {
               data: {
                 id: 73,
@@ -2673,34 +2688,7 @@ export const mockFilmData: ApiFilmData = {
               },
             },
           },
-          {
-            id: 5,
-            Name: "Abid Abu",
-            Title: "Executive Producer",
-            Image: {
-              data: {
-                id: 77,
-                attributes: {
-                  name: "crew-5",
-                  url: "/movies/virus/leadCrew/Abid-Abu.jpeg",
-                },
-              },
-            },
-          },
-          {
-            id: 6,
-            Name: "Wazim Hyder",
-            Title: "Executive Producer",
-            Image: {
-              data: {
-                id: 78,
-                attributes: {
-                  name: "crew-6",
-                  url: "/movies/virus/leadCrew/Wazim-Hyder.jpeg",
-                },
-              },
-            },
-          },
+          
           {
             id: 8,
             Name: "Santhosh T. Kuruvilla",
@@ -2781,6 +2769,34 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "crew-10",
                   url: "/movies/virus/leadCrew/Rajeev-Ravi.jpeg",
+                },
+              },
+            },
+          },
+          {
+            id: 5,
+            Name: "Abid Abu",
+            Title: "Executive Producer",
+            Image: {
+              data: {
+                id: 77,
+                attributes: {
+                  name: "crew-5",
+                  url: "/movies/virus/leadCrew/Abid-Abu.jpeg",
+                },
+              },
+            },
+          },
+          {
+            id: 6,
+            Name: "Wazim Hyder",
+            Title: "Executive Producer",
+            Image: {
+              data: {
+                id: 78,
+                attributes: {
+                  name: "crew-6",
+                  url: "/movies/virus/leadCrew/Wazim-Hyder.jpeg",
                 },
               },
             },
@@ -5134,34 +5150,7 @@ export const mockFilmData: ApiFilmData = {
               },
             },
           },
-          {
-            id: 9,
-            Name: "Preejith Balan",
-            Title: "Visual Effects Supervisor",
-            Image: {
-              data: {
-                id: 75,
-                attributes: {
-                  name: "crew-9",
-                  url: "/movies/default.png",
-                },
-              },
-            },
-          },
-          {
-            id: 10,
-            Name: "Monti Dolo",
-            Title: "Line Producer",
-            Image: {
-              data: {
-                id: 76,
-                attributes: {
-                  name: "crew-10",
-                  url: "/movies/default.png",
-                },
-              },
-            },
-          },
+        
         ],
         Review: [],
         Awards: [],
@@ -5662,7 +5651,7 @@ export const mockFilmData: ApiFilmData = {
           {
             id: 7,
             Name: "Prashant Pillai",
-            Title: "Background Score",
+            Title: "Music",
             Image: {
               data: {
                 id: 126,
@@ -6463,34 +6452,6 @@ export const mockFilmData: ApiFilmData = {
             },
           },
           {
-            id: 2,
-            Name: "Ashif Kakkodi",
-            Title: "Co-Writer",
-            Image: {
-              data: {
-                id: 112,
-                attributes: {
-                  name: "crew-2",
-                  url: "/movies/halal-love-story/leadCrew/AshifKakkodi.jpeg",
-                },
-              },
-            },
-          },
-          {
-            id: 3,
-            Name: "Muhsin Parari",
-            Title: "Writer & Co-Producer & Lyricist",
-            Image: {
-              data: {
-                id: 113,
-                attributes: {
-                  name: "crew-3",
-                  url: "/movies/halal-love-story/leadCrew/MuhsinParari.jpeg",
-                },
-              },
-            },
-          },
-          {
             id: 4,
             Name: "Aashiq Abu",
             Title: "Producer",
@@ -6500,20 +6461,6 @@ export const mockFilmData: ApiFilmData = {
                 attributes: {
                   name: "crew-4",
                   url: "/movies/halal-love-story/leadCrew/AashiqAbu.jpeg",
-                },
-              },
-            },
-          },
-          {
-            id: 5,
-            Name: "Abid Abu",
-            Title: "Executive Producer",
-            Image: {
-              data: {
-                id: 115,
-                attributes: {
-                  name: "crew-5",
-                  url: "/movies/halal-love-story/leadCrew/AbidAbu.jpeg",
                 },
               },
             },
@@ -6546,6 +6493,51 @@ export const mockFilmData: ApiFilmData = {
               },
             },
           },
+          {
+            id: 2,
+            Name: "Ashif Kakkodi",
+            Title: "Co-Writer",
+            Image: {
+              data: {
+                id: 112,
+                attributes: {
+                  name: "crew-2",
+                  url: "/movies/halal-love-story/leadCrew/AshifKakkodi.jpeg",
+                },
+              },
+            },
+          },
+          {
+            id: 3,
+            Name: "Muhsin Parari",
+            Title: "Writer & Co-Producer & Lyricist",
+            Image: {
+              data: {
+                id: 113,
+                attributes: {
+                  name: "crew-3",
+                  url: "/movies/halal-love-story/leadCrew/MuhsinParari.jpeg",
+                },
+              },
+            },
+          },
+        
+          {
+            id: 5,
+            Name: "Abid Abu",
+            Title: "Executive Producer",
+            Image: {
+              data: {
+                id: 115,
+                attributes: {
+                  name: "crew-5",
+                  url: "/movies/halal-love-story/leadCrew/AbidAbu.jpeg",
+                },
+              },
+            },
+          },
+         
+        
           {
             id: 8,
             Name: "Wazim Hyder",
