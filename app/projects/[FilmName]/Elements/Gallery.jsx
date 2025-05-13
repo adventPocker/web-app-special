@@ -35,8 +35,8 @@ const Gallery = ({ImageData}) => {
                   src={`${image.Image.data.attributes.url}`}
                   alt={`Image ${index + 1}`}
                   loading="lazy"
-                  width={1000}
-                  height={1000}
+                  width={357}
+                  height={350}
                 />
               </motion.div>
             ))}
