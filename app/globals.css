@@ -156,3 +156,7 @@
   transform: scale(1.05);
 
 }
+
+.break-inside-avoid {
+  break-inside: avoid;
+}

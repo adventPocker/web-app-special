@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Scrollbar } from "swiper/modules";
 import { motion } from "framer-motion";
-import { Image } from "@nextui-org/react";
+import Image from "next/image";
 
 const Gallery = ({ImageData}) => {
   
@@ -21,28 +21,27 @@ const Gallery = ({ImageData}) => {
       <div className="w-auto text-orange-200 md:text-[40px]  font-ClashGrotesk-Medium md:leading-[56px] text-2xl font-medium leading-[120%]">
         Gallery
       </div>
-      <div className="md:grid grid-cols-2 md:grid-cols-3 gap-4 mt-10  hidden ">
-        {chunkedImages.map((chunk, chunkIndex) => (
-          <div key={chunkIndex} className="grid gap-4">
-            {chunk.map((image, index) => (
-              <motion.div
-                key={index}
-                whileHover={{ scale: 1.05 }}
-                transition={{ duration: 0.3 }}
-              >
-                <Image
-                  className="h-full object-cover max-w-full rounded-lg bg-[#F4F4F5]"
-                  src={`${image.Image.data.attributes.url}`}
-                  alt={`Image ${index + 1}`}
-                  loading="lazy"
-                  width={357}
-                  height={1000}
-                />
-              </motion.div>
-            ))}
-          </div>
+      {/* Classic grid layout for desktop */}
+      <div className="hidden md:grid grid-cols-3 gap-4 mt-10">
+        {ImageData.map((image, index) => (
+          <motion.div
+            key={index}
+            whileHover={{ scale: 1.05 }}
+            transition={{ duration: 0.3 }}
+            className="rounded-lg overflow-hidden"
+          >
+            <Image
+              className="w-full h-[350px] object-cover bg-[#F4F4F5]"
+              src={image.Image.data.attributes.url}
+              alt={`Image ${index + 1}`}
+              loading="lazy"
+              width={357}
+              height={350}
+            />
+          </motion.div>
         ))}
       </div>
+      {/* Swiper for mobile */}
       <div className="md:hidden">
         <Swiper
           spaceBetween={10}
