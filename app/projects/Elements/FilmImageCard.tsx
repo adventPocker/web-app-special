@@ -1,6 +1,7 @@
-import Image from "next/image";
+
 import React from "react";
 import Link from "next/link";
+import { Image } from "@nextui-org/react";
 interface propsFilmImageCard {
   data: CardFilm;
 }
@@ -13,7 +14,7 @@ const FilmImageCard = ({ data }: propsFilmImageCard) => {
             <Image
               src={`${data.attributes.CardImage.data.attributes.url}`}
               className=" md:max-w-[377px] md:min-h-[350px] md:max-h-[350px] min-h-[233px] max-h-[233px]   block h-full w-full scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110"
-              alt=""
+              alt={`${data.attributes.Title}`}
               height={350}
               width={377}
               loading="eager"

@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Scrollbar } from "swiper/modules";
 import { motion } from "framer-motion";
-import Image from "next/image";
+import { Image } from "@nextui-org/react";
 
 const Gallery = ({ImageData}) => {
   

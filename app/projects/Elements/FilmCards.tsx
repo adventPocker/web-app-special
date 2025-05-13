@@ -11,22 +11,7 @@ const FilmCards = ({ data,index }: propsFilmcard) => {
   
   return (
     <>
-       {/* <motion.div
-      className="card"
-      initial={{
-        opacity: 0,
-        // if odd index card,slide from right instead of left
-        x: index % 2 === 0 ? 50 : -50
-      }}
-      whileInView={{
-        opacity: 1,
-        x: 0, // Slide in to its original position
-        transition: {
-          duration: 1 // Animation duration
-        }
-      }}
-      viewport={{ once: true }}
-    > */}
+     
       <div className="w-full h-full  group card-3 ">
         <div
           className="w-full h-full flex justify-normal md:gap-20 gap-5 md:rounded-[80px] rounded-[20px] duration-500 transform transition overflow-hidden"
@@ -41,10 +26,11 @@ const FilmCards = ({ data,index }: propsFilmcard) => {
               <Image
                 src={`${data.attributes.CardImage.data.attributes.url}`}
                 alt="film image"
-                className="lg:rounded-[80px] object-cover md:min-w-[302px] max-w-[158px]  min-h-[119px] max-h-[119px] md:max-h-[400px] md:max-w-[440px] w-full h-full rounded-[20px]  duration-500 transform transition group-hover:scale-105"
+                className="lg:rounded-[80px] object-cover md:min-w-[302px] max-w-[158px]  min-h-[119px] max-h-[119px] md:max-h-[400px] md:max-w-[440px] w-full h-full rounded-[20px]  duration-500 transform transition group-hover:scale-105 bg-gray-50"
                 width={362}
                 height={119}
                 loading="eager"
+                
               />
             </Link>
           </div>

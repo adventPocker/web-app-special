@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
 import FilmImageCard from "../Elements/FilmImageCard";
-import { getMovieCardData } from "@/app/utils/getData";
+
 interface propSectionsP4{
   movieData?:ApiFilmCard
 }
