@@ -1247,8 +1247,23 @@ export const mockFilmData: ApiFilmData = {
         LeadCrew: [
           {
             id: 1,
+            Name: "Ashraf Hamza",
+            Title: "Director",
+            Image: {
+              data: {
+                id: 51, 
+                attributes: {
+                  name: "crew-1",
+                  url: "/movies/bheemante-vazhi/leadCrew/AshrafHamza.jpeg",
+                },
+              },
+            },
+            
+          },
+          {
+            id: 9,
             Name: "Aashiq Abu",
-            Title: "Director, Producer",
+            Title: "Producer",
             Image: {
               data: {
                 id: 51,
@@ -3402,20 +3417,7 @@ export const mockFilmData: ApiFilmData = {
             },
           },
          
-          {
-            id: 5,
-            Name: "Amal Neerad",
-            Title: "Producer",
-            Image: {
-              data: {
-                id: 73,
-                attributes: {
-                  name: "crew-5",
-                  url: "/movies/mayanadhi/leadCrew/AmalNeerad.jpeg",
-                },
-              },
-            },
-          },
+         
           {
             id: 2,
             Name: "Dileesh Nair",
