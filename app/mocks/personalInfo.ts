@@ -3,8 +3,8 @@ export const mockPersonalData: PersonalApiResponse = {
   data: {
     id: 1,
     attributes: {
-      Name: "Aashiq Abu",
-      Biography: "Aashiq Abu is a renowned Indian filmmaker, producer, cinematographer, and actor in Malayalam cinema, known for his groundbreaking films like Salt N’ Pepper, 22 Female Kottayam, Mayaanadhi, Virus, and Rifle Club (2024). Leading OPM Cinemas, he has been instrumental in producing critically acclaimed films, including the National Award-winning Maheshinte Prathikaaram. His latest directorial venture, Rifle Club, reaffirms his commitment to innovative storytelling. A pioneer of the new wave in Malayalam cinema, Aashiq Abu blends realism with compelling narratives, pushing creative boundaries. His production house has been a launchpad for emerging talents, fostering fresh voices in the industry. Beyond cinema, he is an active social contributor and co-founder of ‘Anbodu Kochi,’ a disaster relief initiative.",
+      Name: "Aashiq Abu, Filmmaker and Producer",
+      Biography: "Aashiq Abu is a filmmaker, producer, and actor working in Malayalam cinema. He has directed films such as Salt N’ Pepper, 22 Female Kottayam, Mayaanadhi, Virus, and Rifle Club (2024). He has also produced films including the National Award-winning Maheshinte Prathikaaram.",
       createdAt: "2024-01-01T00:00:00.000Z",
       updatedAt: "2024-01-01T00:00:00.000Z",
       publishedAt: "2024-01-01T00:00:00.000Z",

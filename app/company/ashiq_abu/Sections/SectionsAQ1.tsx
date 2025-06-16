@@ -29,9 +29,9 @@ const SectionsAQ1 = ({ data }: SectionsAQ1props) => {
           <div className="w-full max-w-[1204px] max-md:max-w-full max-md:my-10 min-h-screen h-full relative">
             <Navbar />
             <div className="w-full absolute bottom-0 pb-[15.625vh] md:block hidden">
-              <div className="text-center text-white text-[19px] font-normal font-archive leading-relaxed">
+              {/* <div className="text-center text-white text-[19px] font-normal font-archive leading-relaxed">
                 Film Director | Actor | Producer | Distributor
-              </div>
+              </div> */}
               <div className="text-orange-200 text-[78px] font-medium font-ClashGrotesk-Medium text-center leading-[109.20px]">
                 {data.Name}
               </div>
