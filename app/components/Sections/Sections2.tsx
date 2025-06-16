@@ -65,7 +65,7 @@ const Sections2 = () => {
             color: "transparent",
           }}
         >
-       Makers of unforgettable stories
+       Projects from OPM Cinemas
         </h2>
 
         <div className="mt-12 md:mt-20 relative">
