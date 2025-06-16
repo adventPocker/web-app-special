@@ -32,9 +32,7 @@ const SectionsP1 = () => {
               <div className=" w-full h-full  ">
                 <div>
                   <div className="text-orange-200 md:text-center font-ClashGrotesk-Medium md:text-[48px] font-medium md:leading-[57.6px] text-[31px] leading-[120%]">
-                    A Film Production Company In Kerala
-                    <br />
-                    Sharing Stories Of Our Relevant Works
+                    Projects from <br className="md:block hidden" />  OPM Cinemas
                   </div>
                   <div className="lg:mt-[1.7vh] mt-[280px] sm:mt-10  flex flex-col lg:justify-center sm:items-center ">
                     <a

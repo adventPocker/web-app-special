@@ -29,7 +29,7 @@ export const SectionsC2 = () => {
                   className="md:text-[40px] md:font-medium font-ClashGrotesk-Medium md:leading-[46px] text-[25px] font-medium  leading-[35px]"
                   style={gradientTextStyle}
                 >
-                  OPM Cinemas, Founded by Filmmaker Aashiq Abu
+               Founded by <br className="md:block hidden" /> Filmmaker Aashiq Abu
                 </div>
                 <div className="w-auto  py-9 text-white md:text-[19px] md:font-normal font-archive md:leading-[26px] text-base font-light leading-[140%]">
                   Aashiq Abu is an Indian filmmaker, producer, and actor working
