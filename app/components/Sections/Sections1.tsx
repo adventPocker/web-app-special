@@ -16,7 +16,7 @@ const Sections1 = () => {
                 color: "transparent",
               }}
             >
-              What we do
+             Associated Entities
             </div>
             <div className=" grid md:grid-cols-2 gap-10 items-center justify-center md:mt-28 mt-10 ">
               <div className="lg:rounded-[80px] rounded-[40px]  duration-500  transform transition border-2 border-transparent   hover:border-white">
