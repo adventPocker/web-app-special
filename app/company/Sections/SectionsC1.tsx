@@ -59,14 +59,14 @@ const SectionsC1 = () => {
                 style={gradientTextStyle}
                 className="font-ClashGrotesk-Medium text-[31px] md:text-5xl font-medium md:leading-[57.60px] leading-9 tracking-normal text-center mb-2"
               >
-                A Film Production Company In Kerala
+                OPM Cinemas – A Movie Production Studio
               </h1>
-              <h2
+              {/* <h2
                 style={gradientTextStyle}
                 className="font-ClashGrotesk-Medium text-[31px] md:text-5xl font-medium md:leading-[57.60px] leading-9 tracking-normal text-center mb-8"
               >
                 Sharing Stories Of Our Relevant Works
-              </h2>
+              </h2> */}
               
              
               <a 
