@@ -6,9 +6,9 @@ import { Providers } from "./providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "OPM Cinemas - Where Every FrameTells a Story",
+  title: "OPM Cinemas",
   description:
-    "Welcome to OPM Cinemas, a creative powerhouse shaping the future of storytelling under the leadership of filmmaker Aashiq Abu since its inception in October 2012. We collaborate with visionary artists, writers, and technicians to bring authentic narratives to life. Our projects are rooted in culture, yet global in appeal, making a lasting impression on audiences.",
+    "OPM Cinemas, established by filmmaker Aashiq Abu in 2012, is a production company engaged in films, television, and advertising. The company produces content across various genres, focusing on authentic storytelling that reflects local culture while appealing to wider audiences. Under its banner, OPM Dream Mill Cinemas serves as a platform to mentor, support, and promote emerging talent in the field of filmmaking, ensuring the development of new voices in cinema.",
 };
 
 export default function RootLayout({

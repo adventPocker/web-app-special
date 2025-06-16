@@ -29,13 +29,13 @@ export const SectionsC2 = () => {
                   className="md:text-[40px] md:font-medium font-ClashGrotesk-Medium md:leading-[46px] text-[25px] font-medium  leading-[35px]"
                   style={gradientTextStyle}
                 >
-                  OPM, Crafted by Filmmaker Aashiq Abu
+                  OPM Cinemas, Founded by Filmmaker Aashiq Abu
                 </div>
                 <div className="w-auto  py-9 text-white md:text-[19px] md:font-normal font-archive md:leading-[26px] text-base font-light leading-[140%]">
-                  Aashiq Abu is a renowned Indian filmmaker, producer,
-                  cinematographer, and actor in Malayalam cinema, known for his
-                  groundbreaking films like Salt N’ Pepper, 22 Female
-                  Kottayam, Mayaanadhi, Virus, and Rifle Club (2024
+                  Aashiq Abu is an Indian filmmaker, producer, and actor working
+                  primarily in Malayalam cinema. He has directed and produced
+                  films such as Salt N’ Pepper, 22 Female Kottayam, Mayaanadhi,
+                  Virus, and Rifle Club (2024)
                 </div>
                 <Link href={"/company/ashiq_abu"} className="">
                   <div className="flex gap-2 duration-500     w-auto h-auto">
