@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Sections1 = () => {
@@ -51,6 +52,7 @@ const Sections1 = () => {
                           OPM Cinemas, established by filmmaker Aashiq Abu in 2012, is a production company engaged in films, television, and advertising. The company produces content across various genres, focusing on authentic storytelling that reflects local culture while appealing to wider audiences.
                         </div>
                       </div>
+                      <Link href={'/projects'} >
                       <div className="py-2 rounded-xl flex items-center gap-3  transform transition-transform hover:scale-110 hover:cursor-pointer">
                         <Image
                           src="/Image/arrow.png"
@@ -71,6 +73,7 @@ const Sections1 = () => {
                           Projects
                         </div>
                       </div>
+                      </Link>
                     </div>
                   </div>
                 </div>
