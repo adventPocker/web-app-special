@@ -16,7 +16,7 @@ const Sections1 = () => {
                 color: "transparent",
               }}
             >
-             Associated Entities
+              Associated Entities
             </div>
             <div className=" grid md:grid-cols-2 gap-10 items-center justify-center md:mt-28 mt-10 ">
               <div className="lg:rounded-[80px] rounded-[40px]  duration-500  transform transition border-2 border-transparent   hover:border-white">
@@ -27,11 +27,11 @@ const Sections1 = () => {
                       "linear-gradient(238.7deg, #FF6572 31.09%, #A7426F 83.44%)",
                   }}
                 >
-                  <div className="self-stretch flex-col lg:p-0 justify-start items-start">
+                  <div className="self-stretch flex-col lg:p-0 justify-start items-start ">
                     <div className="flex-col md:justify-start justify-center md:items-start items-center md:gap-8 gap-2 flex ">
                       <div className="md:w-[44.52px] md:h-11 w-[35px] h-[35px] ">
                         <div className="md:w-[43.48px] md:h-[42.96px] w-[35px] h-[35px] left-[0.52px] top-[0.52px] ">
-                        <Image
+                          <Image
                             src="/Image/Layer_1.png"
                             alt="icon record"
                             width={43}
@@ -48,14 +48,11 @@ const Sections1 = () => {
                           className="lg:w-[399px] w-auto  text-opacity-70 md:text-base  font-archivo-regular md:leading-[22.4px]  text-center md:text-left  text-[12px] font-normal  "
                           style={{ color: "rgba(255, 255, 255, 0.7)" }}
                         >
-                          OPM Cinemas is a powerhouse in the film industry,
-                          delivering compelling stories and unforgettable visual
-                          experiences. Our productions feature top-tier talents,
-                          visionary directors, and cutting-edge storytelling.
+                          OPM Cinemas, established by filmmaker Aashiq Abu in 2012, is a production company engaged in films, television, and advertising. The company produces content across various genres, focusing on authentic storytelling that reflects local culture while appealing to wider audiences.
                         </div>
                       </div>
                       <div className="py-2 rounded-xl flex items-center gap-3  transform transition-transform hover:scale-110 hover:cursor-pointer">
-                      <Image
+                        <Image
                           src="/Image/arrow.png"
                           alt="icon"
                           width={43}
@@ -78,9 +75,9 @@ const Sections1 = () => {
                   </div>
                 </div>
               </div>
-              <div className="lg:rounded-[80px] rounded-[40px]  duration-500  transform transition border-2 border-transparent   hover:border-white">
+              <div className="lg:rounded-[80px] rounded-[40px]  duration-500  transform transition border-2 border-transparent h-full  hover:border-white">
                 <div
-                  className="lg:pl-[61px] p-[34px] md:py-[49px] md:px-[70px] md:min-h-[400px]  lg:rounded-[80px] rounded-[40px] justify-center items-center flex "
+                  className="lg:pl-[61px] p-[34px] md:py-[49px] md:px-[70px] md:min-h-[400px] h-full lg:rounded-[80px] rounded-[40px] justify-center items-center flex "
                   style={{
                     background:
                       "linear-gradient(238.7deg, #FF6572 31.09%, #A7426F 83.44%)",
