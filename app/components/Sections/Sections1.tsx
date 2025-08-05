@@ -43,7 +43,7 @@ const Sections1 = () => {
                       </div>
                       <div className="flex-col md:justify-start justify-center md:items-start items-cente md:gap-6 gap-2 flex">
                         <div className="text-center text-white md:text-[28px] font-medium font-ClashGrotesk-Medium  md:leading-[39.2px]  text-base  leading-snug tracking-normal">
-                          OPM Cinema
+                          OPM Cinemas
                         </div>
                         <div
                           className="lg:w-[399px] w-auto  text-opacity-70 md:text-base  font-archivo-regular md:leading-[22.4px]  text-center md:text-left  text-[12px] font-normal  "
