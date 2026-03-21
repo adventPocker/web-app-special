@@ -56,7 +56,7 @@ const UpcomingCard = ({ image }: propUpcoming) => {
                 </div>
                 <div className="absolute bottom-0 left-0 w-full  h-auto">
                   <img
-                    src="/upcoming/ajasundari/title.png"
+                      src="/upcoming/ajasundari/title-cropped.png"
                     alt=""
                     className="md:max-w-[267px] md:max-h-[104px]  max-w-[109px] max-h-[41px]"
                   />

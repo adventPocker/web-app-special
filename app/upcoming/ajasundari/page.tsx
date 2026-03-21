@@ -50,7 +50,7 @@ const UpcomingAjaSundari = () => {
                 <div className="flex flex-col items-center md:items-start">
                   <div className="flex flex-col md:items-start">
                     <Image  
-                      src="/upcoming/ajasundari/title.png"
+                      src="/upcoming/ajasundari/title-cropped.png"
                       alt="Aja Sundari Title"
                       width={400}
                       height={150}
@@ -59,7 +59,7 @@ const UpcomingAjaSundari = () => {
                   </div>
                   <div className="md:h-11 py-2.5 justify-start items-center gap-2.5 inline-flex mt-4">
                     <div className="text-neutral-200 text-base font-bold font-lato capitalize leading-normal">
-                      Coming Soon
+                      Releasing this year
                     </div>
                     <div className="w-[5px] h-[5px] bg-neutral-200 rounded-full" />
                     <div className="text-neutral-200 text-base font-bold font-lato capitalize leading-normal">
@@ -84,12 +84,7 @@ const UpcomingAjaSundari = () => {
               <div className="w-full min-w-[362px]">
                 <div className="flex justify-normal">
                   <div className="w-1/2 flex flex-col gap-4">
-                    <div className="text-white md:text-2xl md:font-bold font-archive md:leading-[33.60px] md:tracking-wide text-base font-semibold leading-[119%] tracking-tighter">
-                      Rating
-                    </div>
-                    <div className="text-white md:text-2xl md:font-bold font-archive md:leading-[33.60px] md:tracking-wide text-base font-semibold leading-[119%] tracking-tighter">
-                      Run time
-                    </div>
+                 
                     <div className="text-white md:text-2xl md:font-bold font-archive md:leading-[33.60px] md:tracking-wide text-base font-semibold leading-[119%] tracking-tighter">
                       Release date
                     </div>
@@ -98,12 +93,7 @@ const UpcomingAjaSundari = () => {
                     </div>
                   </div>
                   <div className="w-1/2 flex flex-col gap-4 md:mt-0">
-                    <div className="text-stone-300 md:text-[22px] font-normal md:font-archive md:leading-[30.80px] md:tracking-wide font-Archivo text-base leading-[119%] tracking-tighter">
-                      : — —
-                    </div>
-                    <div className="text-stone-300 md:text-[22px] font-normal md:font-archive md:leading-[30.80px] md:tracking-wide font-Archivo text-base leading-[119%] tracking-tighter">
-                      : — —
-                    </div>
+                  
                     <div className="text-stone-300 md:text-[22px] font-normal md:font-archive md:leading-[30.80px] md:tracking-wide font-Archivo text-base leading-[119%] tracking-tighter">
                       : Coming Soon
                     </div>
@@ -115,10 +105,7 @@ const UpcomingAjaSundari = () => {
               </div>
               <div className="w-full mt-8 md:mt-0">
                 <div className="lg:w-[714px] text-zinc-400 md:text-[19px] md:font-normal font-archive md:leading-[26.6px] text-sm font-light leading-[140%] tracking-wider whitespace-pre-line">
-                  A quiet village.{"\n"}
-                  A missing presence.{"\n"}
-                  And a story that slowly begins to unfold.{"\n\n"}
-                  Aja Sundari follows an unusual disappearance that unsettles an entire community — where every silence feels like a clue, and every face hides a version of the truth.
+                  An upcoming film from OPM Cinemas, directed by Manu Antony and produced by Aashiq Abu, starring Joju George and Lijomol in the lead. Releasing this year. 
                 </div>
               </div>
             </div>
@@ -166,8 +153,6 @@ const UpcomingAjaSundari = () => {
               <div>
                 <h3 className="text-white text-2xl font-bold font-archive mb-6 pb-2 border-b border-zinc-800">Details</h3>
                 <div className="text-stone-300 text-sm font-Archivo leading-relaxed opacity-80 whitespace-pre-line">
-                  An upcoming film from OPM Cinemas, directed by Manu Antony and produced by Aashiq Abu, starring Joju George and Lijomol in the lead. Releasing this year.
-                  {"\n\n"}
                   Production Designer: Ajayan Challissery{"\n"}
                   Art Director: Midhun Challissery{"\n"}
                   Executive Producers: Abid Abu, Madan AVK{"\n"}
@@ -188,6 +173,31 @@ const UpcomingAjaSundari = () => {
                   Publicity Design: Roasted Paper{"\n"}
                   Sync Sound: Vivek KM
                 </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Gallery Section */}
+          <div className="md:py-20 py-[40px] border-t border-zinc-800">
+            <div className="text-orange-200 md:text-[40px] font-medium font-ClashGrotesk-Medium md:leading-[56px] text-[31px] leading-[37px] tracking-0 text-start mb-12">
+              Gallery
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="w-full relative aspect-[3/4] md:aspect-auto md:h-[800px] rounded-2xl overflow-hidden">
+                <Image
+                  src="/upcoming/ajasundari/post-01.jpg"
+                  alt="Aja Sundari Gallery 1"
+                  fill
+                  className="object-cover hover:scale-105 transition-transform duration-700 ease-in-out"
+                />
+              </div>
+              <div className="w-full relative aspect-[3/4] md:aspect-auto md:h-[800px] rounded-2xl overflow-hidden">
+                <Image
+                  src="/upcoming/ajasundari/post-02.jpg"
+                  alt="Aja Sundari Gallery 2"
+                  fill
+                  className="object-cover hover:scale-105 transition-transform duration-700 ease-in-out"
+                />
               </div>
             </div>
           </div>
