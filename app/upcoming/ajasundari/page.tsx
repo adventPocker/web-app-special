@@ -61,10 +61,10 @@ const UpcomingAjaSundari = () => {
                     <div className="text-neutral-200 text-base font-bold font-lato capitalize leading-normal">
                       Releasing this year
                     </div>
-                    <div className="w-[5px] h-[5px] bg-neutral-200 rounded-full" />
+                    {/* <div className="w-[5px] h-[5px] bg-neutral-200 rounded-full" />
                     <div className="text-neutral-200 text-base font-bold font-lato capitalize leading-normal">
                       Drama / Mystery
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -88,18 +88,18 @@ const UpcomingAjaSundari = () => {
                     <div className="text-white md:text-2xl md:font-bold font-archive md:leading-[33.60px] md:tracking-wide text-base font-semibold leading-[119%] tracking-tighter">
                       Release date
                     </div>
-                    <div className="text-white md:text-2xl md:font-bold font-archive md:leading-[33.60px] md:tracking-wide text-base font-semibold leading-[119%] tracking-tighter">
+                    {/* <div className="text-white md:text-2xl md:font-bold font-archive md:leading-[33.60px] md:tracking-wide text-base font-semibold leading-[119%] tracking-tighter">
                       Genre
-                    </div>
+                    </div> */}
                   </div>
                   <div className="w-1/2 flex flex-col gap-4 md:mt-0">
                   
                     <div className="text-stone-300 md:text-[22px] font-normal md:font-archive md:leading-[30.80px] md:tracking-wide font-Archivo text-base leading-[119%] tracking-tighter">
                       : Coming Soon
                     </div>
-                    <div className="text-stone-300 w-full md:text-[22px] font-normal md:font-archive md:leading-[30.80px] md:tracking-wide font-Archivo text-base leading-[119%] tracking-tighter">
+                    {/* <div className="text-stone-300 w-full md:text-[22px] font-normal md:font-archive md:leading-[30.80px] md:tracking-wide font-Archivo text-base leading-[119%] tracking-tighter">
                       : Drama / Mystery
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
