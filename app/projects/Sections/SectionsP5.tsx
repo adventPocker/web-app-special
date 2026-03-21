@@ -6,6 +6,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import {Pagination,Autoplay } from "swiper/modules";
 import UpcomingCard from "../Elements/UpcomingCard";
+import Link from "next/link";
 const SectionsP5 = () => {
   return (
     <>
@@ -56,8 +57,11 @@ const SectionsP5 = () => {
                 className="mySwiper hidden md:block  w-full  h-full sample-slider .swiper-pagination-bullet  "
               >
                 {" "}
-                <SwiperSlide>
-                  <UpcomingCard  image="Movie1.png"/>
+                <SwiperSlide> 
+                  <Link href="/upcoming/ajasundari">
+                  <UpcomingCard  image="/upcoming/ajasundari/banner-card.png"/>
+                  </Link>
+
                 </SwiperSlide>
                
               </Swiper>

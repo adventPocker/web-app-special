@@ -14,7 +14,7 @@ const UpcomingCard = ({ image }: propUpcoming) => {
         <div className=" border-2 transform transition duration-500 delay-200 border-transparent hover:border-white rounded-3xl md:rounded-[80px] overflow-hidden ">
           <div className="relative w-full h-full ">
             <Image
-              src={`/Image/${image}`}
+              src={`${image}`}
               alt="img1"
               className="md:rounded-[80px]  rounded-[24px] object-cover md:min-h-[350px] max-h-[234px] min-h-[234px]   min-w-[302px] h-auto  w-full  transform transition duration-500 delay-100 group-hover:scale-125 "
               loading="eager"
@@ -56,9 +56,9 @@ const UpcomingCard = ({ image }: propUpcoming) => {
                 </div>
                 <div className="absolute bottom-0 left-0 w-full  h-auto">
                   <img
-                    src="/Image/upcom_1.svg"
+                    src="/upcoming/ajasundari/title.png"
                     alt=""
-                    className="md:max-w-[267px] md:max-h-[104px] max-w-[109px] max-h-[41px]"
+                    className="md:max-w-[267px] md:max-h-[104px]  max-w-[109px] max-h-[41px]"
                   />
                   </div>
               </div>
