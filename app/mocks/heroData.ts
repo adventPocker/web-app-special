@@ -1,6 +1,43 @@
 export const heroAwardsData: HeroDataResponse = {
   data: [
     {
+  id: 0,
+  attributes: {
+    movieName: "Aja Sundari",
+    Director: "Manu Antony",
+    Year: "2026",
+    genere1: "Drama",
+    genere2: "Mystery",
+    RunTime: "— —",
+    IMD_rating: "— —",
+    createdAt: "2026-01-01T00:00:00.000Z",
+    updatedAt: "2026-01-01T00:00:00.000Z",
+    publishedAt: "2026-01-01T00:00:00.000Z",
+    detail_page: "/upcoming/ajasundari",
+    Trailer_url: "",
+    ImageThumb: {
+      data: [
+        {
+          id: 1,
+          attributes: {
+            name: "aja-sundari-thumb",
+            url: "/upcoming/ajasundari/banner-01.png"
+          }
+        }
+      ]
+    },
+    TitleImage: {
+      data: {
+        id: 1,
+        attributes: {
+          name: "aja-sundari-title",
+          url: "/upcoming/ajasundari/title-cropped.png"
+        }
+      }
+    }
+  }
+},
+    {
       id: 1,
       attributes: {
         movieName: "Rifle Club",

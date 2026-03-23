@@ -81,7 +81,7 @@ const HeroBannerSlider = ({ awardsData }: BannerSliderProp) => {
                         </span>
                       </button>
                     </a>
-                    <a
+                  {awardsData.attributes.Trailer_url &&  <a
                       href={`${awardsData.attributes.Trailer_url}`}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -98,7 +98,7 @@ const HeroBannerSlider = ({ awardsData }: BannerSliderProp) => {
                           Watch Trailer
                         </span>
                       </button>
-                    </a>
+                    </a>}
                   </div>
                 </div>
               </div>
